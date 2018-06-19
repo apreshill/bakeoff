@@ -1,0 +1,550 @@
+series,episode,baker,technical,result,uk_airdate,us_season,us_airdate,showstopper_chocolate,showstopper_dessert,showstopper_fruit,showstopper_nut,signature_chocolate,signature_dessert,signature_fruit,signature_nut
+1,1,Annetha,2nd,IN,17 August 2010,NA,NA,chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+1,1,David,3rd,IN,17 August 2010,NA,NA,chocolate,other,no fruit,no nut,chocolate,cake,fruit,no nut
+1,1,Edd,1st,IN,17 August 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,1,Jasminder,N/A,IN,17 August 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,1,Jonathan,9th,IN,17 August 2010,NA,NA,no chocolate,other,fruit,almond,no chocolate,cake,fruit,no nut
+1,1,Louise,N/A,IN,17 August 2010,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,1,Miranda,8th,IN,17 August 2010,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,1,Ruth,N/A,IN,17 August 2010,NA,NA,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,1,Lea,10th,OUT,17 August 2010,NA,NA,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,pistachio
+1,1,Mark,N/A,OUT,17 August 2010,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+1,2,David,8th,IN,24 August 2010,NA,NA,chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+1,2,Edd,6th,IN,24 August 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cookie,fruit,no nut
+1,2,Jasminder,2nd,IN,24 August 2010,NA,NA,chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+1,2,Jonathan,1st,IN,24 August 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cookie,no fruit,no nut
+1,2,Miranda,3rd,IN,24 August 2010,NA,NA,no chocolate,other,no fruit,pistachio,no chocolate,other,no fruit,no nut
+1,2,Ruth,5th,IN,24 August 2010,NA,NA,no chocolate,other,no fruit,almond,no chocolate,other,fruit,peanut
+1,2,Annetha,7th,OUT,24 August 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+1,2,Louise,4th,OUT,24 August 2010,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+1,3,David,4th,IN,31 August 2010,NA,NA,no chocolate,other,fruit,multiple,no chocolate,other,no fruit,no nut
+1,3,Edd,1st,IN,31 August 2010,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+1,3,Jasminder,5th,IN,31 August 2010,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+1,3,Miranda,3rd,IN,31 August 2010,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,fruit,walnut
+1,3,Ruth,2nd,IN,31 August 2010,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,no fruit,pecan
+1,3,Jonathan,6th,OUT,31 August 2010,NA,NA,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+1,4,Edd,3rd,IN,7 September 2010,NA,NA,no chocolate,pudding,fruit,no nut,no chocolate,pudding,fruit,no nut
+1,4,Jasminder,2nd,IN,7 September 2010,NA,NA,no chocolate,pudding,fruit,no nut,no chocolate,pudding,no fruit,no nut
+1,4,Miranda,1st,IN,7 September 2010,NA,NA,chocolate,pudding,fruit,no nut,no chocolate,pudding,no fruit,no nut
+1,4,Ruth,4th,IN,7 September 2010,NA,NA,no chocolate,pudding,fruit,no nut,no chocolate,other,fruit,no nut
+1,4,David,5th,OUT,7 September 2010,NA,NA,no chocolate,other,fruit,no nut,no chocolate,pudding,fruit,walnut
+1,5,Edd,2nd,IN,14 September 2010,NA,NA,chocolate,pie,fruit,almond,no chocolate,pie,no fruit,no nut
+1,5,Miranda,1st,IN,14 September 2010,NA,NA,chocolate,cake,fruit,no nut,no chocolate,pie,no fruit,no nut
+1,5,Ruth,3rd,IN,14 September 2010,NA,NA,chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+1,5,Jasminder,4th,OUT,14 September 2010,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+1,6,Ruth,N/A,RUNNER UP,21 September 2010,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,cake,fruit,no nut
+1,6,Miranda,N/A,RUNNER UP,21 September 2010,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+1,6,Edd,N/A,WINNER,21 September 2010,NA,NA,chocolate,pie,fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Ben,2nd,IN,16 August 2011,NA,NA,chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+2,1,Ian,10th,IN,16 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Janet,8th,IN,16 August 2011,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Jason,6th,IN,16 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Joanne,11th,IN,16 August 2011,NA,NA,chocolate,cake,fruit,no nut,chocolate,cake,fruit,no nut
+2,1,Mary-Anne,4th,IN,16 August 2011,NA,NA,chocolate,cake,fruit,no nut,no chocolate,cake,no fruit,no nut
+2,1,Robert,3rd,IN,16 August 2011,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Simon,9th,IN,16 August 2011,NA,NA,chocolate,cake,no fruit,no nut,chocolate,cake,no fruit,no nut
+2,1,Urvashi,7th,IN,16 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Yasmin,5th,IN,16 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,1,Keith,12th,OUT,16 August 2011,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+2,1,Holly,1st,SB,16 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,2,Ben,1st,IN,23 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+2,2,Holly,4th,IN,23 August 2011,NA,NA,chocolate,pie,no fruit,pistachio,no chocolate,other,no fruit,no nut
+2,2,Ian,2nd,IN,23 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+2,2,Janet,8th,IN,23 August 2011,NA,NA,chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+2,2,Joanne,10th,IN,23 August 2011,NA,NA,no chocolate,pie,fruit,almond,no chocolate,other,no fruit,no nut
+2,2,Mary-Anne,9th,IN,23 August 2011,NA,NA,no chocolate,pie,fruit,pecan,no chocolate,other,no fruit,no nut
+2,2,Robert,5th,IN,23 August 2011,NA,NA,chocolate,pie,fruit,almond,no chocolate,other,no fruit,no nut
+2,2,Urvashi,7th,IN,23 August 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,other,fruit,no nut
+2,2,Yasmin,6th,IN,23 August 2011,NA,NA,chocolate,pie,fruit,filbert,no chocolate,other,no fruit,no nut
+2,2,Simon,11th,OUT,23 August 2011,NA,NA,chocolate,pie,no fruit,no nut,no chocolate,other,no fruit,no nut
+2,2,Jason,3rd,SB,23 August 2011,NA,NA,chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+2,3,Ben,3rd,IN,30 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+2,3,Holly,6th,IN,30 August 2011,NA,NA,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+2,3,Janet,8th,IN,30 August 2011,NA,NA,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+2,3,Jason,7th,IN,30 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+2,3,Joanne,1st,IN,30 August 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+2,3,Mary-Anne,5th,IN,30 August 2011,NA,NA,chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+2,3,Robert,4th,IN,30 August 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+2,3,Ian,10th,OUT,30 August 2011,NA,NA,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+2,3,Urvashi,9th,OUT,30 August 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+2,3,Yasmin,2nd,SB,30 August 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+2,4,Janet,4th,IN,6 September 2011,NA,NA,no chocolate,other,fruit,almond,no chocolate,other,no fruit,no nut
+2,4,Joanne,8th,IN,6 September 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+2,4,Mary-Anne,2nd,IN,6 September 2011,NA,NA,no chocolate,other,fruit,filbert,no chocolate,other,no fruit,no nut
+2,4,Robert,7th,IN,6 September 2011,NA,NA,chocolate,other,fruit,no nut,chocolate,other,no fruit,no nut
+2,4,Yasmin,6th,IN,6 September 2011,NA,NA,chocolate,other,fruit,walnut,chocolate,other,no fruit,pistachio
+2,4,Ben,5th,OUT,6 September 2011,NA,NA,chocolate,other,fruit,multiple,no chocolate,other,fruit,no nut
+2,4,Holly,3rd,SB,6 September 2011,NA,NA,chocolate,other,fruit,no nut,no chocolate,pudding,fruit,no nut
+2,4,Jason,1st,SB,6 September 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+2,5,Holly,4th,IN,13 September 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Joanne,6th,IN,13 September 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Mary-Anne,2nd,IN,13 September 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Yasmin,5th,IN,13 September 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Jason,7th,OUT,13 September 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Robert,3rd,OUT,13 September 2011,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+2,5,Janet,1st,SB,13 September 2011,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,no nut
+2,6,Holly,3rd,IN,20 September 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+2,6,Janet,5th,IN,20 September 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+2,6,Mary-Anne,4th,IN,20 September 2011,NA,NA,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+2,6,Yasmin,2nd,OUT,20 September 2011,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+2,6,Joanne,1st,SB,20 September 2011,NA,NA,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+2,7,Holly,1st,IN,27 September 2011,NA,NA,chocolate,other,fruit,multiple,chocolate,cake,fruit,filbert
+2,7,Joanne,3rd,IN,27 September 2011,NA,NA,chocolate,other,fruit,no nut,no chocolate,cake,fruit,no nut
+2,7,Mary-Anne,2nd,IN,27 September 2011,NA,NA,no chocolate,other,fruit,no nut,chocolate,cake,fruit,no nut
+2,7,Janet,4th,OUT,27 September 2011,NA,NA,no chocolate,other,fruit,no nut,chocolate,cake,no fruit,no nut
+2,8,Holly,2nd,RUNNER UP,4 October 2011,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+2,8,Mary-Anne,3rd,RUNNER UP,4 October 2011,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,fruit,no nut
+2,8,Joanne,1st,WINNER,4 October 2011,NA,NA,chocolate,pie,fruit,pistachio,no chocolate,other,fruit,no nut
+3,1,Brendan,10th,IN,14 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,walnut
+3,1,Cathryn,5th,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,filbert
+3,1,Danny,7th,IN,14 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,1,James,2nd,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,pecan
+3,1,John,11th,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,1,Manisha,6th,IN,14 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,1,Peter,3rd,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,chocolate,cake,fruit,no nut
+3,1,Ryan,8th,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,1,Sarah-Jane,1st,IN,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,chocolate,cake,fruit,filbert
+3,1,Stuart,9th,IN,14 August 2012,NA,NA,no chocolate,cake,fruit,pistachio,no chocolate,cake,fruit,no nut
+3,1,Natasha,12th,OUT,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,1,Victoria,4th,SB,14 August 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,pecan
+3,2,Brendan,4th,IN,21 August 2012,NA,NA,chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,2,Cathryn,8th,IN,21 August 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+3,2,Danny,3rd,IN,21 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+3,2,James,2nd,IN,21 August 2012,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+3,2,Manisha,6th,IN,21 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,2,Ryan,5th,IN,21 August 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+3,2,Sarah-Jane,10th,IN,21 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+3,2,Stuart,9th,IN,21 August 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+3,2,Victoria,7th,IN,21 August 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+3,2,Peter,11th,OUT,21 August 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+3,2,John,1st,SB,21 August 2012,NA,NA,chocolate,other,fruit,walnut,no chocolate,other,fruit,no nut
+3,3,Brendan,9th,IN,28 August 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,no nut
+3,3,Cathryn,3rd,IN,28 August 2012,NA,NA,no chocolate,pie,fruit,pistachio,no chocolate,pie,fruit,no nut
+3,3,Danny,2nd,IN,28 August 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,no nut
+3,3,John,6th,IN,28 August 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,walnut
+3,3,Manisha,10th,IN,28 August 2012,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,no nut
+3,3,Ryan,5th,IN,28 August 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+3,3,Sarah-Jane,8th,IN,28 August 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,no nut
+3,3,Stuart,7th,IN,28 August 2012,NA,NA,chocolate,pie,fruit,no nut,no chocolate,pie,fruit,almond
+3,3,Victoria,4th,OUT,28 August 2012,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,walnut
+3,3,James,1st,SB,28 August 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,no nut
+3,4,Cathryn,3rd,IN,4 September 2012,NA,NA,no chocolate,other,fruit,almond,chocolate,cake,no fruit,no nut
+3,4,Danny,2nd,IN,4 September 2012,NA,NA,chocolate,other,fruit,no nut,chocolate,cake,fruit,no nut
+3,4,James,5th,IN,4 September 2012,NA,NA,chocolate,other,fruit,no nut,chocolate,cake,fruit,filbert
+3,4,John,6th,IN,4 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+3,4,Manisha,9th,IN,4 September 2012,NA,NA,no chocolate,other,no fruit,no nut,chocolate,cake,fruit,almond
+3,4,Ryan,7th,IN,4 September 2012,NA,NA,no chocolate,other,fruit,pistachio,no chocolate,cake,no fruit,no nut
+3,4,Sarah-Jane,4th,IN,4 September 2012,NA,NA,no chocolate,other,fruit,filbert,chocolate,cake,no fruit,almond
+3,4,Stuart,8th,OUT,4 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+3,4,Brendan,1st,SB,4 September 2012,NA,NA,chocolate,other,fruit,filbert,no chocolate,cake,fruit,no nut
+3,5,Brendan,3rd,IN,11 September 2012,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,5,Cathryn,1st,IN,11 September 2012,NA,NA,chocolate,pie,fruit,peanut,no chocolate,other,no fruit,no nut
+3,5,Danny,7th,IN,11 September 2012,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,5,James,6th,IN,11 September 2012,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,5,John,2nd,IN,11 September 2012,NA,NA,no chocolate,pie,no fruit,pecan,no chocolate,other,no fruit,no nut
+3,5,Sarah-Jane,4th,IN,11 September 2012,NA,NA,chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+3,5,Manisha,5th,OUT,11 September 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+3,5,Ryan,8th,SB,11 September 2012,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,other,no fruit,no nut
+3,6,Cathryn,3rd,IN,18 September 2012,NA,NA,no chocolate,other,no fruit,no nut,chocolate,pudding,fruit,walnut
+3,6,Danny,2nd,IN,18 September 2012,NA,NA,no chocolate,other,no fruit,pistachio,chocolate,pudding,fruit,walnut
+3,6,James,7th,IN,18 September 2012,NA,NA,no chocolate,other,fruit,no nut,no chocolate,pudding,fruit,no nut
+3,6,John,5th,IN,18 September 2012,NA,NA,no chocolate,other,no fruit,no nut,chocolate,pudding,fruit,no nut
+3,6,Ryan,6th,IN,18 September 2012,NA,NA,no chocolate,other,fruit,no nut,chocolate,pudding,fruit,no nut
+3,6,Sarah-Jane,4th,IN,18 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,pudding,fruit,no nut
+3,6,Brendan,1st,SB,18 September 2012,NA,NA,no chocolate,other,fruit,walnut,no chocolate,pudding,fruit,no nut
+3,7,Brendan,4th,IN,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,7,Cathryn,5th,IN,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,7,James,1st,IN,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,7,John,3rd,IN,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,almond
+3,7,Ryan,6th,OUT,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+3,7,Sarah-Jane,7th,OUT,25 September 2012,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+3,7,Danny,2nd,SB,25 September 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,8,Brendan,2nd,IN,2 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,8,Danny,4th,IN,2 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,almond
+3,8,John,3rd,IN,2 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,8,Cathryn,5th,OUT,2 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,8,James,1st,SB,2 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,9,Brendan,3rd,IN,9 October 2012,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,multiple
+3,9,John,2nd,IN,9 October 2012,NA,NA,no chocolate,other,no fruit,no nut,chocolate,pie,fruit,no nut
+3,9,Danny,4th,OUT,9 October 2012,NA,NA,no chocolate,other,fruit,no nut,chocolate,other,fruit,no nut
+3,9,James,1st,SB,9 October 2012,NA,NA,no chocolate,other,fruit,filbert,chocolate,pie,fruit,no nut
+3,10,Brendan,2nd,RUNNER UP,16 October 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,10,James,1st,RUNNER UP,16 October 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+3,10,John,2nd,WINNER,16 October 2012,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,1,Ali,11th,IN,20 August 2013,1,2014-12-28,chocolate,cake,fruit,no nut,no chocolate,cake,no fruit,pistachio
+4,1,Beca,8th,IN,20 August 2013,1,2014-12-28,chocolate,other,fruit,no nut,no chocolate,cake,fruit,no nut
+4,1,Christine,3rd,IN,20 August 2013,1,2014-12-28,chocolate,cake,fruit,no nut,no chocolate,other,fruit,no nut
+4,1,Deborah,9th,IN,20 August 2013,1,2014-12-28,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+4,1,Frances,7th,IN,20 August 2013,1,2014-12-28,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,1,Glenn,4th,IN,20 August 2013,1,2014-12-28,chocolate,cake,no fruit,almond,no chocolate,cake,no fruit,no nut
+4,1,Howard,6th,IN,20 August 2013,1,2014-12-28,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+4,1,Kimberley,10th,IN,20 August 2013,1,2014-12-28,chocolate,cake,fruit,no nut,no chocolate,cake,fruit,no nut
+4,1,Lucy,2nd,IN,20 August 2013,1,2014-12-28,no chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+4,1,Mark,5th,IN,20 August 2013,1,2014-12-28,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+4,1,Ruby,12th,IN,20 August 2013,1,2014-12-28,chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+4,1,Toby,13th,OUT,20 August 2013,1,2014-12-28,chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+4,1,Robert,1st,SB,20 August 2013,1,2014-12-28,chocolate,cake,fruit,no nut,no chocolate,cake,fruit,pecan
+4,2,Ali,9th,IN,27 August 2013,1,2015-01-04,chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Beca,11th,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Christine,4th,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Deborah,8th,IN,27 August 2013,1,2015-01-04,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+4,2,Frances,2nd,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Glenn,7th,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Howard,10th,IN,27 August 2013,1,2015-01-04,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Kimberley,1st,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Mark,6th,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+4,2,Robert,5th,IN,27 August 2013,1,2015-01-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Lucy,12th,OUT,27 August 2013,1,2015-01-04,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+4,2,Ruby,3rd,SB,27 August 2013,1,2015-01-04,chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+4,3,Ali,5th,IN,3 September 2013,1,2015-01-11,no chocolate,cake,fruit,no nut,no chocolate,pudding,fruit,no nut
+4,3,Beca,10th,IN,3 September 2013,1,2015-01-11,no chocolate,other,fruit,no nut,no chocolate,pudding,fruit,no nut
+4,3,Frances,8th,IN,3 September 2013,1,2015-01-11,no chocolate,cake,fruit,no nut,no chocolate,pudding,fruit,no nut
+4,3,Glenn,1st,IN,3 September 2013,1,2015-01-11,no chocolate,other,fruit,no nut,no chocolate,pudding,fruit,almond
+4,3,Howard,7th,IN,3 September 2013,1,2015-01-11,no chocolate,cake,fruit,no nut,no chocolate,pudding,fruit,no nut
+4,3,Kimberley,6th,IN,3 September 2013,1,2015-01-11,chocolate,other,fruit,pistachio,no chocolate,pudding,fruit,almond
+4,3,Robert,2nd,IN,3 September 2013,1,2015-01-11,no chocolate,other,no fruit,almond,no chocolate,pudding,fruit,no nut
+4,3,Ruby,3rd,IN,3 September 2013,1,2015-01-11,chocolate,cake,fruit,no nut,no chocolate,pudding,no fruit,no nut
+4,3,Deborah,9th,OUT,3 September 2013,1,2015-01-11,chocolate,cookie,fruit,no nut,no chocolate,pudding,no fruit,no nut
+4,3,Mark,11th,OUT,3 September 2013,1,2015-01-11,chocolate,other,fruit,pistachio,no chocolate,pudding,fruit,no nut
+4,3,Christine,4th,SB,3 September 2013,1,2015-01-11,no chocolate,cake,no fruit,no nut,no chocolate,pudding,no fruit,no nut
+4,4,Beca,2nd,IN,10 September 2013,1,2015-01-18,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+4,4,Christine,7th,IN,10 September 2013,1,2015-01-18,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,no nut
+4,4,Frances,1st,IN,10 September 2013,1,2015-01-18,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,no nut
+4,4,Glenn,9th,IN,10 September 2013,1,2015-01-18,no chocolate,other,fruit,walnut,no chocolate,pie,fruit,no nut
+4,4,Howard,5th,IN,10 September 2013,1,2015-01-18,no chocolate,other,fruit,no nut,no chocolate,pie,fruit,no nut
+4,4,Robert,3rd,IN,10 September 2013,1,2015-01-18,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+4,4,Ruby,6th,IN,10 September 2013,1,2015-01-18,no chocolate,pie,fruit,almond,no chocolate,pie,fruit,no nut
+4,4,Ali,8th,OUT,10 September 2013,1,2015-01-18,no chocolate,other,fruit,no nut,no chocolate,pie,fruit,multiple
+4,4,Kimberley,4th,SB,10 September 2013,1,2015-01-18,no chocolate,pie,fruit,no nut,no chocolate,pie,fruit,pecan
+4,5,Beca,5th,IN,17 September 2013,1,2015-01-25,no chocolate,pie,no fruit,no nut,chocolate,other,fruit,filbert
+4,5,Frances,3rd,IN,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,5,Glenn,2nd,IN,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,pistachio
+4,5,Howard,8th,IN,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,5,Kimberley,7th,IN,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,almond
+4,5,Ruby,6th,IN,17 September 2013,1,2015-01-25,no chocolate,pie,no fruit,no nut,no chocolate,other,fruit,no nut
+4,5,Robert,4th,OUT,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+4,5,Christine,1st,SB,17 September 2013,1,2015-01-25,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,almond
+4,6,Beca,6th,IN,24 September 2013,1,2015-02-01,chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+4,6,Christine,4th,IN,24 September 2013,1,2015-02-01,no chocolate,pudding,no fruit,no nut,no chocolate,other,fruit,no nut
+4,6,Frances,2nd,IN,24 September 2013,1,2015-02-01,no chocolate,pudding,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,6,Glenn,5th,IN,24 September 2013,1,2015-02-01,no chocolate,other,fruit,almond,no chocolate,other,no fruit,no nut
+4,6,Kimberley,3rd,IN,24 September 2013,1,2015-02-01,chocolate,other,fruit,filbert,no chocolate,other,fruit,no nut
+4,6,Howard,7th,OUT,24 September 2013,1,2015-02-01,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+4,6,Ruby,1st,SB,24 September 2013,1,2015-02-01,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,7,Beca,1st,IN,1 October 2013,1,2015-02-08,chocolate,other,fruit,filbert,no chocolate,pudding,fruit,no nut
+4,7,Christine,6th,IN,1 October 2013,1,2015-02-08,no chocolate,cake,fruit,no nut,no chocolate,pudding,no fruit,no nut
+4,7,Kimberley,4th,IN,1 October 2013,1,2015-02-08,no chocolate,pie,fruit,no nut,chocolate,pudding,fruit,no nut
+4,7,Ruby,2nd,IN,1 October 2013,1,2015-02-08,no chocolate,pie,fruit,no nut,no chocolate,other,fruit,no nut
+4,7,Glenn,3rd,OUT,1 October 2013,1,2015-02-08,chocolate,pie,fruit,no nut,no chocolate,pudding,no fruit,no nut
+4,7,Frances,5th,SB,1 October 2013,1,2015-02-08,no chocolate,other,no fruit,no nut,no chocolate,pudding,fruit,walnut
+4,8,Beca,4th,IN,8 October 2013,1,2015-02-15,no chocolate,cake,fruit,pecan,no chocolate,other,no fruit,no nut
+4,8,Frances,3rd,IN,8 October 2013,1,2015-02-15,no chocolate,cake,fruit,walnut,no chocolate,other,no fruit,no nut
+4,8,Kimberley,2nd,IN,8 October 2013,1,2015-02-15,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+4,8,Christine,5th,OUT,8 October 2013,1,2015-02-15,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+4,8,Ruby,1st,SB,8 October 2013,1,2015-02-15,no chocolate,cake,no fruit,pistachio,no chocolate,other,fruit,no nut
+4,9,Frances,2nd,IN,15 October 2013,1,2015-02-22,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+4,9,Ruby,4th,IN,15 October 2013,1,2015-02-22,chocolate,cake,no fruit,almond,no chocolate,pie,no fruit,no nut
+4,9,Beca,3rd,OUT,15 October 2013,1,2015-02-22,no chocolate,cake,no fruit,no nut,no chocolate,pie,fruit,walnut
+4,9,Kimberley,1st,SB,15 October 2013,1,2015-02-22,no chocolate,cake,fruit,no nut,no chocolate,pie,no fruit,no nut
+4,10,Kimberley,1st,RUNNER UP,22 October 2013,1,2015-03-01,no chocolate,cake,no fruit,no nut,no chocolate,pie,no fruit,no nut
+4,10,Ruby,2nd,RUNNER UP,22 October 2013,1,2015-03-01,no chocolate,cake,fruit,no nut,no chocolate,pie,no fruit,no nut
+4,10,Frances,3rd,WINNER,22 October 2013,1,2015-03-01,no chocolate,cake,no fruit,no nut,no chocolate,pie,no fruit,no nut
+5,1,Chetna,3rd,IN,6 August 2014,2,2015-09-06,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,pistachio
+5,1,Diana,5th,IN,6 August 2014,2,2015-09-06,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+5,1,Enwezor,9th,IN,6 August 2014,2,2015-09-06,no chocolate,other,fruit,walnut,no chocolate,cake,fruit,no nut
+5,1,Iain,4th,IN,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,no nut,chocolate,cake,fruit,no nut
+5,1,Jordan,12th,IN,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,no nut,no chocolate,cake,no fruit,no nut
+5,1,Kate,6th,IN,6 August 2014,2,2015-09-06,no chocolate,other,no fruit,no nut,chocolate,cake,no fruit,no nut
+5,1,Luis,7th,IN,6 August 2014,2,2015-09-06,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+5,1,Martha,2nd,IN,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,no nut,no chocolate,cake,no fruit,no nut
+5,1,Norman,11th,IN,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,almond,no chocolate,cake,no fruit,no nut
+5,1,Richard,10th,IN,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,walnut,no chocolate,cake,fruit,pistachio
+5,1,Claire,8th,OUT,6 August 2014,2,2015-09-06,chocolate,cake,fruit,no nut,chocolate,other,fruit,no nut
+5,1,Nancy,1st,SB,6 August 2014,2,2015-09-06,no chocolate,cake,fruit,no nut,no chocolate,cake,fruit,filbert
+5,2,Chetna,8th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Diana,7th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Iain,11th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,2,Jordan,6th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Kate,4th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,2,Luis,3rd,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,2,Martha,5th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Nancy,2nd,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Norman,10th,IN,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Enwezor,9th,OUT,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,2,Richard,1st,SB,13 August 2014,2,2015-09-13,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,3,Chetna,8th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,3,Diana,7th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,3,Iain,9th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+5,3,Kate,1st,IN,20 August 2014,2,2015-09-20,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+5,3,Martha,3rd,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+5,3,Nancy,5th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+5,3,Norman,4th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,3,Richard,6th,IN,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,3,Jordan,10th,OUT,20 August 2014,2,2015-09-20,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+5,3,Luis,2nd,SB,20 August 2014,2,2015-09-20,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,4,Chetna,3rd,IN,27 August 2014,2,2015-09-27,no chocolate,other,fruit,no nut,no chocolate,pudding,fruit,no nut
+5,4,Diana,9th,IN,27 August 2014,2,2015-09-27,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+5,4,Kate,7th,IN,27 August 2014,2,2015-09-27,chocolate,other,fruit,pistachio,chocolate,pudding,no fruit,no nut
+5,4,Luis,2nd,IN,27 August 2014,2,2015-09-27,no chocolate,other,no fruit,no nut,no chocolate,pudding,fruit,no nut
+5,4,Martha,1st,IN,27 August 2014,2,2015-09-27,no chocolate,other,fruit,no nut,chocolate,other,fruit,peanut
+5,4,Nancy,4th,IN,27 August 2014,2,2015-09-27,no chocolate,pudding,no fruit,no nut,chocolate,pudding,no fruit,pistachio
+5,4,Norman,8th,IN,27 August 2014,2,2015-09-27,no chocolate,other,fruit,no nut,no chocolate,pudding,no fruit,no nut
+5,4,Iain,6th,OUT,27 August 2014,2,2015-09-27,chocolate,other,no fruit,no nut,chocolate,other,fruit,no nut
+5,4,Richard,5th,SB,27 August 2014,2,2015-09-27,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+5,5,Chetna,2nd,IN,3 September 2014,2,2015-10-04,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,no nut
+5,5,Luis,6th,IN,3 September 2014,2,2015-10-04,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+5,5,Martha,1st,IN,3 September 2014,2,2015-10-04,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,pistachio
+5,5,Nancy,4th,IN,3 September 2014,2,2015-10-04,no chocolate,pie,fruit,no nut,chocolate,pie,no fruit,no nut
+5,5,Richard,7th,IN,3 September 2014,2,2015-10-04,no chocolate,pie,no fruit,no nut,no chocolate,pie,fruit,no nut
+5,5,Diana,NA,LEFT,3 September 2014,2,2015-10-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,5,Norman,5th,OUT,3 September 2014,2,2015-10-04,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+5,5,Kate,3rd,SB,3 September 2014,2,2015-10-04,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+5,6,Kate,6th,IN,10 September 2014,2,2015-10-11,no chocolate,cake,no fruit,no nut,chocolate,cake,fruit,pecan
+5,6,Luis,3rd,IN,10 September 2014,2,2015-10-11,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,6,Martha,4th,IN,10 September 2014,2,2015-10-11,chocolate,cake,no fruit,no nut,chocolate,cake,no fruit,almond
+5,6,Nancy,1st,IN,10 September 2014,2,2015-10-11,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+5,6,Richard,5th,IN,10 September 2014,2,2015-10-11,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+5,6,Chetna,2nd,SB,10 September 2014,2,2015-10-11,chocolate,cake,no fruit,almond,no chocolate,cake,fruit,no nut
+5,7,Chetna,6th,IN,17 September 2014,2,2015-10-18,chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+5,7,Luis,5th,IN,17 September 2014,2,2015-10-18,no chocolate,cake,fruit,peanut,no chocolate,other,no fruit,no nut
+5,7,Martha,3rd,IN,17 September 2014,2,2015-10-18,no chocolate,pudding,no fruit,no nut,no chocolate,other,no fruit,no nut
+5,7,Nancy,2nd,IN,17 September 2014,2,2015-10-18,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+5,7,Kate,4th,OUT,17 September 2014,2,2015-10-18,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+5,7,Richard,1st,SB,17 September 2014,2,2015-10-18,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+5,8,Chetna,1st,IN,24 September 2014,2,2015-10-25,chocolate,other,fruit,no nut,no chocolate,other,fruit,walnut
+5,8,Luis,2nd,IN,24 September 2014,2,2015-10-25,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+5,8,Nancy,3rd,IN,24 September 2014,2,2015-10-25,chocolate,other,fruit,almond,no chocolate,other,fruit,no nut
+5,8,Martha,5th,OUT,24 September 2014,2,2015-10-25,chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+5,8,Richard,4th,SB,24 September 2014,2,2015-10-25,no chocolate,pudding,fruit,no nut,no chocolate,other,no fruit,no nut
+5,9,Luis,1st,IN,1 October 2014,2,2015-11-01,chocolate,other,fruit,pistachio,no chocolate,other,no fruit,no nut
+5,9,Nancy,3rd,IN,1 October 2014,2,2015-11-01,no chocolate,other,fruit,no nut,chocolate,other,no fruit,no nut
+5,9,Chetna,4th,OUT,1 October 2014,2,2015-11-01,chocolate,other,fruit,no nut,chocolate,other,fruit,no nut
+5,9,Richard,2nd,SB,1 October 2014,2,2015-11-01,no chocolate,other,fruit,filbert,no chocolate,other,fruit,multiple
+5,10,Luis,2nd,RUNNER UP,8 October 2014,2,2015-11-08,chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+5,10,Richard,3rd,RUNNER UP,8 October 2014,2,2015-11-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+5,10,Nancy,1st,WINNER,8 October 2014,2,2015-11-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,almond
+6,1,Alvin,2nd,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Dorret,5th,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Flora,6th,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Ian,8th,IN,5 August 2015,3,2016-07-01,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+6,1,Mat,7th,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+6,1,Nadiya,12th,IN,5 August 2015,3,2016-07-01,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Paul,10th,IN,5 August 2015,3,2016-07-01,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Sandy,9th,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,almond
+6,1,Tamal,4th,IN,5 August 2015,3,2016-07-01,chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,pistachio
+6,1,Ugnė,1st,IN,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+6,1,Stu,11th,OUT,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+6,1,Marie,3rd,SB,5 August 2015,3,2016-07-01,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+6,2,Alvin,6th,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,multiple
+6,2,Dorret,1st,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,almond
+6,2,Flora,2nd,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,2,Mat,5th,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,chocolate,other,fruit,pistachio
+6,2,Nadiya,9th,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,pistachio
+6,2,Paul,10th,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,chocolate,other,fruit,filbert
+6,2,Sandy,4th,IN,12 August 2015,3,2016-07-08,no chocolate,other,fruit,no nut,chocolate,other,fruit,filbert
+6,2,Tamal,8th,IN,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+6,2,Ugnė,7th,IN,12 August 2015,3,2016-07-08,no chocolate,cookie,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,2,Marie,11th,OUT,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,2,Ian,3rd,SB,12 August 2015,3,2016-07-08,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,almond
+6,3,Alvin,4th,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,3,Flora,2nd,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,filbert
+6,3,Mat,8th,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,3,Nadiya,9th,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+6,3,Paul,10th,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+6,3,Sandy,7th,IN,19 August 2015,3,2016-07-15,no chocolate,other,fruit,walnut,no chocolate,other,no fruit,no nut
+6,3,Tamal,3rd,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+6,3,Ugnė,5th,IN,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+6,3,Dorret,6th,OUT,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,walnut
+6,3,Ian,1st,SB,19 August 2015,3,2016-07-15,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,4,Alvin,9th,IN,26 August 2015,3,2016-07-15,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+6,4,Flora,3rd,IN,26 August 2015,3,2016-07-15,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,4,Mat,7th,IN,26 August 2015,3,2016-07-15,chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+6,4,Nadiya,8th,IN,26 August 2015,3,2016-07-15,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,4,Paul,1st,IN,26 August 2015,3,2016-07-15,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,almond
+6,4,Tamal,5th,IN,26 August 2015,3,2016-07-15,no chocolate,cake,fruit,filbert,no chocolate,other,no fruit,no nut
+6,4,Ugnė,2nd,IN,26 August 2015,3,2016-07-15,no chocolate,cake,fruit,filbert,no chocolate,other,no fruit,no nut
+6,4,Sandy,6th,OUT,26 August 2015,3,2016-07-15,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+6,4,Ian,4th,SB,26 August 2015,3,2016-07-15,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+6,5,Alvin,8th,IN,2 September 2015,3,2016-07-22,no chocolate,other,fruit,no nut,no chocolate,cake,fruit,no nut
+6,5,Flora,3rd,IN,2 September 2015,3,2016-07-22,chocolate,other,fruit,no nut,no chocolate,cake,fruit,pistachio
+6,5,Ian,5th,IN,2 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+6,5,Mat,4th,IN,2 September 2015,3,2016-07-22,no chocolate,other,fruit,no nut,no chocolate,cake,no fruit,no nut
+6,5,Paul,2nd,IN,2 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,pecan
+6,5,Tamal,7th,IN,2 September 2015,3,2016-07-22,no chocolate,other,fruit,no nut,no chocolate,cake,fruit,no nut
+6,5,Ugnė,6th,OUT,2 September 2015,3,2016-07-22,chocolate,other,fruit,peanut,chocolate,cake,fruit,filbert
+6,5,Nadiya,1st,SB,2 September 2015,3,2016-07-22,chocolate,other,fruit,no nut,no chocolate,cake,fruit,no nut
+6,6,Flora,2nd,IN,9 September 2015,3,2016-07-22,chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+6,6,Ian,3rd,IN,9 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+6,6,Nadiya,4th,IN,9 September 2015,3,2016-07-22,no chocolate,other,fruit,no nut,no chocolate,pie,fruit,no nut
+6,6,Paul,5th,IN,9 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+6,6,Tamal,7th,IN,9 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+6,6,Alvin,6th,OUT,9 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+6,6,Mat,1st,SB,9 September 2015,3,2016-07-22,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+6,7,Flora,4th,IN,16 September 2015,3,2016-07-29,no chocolate,other,fruit,no nut,no chocolate,pie,fruit,no nut
+6,7,Ian,5th,IN,16 September 2015,3,2016-07-29,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+6,7,Nadiya,1st,IN,16 September 2015,3,2016-07-29,no chocolate,other,fruit,no nut,no chocolate,pie,no fruit,no nut
+6,7,Paul,2nd,IN,16 September 2015,3,2016-07-29,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+6,7,Mat,6th,OUT,16 September 2015,3,2016-07-29,no chocolate,other,fruit,no nut,no chocolate,pie,no fruit,no nut
+6,7,Tamal,3rd,SB,16 September 2015,3,2016-07-29,no chocolate,other,fruit,no nut,no chocolate,pie,no fruit,no nut
+6,8,Flora,3rd,IN,23 September 2015,3,2016-07-29,chocolate,other,fruit,no nut,no chocolate,other,fruit,almond
+6,8,Ian,2nd,IN,23 September 2015,3,2016-07-29,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+6,8,Tamal,4th,IN,23 September 2015,3,2016-07-29,no chocolate,other,fruit,pistachio,no chocolate,other,fruit,no nut
+6,8,Paul,5th,OUT,23 September 2015,3,2016-07-29,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+6,8,Nadiya,1st,SB,23 September 2015,3,2016-07-29,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,multiple
+6,9,Ian,3rd,IN,30 September 2015,3,2016-08-05,chocolate,other,no fruit,no nut,chocolate,pie,no fruit,no nut
+6,9,Tamal,2nd,IN,30 September 2015,3,2016-08-05,chocolate,other,no fruit,no nut,chocolate,pie,no fruit,no nut
+6,9,Flora,1st,OUT,30 September 2015,3,2016-08-05,no chocolate,other,no fruit,no nut,chocolate,pie,no fruit,no nut
+6,9,Nadiya,4th,SB,30 September 2015,3,2016-08-05,no chocolate,other,no fruit,no nut,chocolate,pie,fruit,peanut
+6,10,Ian,2nd,RUNNER UP,7 October 2015,3,2016-08-12,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+6,10,Tamal,3rd,RUNNER UP,7 October 2015,3,2016-08-12,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+6,10,Nadiya,1st,WINNER,7 October 2015,3,2016-08-12,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,almond
+7,1,Andrew,12th,IN,24 August 2016,4,2017-06-16,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Benjamina,6th,IN,24 August 2016,4,2017-06-16,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,pistachio
+7,1,Candice,5th,IN,24 August 2016,4,2017-06-16,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Kate,4th,IN,24 August 2016,4,2017-06-16,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Louise,9th,IN,24 August 2016,4,2017-06-16,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Michael,3rd,IN,24 August 2016,4,2017-06-16,chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Rav,8th,IN,24 August 2016,4,2017-06-16,no chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+7,1,Selasi,1st,IN,24 August 2016,4,2017-06-16,chocolate,cake,fruit,no nut,no chocolate,cake,no fruit,no nut
+7,1,Tom,2nd,IN,24 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+7,1,Val,10th,IN,24 August 2016,4,2017-06-16,chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+7,1,Lee,11th,OUT,24 August 2016,4,2017-06-16,no chocolate,cake,fruit,no nut,no chocolate,cake,fruit,no nut
+7,1,Jane,7th,SB,24 August 2016,4,2017-06-16,chocolate,cake,fruit,no nut,no chocolate,cake,fruit,no nut
+7,2,Andrew,4th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Benjamina,3rd,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Jane,2nd,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Kate,1st,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Michael,9th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,chocolate,other,fruit,no nut
+7,2,Rav,6th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Selasi,11th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Tom,7th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Val,5th,IN,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Louise,10th,OUT,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,2,Candice,8th,SB,31 August 2016,4,2017-06-16,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+7,3,Andrew,2nd,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+7,3,Benjamina,6th,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,almond
+7,3,Candice,3rd,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,pecan
+7,3,Jane,9th,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,fruit,no nut
+7,3,Kate,8th,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,3,Rav,10th,IN,7 September 2016,4,2017-06-23,no chocolate,pie,no fruit,no nut,chocolate,other,fruit,filbert
+7,3,Selasi,5th,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,fruit,no nut
+7,3,Val,1st,IN,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+7,3,Michael,7th,OUT,7 September 2016,4,2017-06-23,no chocolate,other,fruit,no nut,chocolate,other,no fruit,no nut
+7,3,Tom,4th,SB,7 September 2016,4,2017-06-23,no chocolate,other,no fruit,no nut,chocolate,other,fruit,no nut
+7,4,Andrew,4th,IN,14 September 2016,4,2017-06-30,no chocolate,other,no fruit,no nut,no chocolate,pudding,no fruit,no nut
+7,4,Candice,2nd,IN,14 September 2016,4,2017-06-30,no chocolate,other,fruit,peanut,no chocolate,other,no fruit,no nut
+7,4,Jane,3rd,IN,14 September 2016,4,2017-06-30,chocolate,other,no fruit,pistachio,no chocolate,other,no fruit,no nut
+7,4,Rav,9th,IN,14 September 2016,4,2017-06-30,no chocolate,other,no fruit,pistachio,no chocolate,other,no fruit,no nut
+7,4,Selasi,8th,IN,14 September 2016,4,2017-06-30,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+7,4,Tom,5th,IN,14 September 2016,4,2017-06-30,no chocolate,other,no fruit,no nut,no chocolate,pudding,no fruit,no nut
+7,4,Val,6th,IN,14 September 2016,4,2017-06-30,chocolate,other,fruit,no nut,no chocolate,pudding,no fruit,no nut
+7,4,Kate,7th,OUT,14 September 2016,4,2017-06-30,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,4,Benjamina,1st,SB,14 September 2016,4,2017-06-30,no chocolate,other,no fruit,no nut,no chocolate,pudding,no fruit,no nut
+7,5,Andrew,6th,IN,21 September 2016,4,2017-07-07,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,5,Benjamina,5th,IN,21 September 2016,4,2017-07-07,no chocolate,other,fruit,no nut,no chocolate,other,fruit,peanut
+7,5,Jane,1st,IN,21 September 2016,4,2017-07-07,chocolate,other,fruit,walnut,chocolate,other,fruit,almond
+7,5,Rav,8th,IN,21 September 2016,4,2017-07-07,chocolate,pie,fruit,filbert,no chocolate,other,fruit,multiple
+7,5,Selasi,3rd,IN,21 September 2016,4,2017-07-07,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+7,5,Tom,4th,IN,21 September 2016,4,2017-07-07,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,5,Val,7th,OUT,21 September 2016,4,2017-07-07,no chocolate,pie,fruit,no nut,no chocolate,other,fruit,pecan
+7,5,Candice,2nd,SB,21 September 2016,4,2017-07-07,no chocolate,pudding,fruit,no nut,no chocolate,other,fruit,no nut
+7,6,Andrew,6th,IN,28 September 2016,4,2017-07-14,no chocolate,other,no fruit,no nut,no chocolate,pie,fruit,no nut
+7,6,Benjamina,2nd,IN,28 September 2016,4,2017-07-14,no chocolate,cake,no fruit,no nut,no chocolate,pie,fruit,no nut
+7,6,Candice,5th,IN,28 September 2016,4,2017-07-14,no chocolate,cake,no fruit,no nut,no chocolate,pie,fruit,no nut
+7,6,Jane,4th,IN,28 September 2016,4,2017-07-14,chocolate,cake,fruit,no nut,no chocolate,pie,fruit,no nut
+7,6,Selasi,7th,IN,28 September 2016,4,2017-07-14,no chocolate,cake,no fruit,no nut,no chocolate,pie,fruit,no nut
+7,6,Rav,3rd,OUT,28 September 2016,4,2017-07-14,no chocolate,cake,no fruit,no nut,no chocolate,pie,no fruit,no nut
+7,6,Tom,1st,SB,28 September 2016,4,2017-07-14,no chocolate,cake,no fruit,no nut,no chocolate,pie,fruit,no nut
+7,7,Benjamina,3rd,IN,5 October 2016,4,2017-07-21,chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+7,7,Candice,2nd,IN,5 October 2016,4,2017-07-21,no chocolate,other,fruit,no nut,no chocolate,other,no fruit,no nut
+7,7,Jane,4th,IN,5 October 2016,4,2017-07-21,chocolate,cake,fruit,no nut,chocolate,other,fruit,filbert
+7,7,Selasi,6th,IN,5 October 2016,4,2017-07-21,chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+7,7,Tom,5th,OUT,5 October 2016,4,2017-07-21,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,7,Andrew,1st,SB,5 October 2016,4,2017-07-21,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,8,Andrew,2nd,IN,12 October 2016,4,2017-07-28,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+7,8,Jane,5th,IN,12 October 2016,4,2017-07-28,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+7,8,Selasi,3rd,IN,12 October 2016,4,2017-07-28,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,8,Benjamina,4th,OUT,12 October 2016,4,2017-07-28,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,8,Candice,1st,SB,12 October 2016,4,2017-07-28,no chocolate,other,no fruit,no nut,no chocolate,pie,no fruit,no nut
+7,9,Candice,3rd,IN,19 October 2016,4,2017-08-04,chocolate,other,fruit,no nut,no chocolate,other,fruit,walnut
+7,9,Jane,1st,IN,19 October 2016,4,2017-08-04,no chocolate,other,fruit,pistachio,no chocolate,other,fruit,no nut
+7,9,Selasi,4th,OUT,19 October 2016,4,2017-08-04,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+7,9,Andrew,2nd,SB,19 October 2016,4,2017-08-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,10,Andrew,1st,RUNNER UP,26 October 2016,4,2017-08-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,10,Jane,3rd,RUNNER UP,26 October 2016,4,2017-08-04,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+7,10,Candice,2nd,WINNER,26 October 2016,4,2017-08-04,no chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+8,1,Chris,12th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,1,Flo,9th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,1,James,2nd,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Julia,3rd,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Kate,1st,IN,29 August 2017,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Liam,8th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,almond
+8,1,Sophie,5th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Stacey,11th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,walnut
+8,1,Tom,7th,IN,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Yan,4th,IN,29 August 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Peter,10th,OUT,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,1,Steven,6th,SB,29 August 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,2,Flo,10th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,2,James,3rd,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,pudding,no fruit,no nut
+8,2,Julia,4th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,2,Kate,8th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+8,2,Liam,7th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,pecan
+8,2,Sophie,2nd,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+8,2,Stacey,9th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,chocolate,cookie,no fruit,no nut
+8,2,Tom,5th,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,2,Yan,1st,IN,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,2,Chris,11th,OUT,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+8,2,Steven,6th,SB,5 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,3,James,9th,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,3,Kate,10th,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut
+8,3,Liam,5th,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,3,Sophie,6th,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,3,Stacey,1st,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,3,Steven,3rd,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,3,Tom,4th,IN,12 September 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,3,Yan,8th,IN,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,3,Flo,7th,OUT,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,3,Julia,2nd,SB,12 September 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,cake,no fruit,no nut
+8,4,James,2nd,IN,19 September 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+8,4,Julia,9th,IN,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,pecan
+8,4,Liam,3rd,IN,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,peanut
+8,4,Sophie,4th,IN,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,4,Stacey,1st,IN,19 September 2017,NA,NA,chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,4,Steven,7th,IN,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+8,4,Yan,8th,IN,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,fruit,no nut
+8,4,Tom,5th,OUT,19 September 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,4,Kate,6th,SB,19 September 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+8,5,Julia,3rd,IN,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,pudding,fruit,no nut
+8,5,Kate,8th,IN,26 September 2017,NA,NA,no chocolate,pudding,fruit,no nut,no chocolate,pudding,no fruit,no nut
+8,5,Liam,2nd,IN,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,other,fruit,no nut
+8,5,Stacey,4th,IN,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,5,Steven,5th,IN,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,pudding,fruit,no nut
+8,5,Yan,6th,IN,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,pudding,fruit,no nut
+8,5,James,7th,OUT,26 September 2017,NA,NA,no chocolate,pudding,no fruit,no nut,no chocolate,pudding,fruit,no nut
+8,5,Sophie,1st,SB,26 September 2017,NA,NA,chocolate,pudding,fruit,no nut,no chocolate,pudding,fruit,no nut
+8,6,Kate,5th,IN,3 October 2017,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Sophie,2nd,IN,3 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Stacey,6th,IN,3 October 2017,NA,NA,no chocolate,pie,fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Steven,3rd,IN,3 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Yan,1st,IN,3 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Julia,7th,OUT,3 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,6,Liam,4th,SB,3 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,pie,no fruit,no nut
+8,7,Kate,6th,IN,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,7,Liam,2nd,IN,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,7,Sophie,3rd,IN,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,7,Stacey,4th,IN,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,7,Yan,5th,OUT,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,7,Steven,1st,SB,10 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,8,Kate,2nd,IN,17 October 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,8,Sophie,4th,IN,17 October 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,fruit,no nut
+8,8,Steven,1st,IN,17 October 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,no fruit,no nut
+8,8,Liam,5th,OUT,17 October 2017,NA,NA,no chocolate,cake,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,8,Stacey,3rd,SB,17 October 2017,NA,NA,no chocolate,cake,fruit,no nut,no chocolate,other,fruit,no nut
+8,9,Kate,4th,IN,24 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,fruit,no nut
+8,9,Steven,3rd,IN,24 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,cake,fruit,no nut
+8,9,Stacey,2nd,OUT,24 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,no fruit,no nut
+8,9,Sophie,1st,SB,24 October 2017,NA,NA,no chocolate,pie,no fruit,no nut,no chocolate,other,fruit,no nut
+8,10,Kate,3rd,RUNNER UP,31 October 2017,NA,NA,chocolate,other,fruit,no nut,no chocolate,other,fruit,no nut
+8,10,Steven,1st,RUNNER UP,31 October 2017,NA,NA,no chocolate,other,no fruit,no nut,chocolate,other,no fruit,no nut
+8,10,Sophie,2nd,WINNER,31 October 2017,NA,NA,no chocolate,other,no fruit,no nut,no chocolate,other,fruit,no nut

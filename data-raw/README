@@ -1,0 +1,24 @@
+5 01-level data files are scraped from Wikipedia:
+
+* `series` [key: series]
+* `episodes` [key: series, episode]
+* `bakers` [keys: series, baker]
+* `challenges` [key: series, episode, baker]
+* `results` [key: series, episode, baker]
+
+
+1 02-level data file is made by merging other 01-level data files:
+
+* `challenge_results` = `results` + `challenges 
+  - `Joining, by = c("series", "episode", "baker")`
+  
+1 03-level data file is made by merging an 01-level and 02-level data file:
+* `baker_results` = `bakers` + `challenge_results`
+  - significant wrangling using `dplyr::group_by(series, baker)` + `dplyr::summarize`
+  - `Joining, by = c("series", "baker")`
+
+
+For DataCamp:
+
+* `results_wide`: spreads result by episode
+* `challenge_results_extra`: includes extra row of metadata
