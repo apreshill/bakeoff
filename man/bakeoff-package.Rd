@@ -9,7 +9,7 @@
 Data about the episodes, bakers, series, and spin-off series for The Great British Bake-Off, from Wikipedia.
 }
 \author{
-\strong{Maintainer}: Alison Hill \email{apresstats@gmail}
+\strong{Maintainer}: Alison Hill \email{apresstats@gmail} (https://orcid.org/0000-0002-8082-1890)
 
 Authors:
 \itemize{
