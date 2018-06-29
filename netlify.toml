@@ -1,0 +1,3 @@
+[build]
+  base    = "bakeoff/"
+  publish = "bakeoff/docs/"

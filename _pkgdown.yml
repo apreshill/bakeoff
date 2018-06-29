@@ -1,4 +1,4 @@
 template:
   params:
-    bootswatch: united
+    bootswatch: flatly
     type: inverse
