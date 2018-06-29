@@ -1,0 +1,26 @@
+Package: bakeoff
+Version: 0.1.0.9000
+Title: Data from The Great British Bake-Off
+Description: Data about the episodes, bakers, series, and spin-off series for The Great British Bake-Off, from Wikipedia.
+Authors@R: c(
+  person("Alison", "Hill", email = "apresstats@gmail", role = c("aut", "cre")),
+  person("Chester", "Ismay", email = "chester.ismay@gmail", role = "aut"))
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+ByteCompile: true
+Suggests: 
+    knitr,
+    rmarkdown,
+    rvest,
+    dplyr,
+    tidyr,
+    readr,
+    stringr,
+    janitor,
+    purrr,
+    lubridate,
+    ggplot2
+VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
