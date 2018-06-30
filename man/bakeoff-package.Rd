@@ -8,6 +8,15 @@
 \description{
 Data about the episodes, bakers, series, and spin-off series for The Great British Bake-Off, from Wikipedia.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://bakeoff.netlify.com}
+  \item \url{https://github.com/apreshill/bakeoff}
+  \item Report bugs at \url{https://github.com/apreshill/bakeoff/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Alison Hill \email{apresstats@gmail} (https://orcid.org/0000-0002-8082-1890)
 

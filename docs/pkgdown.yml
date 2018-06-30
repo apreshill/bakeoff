@@ -3,4 +3,7 @@ pkgdown: 1.1.0
 pkgdown_sha: ~
 articles:
   bakeoffs-abroad: bakeoffs-abroad.html
+urls:
+  reference: https://bakeoff.netlify.com/reference
+  article: https://bakeoff.netlify.com/articles
 
