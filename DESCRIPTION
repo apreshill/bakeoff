@@ -1,13 +1,13 @@
 Package: bakeoff
 Version: 0.1.0.9000
-Title: Data from The Great British Bake-Off
-Description: Data about the episodes, bakers, series, and spin-off series for The Great British Bake-Off, from Wikipedia.
+Title: Data from "The Great British Bake Off"
+Description: Data about the bakers, bakes, and ratings for "The Great British Bake Off", from Wikipedia.
 Authors@R: c(
   person("Alison", "Hill", 
-          email = "apresstats@gmail", 
+          email = "apresstats@gmail.com", 
           role = c("aut", "cre"),
           comment = c(ORCID = "https://orcid.org/0000-0002-8082-1890")),
-  person("Chester", "Ismay", email = "chester.ismay@gmail", role = "aut"))
+  person("Chester", "Ismay", email = "chester.ismay@gmail.com", role = "aut"))
 License: MIT + file LICENSE
 URL: https://bakeoff.netlify.com, https://github.com/apreshill/bakeoff
 BugReports: https://github.com/apreshill/bakeoff/issues
@@ -28,4 +28,4 @@ Suggests:
     ggplot2
 VignetteBuilder: knitr
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.0.1
+RoxygenNote: 6.0.1.9000

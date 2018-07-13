@@ -3,7 +3,7 @@
 bakeoff
 =======
 
-The goal of bakeoff is to enable data wrangling, analysis, and visualizations using data from "The Great British Bake-Off".
+The goal of bakeoff is to enable data wrangling, analysis, and visualizations using data from "The Great British Bake Off".
 
 Installation
 ------------

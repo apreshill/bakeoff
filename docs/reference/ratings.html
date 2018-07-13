@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Changelog • bakeoff</title>
+<title>Ratings — ratings • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -30,7 +30,10 @@
 
 
 
-<meta property="og:title" content="Changelog" />
+<meta property="og:title" content="Ratings — ratings" />
+
+<meta property="og:description" content="Ratings for all episodes across all GBBO series" />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -46,7 +49,7 @@
   </head>
 
   <body>
-    <div class="container template-news">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -112,29 +115,48 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Changelog <small></small></h1>
-      <small>Source: <a href='https://github.com/apreshill/bakeoff/blob/master/NEWS.md'><code>NEWS.md</code></a></small>
+    <h1>Ratings</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/ratings.R'><code>R/ratings.R</code></a></small>
+    <div class="hidden name"><code>ratings.Rd</code></div>
     </div>
 
-    <div id="bakeoff-0-1-0-9000" class="section level1">
-<h1 class="page-header">
-<a href="#bakeoff-0-1-0-9000" class="anchor"></a>bakeoff 0.1.0.9000</h1>
-<ul>
-<li>Added a <code>NEWS.md</code> file to track changes to the package.</li>
-<li>Initial package set-up using <code>usethis</code>.</li>
-</ul>
-</div>
-  </div>
+    <div class="ref-description">
+    
+    <p>Ratings for all episodes across all GBBO series</p>
+    
+    </div>
 
+    <pre class="usage"><span class='no'>ratings</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 74 rows representing individual episodes and 10 variables:</p><dl class='dl-horizontal'>
+<dt>series</dt><dd><p>an integer denoting UK series (1-8)</p></dd>
+<dt>episode</dt><dd><p>an integer denoting episode number within a series</p></dd>
+<dt>uk_airdate</dt><dd><p>a date denoting original airdate of episode in the UK</p></dd>
+<dt>viewers_7day</dt><dd><p>number of viewers in millions within a 7-day window from airdate</p></dd>
+<dt>viewers_28day</dt><dd><p>number of viewers in millions within a 28-day window from airdate</p></dd>
+<dt>network_rank</dt><dd><p>an integer denoting the episode's weekly ranking within network (note that the networks changed for series 8 and later)</p></dd>
+<dt>channels_rank</dt><dd><p>an integer denoting the episode's weekly ranking across all channels</p></dd>
+<dt>bbc_iplayer_requests</dt><dd><p>number of BBC iPlayer requests (note: not available for all series, and only for series that aired on the BBC)</p></dd>
+</dl>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>All official episode viewer number are from BARB, as entered on Wikipedia <a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off</a></p>
+    
+
+  </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div id="tocnav">
-      <h2>Contents</h2>
-      <ul class="nav nav-pills nav-stacked">
-        <li><a href="#bakeoff-0-1-0-9000">0.1.0.9000</a></li>
-      </ul>
-    </div>
-  </div>
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      
+      <li><a href="#format">Format</a></li>
 
+      <li><a href="#source">Source</a></li>
+          </ul>
+
+  </div>
 </div>
 
       <footer>

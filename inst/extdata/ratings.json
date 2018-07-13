@@ -1,0 +1,619 @@
+[
+  {
+    "series": 1,
+    "episode": 1,
+    "uk_airdate": "2010-08-17",
+    "viewers_7day": 2.24,
+    "viewers_28day": 7
+  },
+  {
+    "series": 1,
+    "episode": 2,
+    "uk_airdate": "2010-08-24",
+    "viewers_7day": 3,
+    "viewers_28day": 3
+  },
+  {
+    "series": 1,
+    "episode": 3,
+    "uk_airdate": "2010-08-31",
+    "viewers_7day": 3,
+    "viewers_28day": 2
+  },
+  {
+    "series": 1,
+    "episode": 4,
+    "uk_airdate": "2010-09-07",
+    "viewers_7day": 2.6,
+    "viewers_28day": 4
+  },
+  {
+    "series": 1,
+    "episode": 5,
+    "uk_airdate": "2010-09-14",
+    "viewers_7day": 3.03,
+    "viewers_28day": 1
+  },
+  {
+    "series": 1,
+    "episode": 6,
+    "uk_airdate": "2010-09-21",
+    "viewers_7day": 2.75,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 1,
+    "uk_airdate": "2011-08-16",
+    "viewers_7day": 3.1,
+    "viewers_28day": 2
+  },
+  {
+    "series": 2,
+    "episode": 2,
+    "uk_airdate": "2011-08-23",
+    "viewers_7day": 3.53,
+    "viewers_28day": 2
+  },
+  {
+    "series": 2,
+    "episode": 3,
+    "uk_airdate": "2011-08-30",
+    "viewers_7day": 3.82,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 4,
+    "uk_airdate": "2011-09-06",
+    "viewers_7day": 3.6,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 5,
+    "uk_airdate": "2011-09-13",
+    "viewers_7day": 3.83,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 6,
+    "uk_airdate": "2011-09-20",
+    "viewers_7day": 4.25,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 7,
+    "uk_airdate": "2011-09-27",
+    "viewers_7day": 4.42,
+    "viewers_28day": 1
+  },
+  {
+    "series": 2,
+    "episode": 8,
+    "uk_airdate": "2011-10-04",
+    "viewers_7day": 5.06,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 1,
+    "uk_airdate": "2012-08-14",
+    "viewers_7day": 3.85,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 2,
+    "uk_airdate": "2012-08-21",
+    "viewers_7day": 4.6,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 3,
+    "uk_airdate": "2012-08-28",
+    "viewers_7day": 4.53,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 4,
+    "uk_airdate": "2012-09-04",
+    "viewers_7day": 4.71,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 5,
+    "uk_airdate": "2012-09-11",
+    "viewers_7day": 4.61,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 6,
+    "uk_airdate": "2012-09-18",
+    "viewers_7day": 4.82,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 7,
+    "uk_airdate": "2012-09-25",
+    "viewers_7day": 5.1,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 8,
+    "uk_airdate": "2012-10-02",
+    "viewers_7day": 5.35,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 9,
+    "uk_airdate": "2012-10-09",
+    "viewers_7day": 5.7,
+    "viewers_28day": 1
+  },
+  {
+    "series": 3,
+    "episode": 10,
+    "uk_airdate": "2012-10-16",
+    "viewers_7day": 6.74,
+    "viewers_28day": 1
+  },
+  {
+    "series": 4,
+    "episode": 1,
+    "uk_airdate": "2013-08-20",
+    "viewers_7day": 6.6,
+    "viewers_28day": 1,
+    "network_rank": 11
+  },
+  {
+    "series": 4,
+    "episode": 2,
+    "uk_airdate": "2013-08-27",
+    "viewers_7day": 6.65,
+    "viewers_28day": 1,
+    "network_rank": 12
+  },
+  {
+    "series": 4,
+    "episode": 3,
+    "uk_airdate": "2013-09-03",
+    "viewers_7day": 7.17,
+    "viewers_28day": 1,
+    "network_rank": 13
+  },
+  {
+    "series": 4,
+    "episode": 4,
+    "uk_airdate": "2013-09-10",
+    "viewers_7day": 6.82,
+    "viewers_28day": 1,
+    "network_rank": 18
+  },
+  {
+    "series": 4,
+    "episode": 5,
+    "uk_airdate": "2013-09-17",
+    "viewers_7day": 6.95,
+    "viewers_28day": 1,
+    "network_rank": 17
+  },
+  {
+    "series": 4,
+    "episode": 6,
+    "uk_airdate": "2013-09-24",
+    "viewers_7day": 7.32,
+    "viewers_28day": 1,
+    "network_rank": 16
+  },
+  {
+    "series": 4,
+    "episode": 7,
+    "uk_airdate": "2013-10-01",
+    "viewers_7day": 7.76,
+    "viewers_28day": 1,
+    "network_rank": 13
+  },
+  {
+    "series": 4,
+    "episode": 8,
+    "uk_airdate": "2013-10-08",
+    "viewers_7day": 7.41,
+    "viewers_28day": 1,
+    "network_rank": 12
+  },
+  {
+    "series": 4,
+    "episode": 9,
+    "uk_airdate": "2013-10-15",
+    "viewers_7day": 7.41,
+    "viewers_28day": 1,
+    "network_rank": 18
+  },
+  {
+    "series": 4,
+    "episode": 10,
+    "uk_airdate": "2013-10-22",
+    "viewers_7day": 9.45,
+    "viewers_28day": 1,
+    "network_rank": 4
+  },
+  {
+    "series": 5,
+    "episode": 1,
+    "uk_airdate": "2014-08-06",
+    "viewers_7day": 8.51,
+    "viewers_28day": 1,
+    "network_rank": 1
+  },
+  {
+    "series": 5,
+    "episode": 2,
+    "uk_airdate": "2014-08-13",
+    "viewers_7day": 8.79,
+    "viewers_28day": 1,
+    "network_rank": 1
+  },
+  {
+    "series": 5,
+    "episode": 3,
+    "uk_airdate": "2014-08-20",
+    "viewers_7day": 9.28,
+    "viewers_28day": 1,
+    "network_rank": 1
+  },
+  {
+    "series": 5,
+    "episode": 4,
+    "uk_airdate": "2014-08-27",
+    "viewers_7day": 10.25,
+    "viewers_28day": 1,
+    "network_rank": 2
+  },
+  {
+    "series": 5,
+    "episode": 5,
+    "uk_airdate": "2014-09-03",
+    "viewers_7day": 9.95,
+    "viewers_28day": 1,
+    "network_rank": 2
+  },
+  {
+    "series": 5,
+    "episode": 6,
+    "uk_airdate": "2014-09-10",
+    "viewers_7day": 10.13,
+    "viewers_28day": 1,
+    "network_rank": 2
+  },
+  {
+    "series": 5,
+    "episode": 7,
+    "uk_airdate": "2014-09-17",
+    "viewers_7day": 10.28,
+    "viewers_28day": 1,
+    "network_rank": 2
+  },
+  {
+    "series": 5,
+    "episode": 8,
+    "uk_airdate": "2014-09-24",
+    "viewers_7day": 9.023,
+    "viewers_28day": 2,
+    "network_rank": 4
+  },
+  {
+    "series": 5,
+    "episode": 9,
+    "uk_airdate": "2014-10-01",
+    "viewers_7day": 10.67,
+    "viewers_28day": 1,
+    "network_rank": 1
+  },
+  {
+    "series": 5,
+    "episode": 10,
+    "uk_airdate": "2014-10-08",
+    "viewers_7day": 13.51,
+    "viewers_28day": 1,
+    "network_rank": 1
+  },
+  {
+    "series": 6,
+    "episode": 1,
+    "uk_airdate": "2015-08-05",
+    "viewers_7day": 11.62,
+    "viewers_28day": 11.73,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 2063000
+  },
+  {
+    "series": 6,
+    "episode": 2,
+    "uk_airdate": "2015-08-12",
+    "viewers_7day": 11.59,
+    "viewers_28day": 11.84,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1977000
+  },
+  {
+    "series": 6,
+    "episode": 3,
+    "uk_airdate": "2015-08-19",
+    "viewers_7day": 12.01,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1760000
+  },
+  {
+    "series": 6,
+    "episode": 4,
+    "uk_airdate": "2015-08-26",
+    "viewers_7day": 12.36,
+    "viewers_28day": 12.67,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1539000
+  },
+  {
+    "series": 6,
+    "episode": 5,
+    "uk_airdate": "2015-09-02",
+    "viewers_7day": 12.39,
+    "viewers_28day": 12.63,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1930000
+  },
+  {
+    "series": 6,
+    "episode": 6,
+    "uk_airdate": "2015-09-09",
+    "viewers_7day": 12,
+    "viewers_28day": 12.26,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1869000
+  },
+  {
+    "series": 6,
+    "episode": 7,
+    "uk_airdate": "2015-09-16",
+    "viewers_7day": 12.35,
+    "viewers_28day": 12.58,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1841000
+  },
+  {
+    "series": 6,
+    "episode": 8,
+    "uk_airdate": "2015-09-23",
+    "viewers_7day": 11.09,
+    "viewers_28day": 11.35,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1748000
+  },
+  {
+    "series": 6,
+    "episode": 9,
+    "uk_airdate": "2015-09-30",
+    "viewers_7day": 12.65,
+    "viewers_28day": 12.78,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1370000
+  },
+  {
+    "series": 6,
+    "episode": 10,
+    "uk_airdate": "2015-10-07",
+    "viewers_7day": 15.05,
+    "viewers_28day": 15.16,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1619000
+  },
+  {
+    "series": 7,
+    "episode": 1,
+    "uk_airdate": "2016-08-24",
+    "viewers_7day": 13.58,
+    "viewers_28day": 13.86,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1989000
+  },
+  {
+    "series": 7,
+    "episode": 2,
+    "uk_airdate": "2016-08-31",
+    "viewers_7day": 13.45,
+    "viewers_28day": 13.74,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1949000
+  },
+  {
+    "series": 7,
+    "episode": 3,
+    "uk_airdate": "2016-09-07",
+    "viewers_7day": 13.01,
+    "viewers_28day": 13.38,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 2314000
+  },
+  {
+    "series": 7,
+    "episode": 4,
+    "uk_airdate": "2016-09-14",
+    "viewers_7day": 13.29,
+    "viewers_28day": 13.88,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 2291000
+  },
+  {
+    "series": 7,
+    "episode": 5,
+    "uk_airdate": "2016-09-21",
+    "viewers_7day": 13.12,
+    "viewers_28day": 13.33,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1984000
+  },
+  {
+    "series": 7,
+    "episode": 6,
+    "uk_airdate": "2016-09-28",
+    "viewers_7day": 13.13,
+    "viewers_28day": 13.41,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1397000
+  },
+  {
+    "series": 7,
+    "episode": 7,
+    "uk_airdate": "2016-10-05",
+    "viewers_7day": 13.45,
+    "viewers_28day": 13.72,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 2154000
+  },
+  {
+    "series": 7,
+    "episode": 8,
+    "uk_airdate": "2016-10-12",
+    "viewers_7day": 13.26,
+    "viewers_28day": 13.45,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1957000
+  },
+  {
+    "series": 7,
+    "episode": 9,
+    "uk_airdate": "2016-10-19",
+    "viewers_7day": 13.44,
+    "viewers_28day": 13.65,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1901000
+  },
+  {
+    "series": 7,
+    "episode": 10,
+    "uk_airdate": "2016-10-26",
+    "viewers_7day": 15.9,
+    "viewers_28day": 16.03,
+    "network_rank": 1,
+    "channels_rank": 1,
+    "bbc_iplayer_requests": 1602000
+  },
+  {
+    "series": 8,
+    "episode": 1,
+    "uk_airdate": "2017-08-29",
+    "viewers_7day": 9.46,
+    "viewers_28day": 9.72,
+    "network_rank": 1,
+    "channels_rank": 1
+  },
+  {
+    "series": 8,
+    "episode": 2,
+    "uk_airdate": "2017-09-05",
+    "viewers_7day": 9.23,
+    "viewers_28day": 9.53,
+    "network_rank": 1,
+    "channels_rank": 2
+  },
+  {
+    "series": 8,
+    "episode": 3,
+    "uk_airdate": "2017-09-12",
+    "viewers_7day": 8.68,
+    "viewers_28day": 9.06,
+    "network_rank": 1,
+    "channels_rank": 2
+  },
+  {
+    "series": 8,
+    "episode": 4,
+    "uk_airdate": "2017-09-19",
+    "viewers_7day": 8.55,
+    "viewers_28day": 8.87,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 8,
+    "episode": 5,
+    "uk_airdate": "2017-09-26",
+    "viewers_7day": 8.61,
+    "viewers_28day": 8.98,
+    "network_rank": 1,
+    "channels_rank": 4
+  },
+  {
+    "series": 8,
+    "episode": 6,
+    "uk_airdate": "2017-10-03",
+    "viewers_7day": 8.61,
+    "viewers_28day": 8.91,
+    "network_rank": 1,
+    "channels_rank": 4
+  },
+  {
+    "series": 8,
+    "episode": 7,
+    "uk_airdate": "2017-10-10",
+    "viewers_7day": 9.01,
+    "viewers_28day": 9.32,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 8,
+    "episode": 8,
+    "uk_airdate": "2017-10-17",
+    "viewers_7day": 8.95,
+    "viewers_28day": 9.19,
+    "network_rank": 1,
+    "channels_rank": 4
+  },
+  {
+    "series": 8,
+    "episode": 9,
+    "uk_airdate": "2017-10-24",
+    "viewers_7day": 9.03,
+    "viewers_28day": 9.16,
+    "network_rank": 1,
+    "channels_rank": 4
+  },
+  {
+    "series": 8,
+    "episode": 10,
+    "uk_airdate": "2017-10-31",
+    "viewers_7day": 10.04,
+    "viewers_28day": 10.13,
+    "network_rank": 1,
+    "channels_rank": 4
+  }
+]

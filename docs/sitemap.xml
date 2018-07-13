@@ -4,15 +4,27 @@
     <loc>https://bakeoff.netlify.com/index.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakeoff-package.html</loc>
-  </url>
-  <url>
     <loc>https://bakeoff.netlify.com/reference/bakeoff.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.com/reference/bakes.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/ratings.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/results.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/series.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.com/articles/bakeoffs-abroad.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/articles/working-with-lists.html</loc>
   </url>
 </urlset>

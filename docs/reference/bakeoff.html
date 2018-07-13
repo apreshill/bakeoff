@@ -6,10 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>An R package that provides access to the code and data about "The Great British Bake-Off"
-series, episodes, and  bakers that is publicly available on Wikipedia
-<a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off</a>.
-Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>https://github.com/apreshill/bakeoff</a>. — bakeoff • bakeoff</title>
+<title>bakeoff: Data Behind the Tent at 'The Great British Bake Off' — bakeoff • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -33,13 +30,10 @@ Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>htt
 
 
 
-<meta property="og:title" content="An R package that provides access to the code and data about "The Great British Bake-Off"
-series, episodes, and  bakers that is publicly available on Wikipedia
-<a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off</a>.
-Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>https://github.com/apreshill/bakeoff</a>. — bakeoff" />
+<meta property="og:title" content="bakeoff: Data Behind the Tent at 'The Great British Bake Off' — bakeoff" />
 
-<meta property="og:description" content="An R package that provides access to the code and data about &quot;The Great British Bake-Off&quot;
-series, episodes, and  bakers that is publicly available on Wikipedia
+<meta property="og:description" content="An R package that provides access to data
+from 'The Great British Bake Off', as available on Wikipedia
 https://en.wikipedia.org/wiki/The_Great_British_Bake_Off.
 Contribute to this package at https://github.com/apreshill/bakeoff." />
 <meta name="twitter:card" content="summary" />
@@ -95,6 +89,9 @@ Contribute to this package at https://github.com/apreshill/bakeoff." />
     <li>
       <a href="../articles/bakeoffs-abroad.html">Vignette Title</a>
     </li>
+    <li>
+      <a href="../articles/working-with-lists.html">Working with Lists</a>
+    </li>
   </ul>
 </li>
 <li>
@@ -121,18 +118,15 @@ Contribute to this package at https://github.com/apreshill/bakeoff." />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>An R package that provides access to the code and data about "The Great British Bake-Off"
-series, episodes, and  bakers that is publicly available on Wikipedia
-<a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off</a>.
-Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>https://github.com/apreshill/bakeoff</a>.</h1>
+    <h1>bakeoff: Data Behind the Tent at 'The Great British Bake Off'</h1>
     <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/bakeoff-package.R'><code>R/bakeoff-package.R</code></a></small>
     <div class="hidden name"><code>bakeoff.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>An R package that provides access to the code and data about "The Great British Bake-Off"
-series, episodes, and  bakers that is publicly available on Wikipedia
+    <p>An R package that provides access to data
+from 'The Great British Bake Off', as available on Wikipedia
 <a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off</a>.
 Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>https://github.com/apreshill/bakeoff</a>.</p>
     
@@ -143,15 +137,15 @@ Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>htt
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='co'># Example usage:</span>
 <span class='fu'>library</span>(<span class='no'>bakeoff</span>)
-<span class='fu'>head</span>(<span class='no'>bakers</span>)</div><div class='output co'>#&gt; # A tibble: 6 x 8
-#&gt;   series baker_full   baker   age occupation   hometown  baker_last baker_first
-#&gt;    &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt; &lt;dbl&gt; &lt;chr&gt;        &lt;chr&gt;     &lt;chr&gt;      &lt;chr&gt;      
-#&gt; 1     1. Annetha Mil… Anne…   30. Single moth… Essex     Mills      Annetha    
-#&gt; 2     1. David Chamb… David   31. Entrepreneur Milton K… Chambers   David      
-#&gt; 3     1. "Edward \"E… Edd     24. Debt collec… Bradford  Kimber     Edward     
-#&gt; 4     1. Jasminder R… Jasm…   45. Assistant C… Birmingh… Randhawa   Jasminder  
-#&gt; 5     1. Jonathan Sh… Jona…   25. Research An… St Albans Shepherd   Jonathan   
-#&gt; 6     1. Lea Harris   Lea     51. Retired      Midlothi… Harris     Lea        </div><div class='input'>
+<span class='fu'>head</span>(<span class='no'>bakers</span>)</div><div class='output co'>#&gt; # A tibble: 6 x 5
+#&gt;   series baker_full                age occupation               hometown       
+#&gt;    &lt;dbl&gt; &lt;chr&gt;                   &lt;dbl&gt; &lt;chr&gt;                    &lt;chr&gt;          
+#&gt; 1     1. Annetha Mills             30. Single mother            Essex          
+#&gt; 2     1. David Chambers            31. Entrepreneur             Milton Keynes  
+#&gt; 3     1. "Edward \"Edd\" Kimber"   24. Debt collector for York… Bradford       
+#&gt; 4     1. Jasminder Randhawa        45. Assistant Credit Contro… Birmingham     
+#&gt; 5     1. Jonathan Shepherd         25. Research Analyst         St Albans      
+#&gt; 6     1. Lea Harris                51. Retired                  Midlothian, Sc…</div><div class='input'>
 <span class='co'># All information about any data set can be found in the help file:</span>
 ?<span class='no'>bakers</span></div><div class='output co'>#&gt; <span class='message'>Using development documentation for bakers</span></div><div class='input'>
 <span class='co'># To view a list of all data sets:</span>

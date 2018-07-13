@@ -2,7 +2,7 @@
 #'
 #' Bakers across all GBBO series
 #'
-#' @format A data frame with 95 rows representing individual bakers and 5 variables:
+#' @format A data frame with 95 rows representing individual bakers and 8 variables:
 #' \describe{
 #'   \item{series}{an integer denoting UK series (1-8)}
 #'   \item{baker_full}{a character string giving full name}

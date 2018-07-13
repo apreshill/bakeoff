@@ -1,8 +1,7 @@
-#' @keywords internal
-"_PACKAGE"
-
-#' An R package that provides access to the code and data about "The Great British Bake-Off"
-#' series, episodes, and  bakers that is publicly available on Wikipedia
+#' bakeoff: Data Behind the Tent at 'The Great British Bake Off'
+#'
+#' An R package that provides access to data
+#' from 'The Great British Bake Off', as available on Wikipedia
 #' \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}.
 #' Contribute to this package at \url{https://github.com/apreshill/bakeoff}.
 #'
