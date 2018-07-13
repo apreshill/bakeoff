@@ -10,3 +10,19 @@ template:
   params:
     bootswatch: flatly
     type: inverse
+
+reference:
+  - title: "Data sets"
+    desc: >
+      Data sets available in the package as tibbles
+    contents:
+      - bakers
+      - bakes
+      - ratings
+      - results
+      - series
+  - title: "The package"
+    desc: >
+      More information on the package itself
+    contents:
+      - bakeoff-package
