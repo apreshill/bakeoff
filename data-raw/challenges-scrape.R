@@ -1,4 +1,4 @@
-## this script scrapes data about the bakes across each GBBO series
+## this script scrapes data about the challenges across each GBBO series
 ## and exports the list to a json + the data frame to a csv
 library(rvest)
 library(purrr)
@@ -6,14 +6,14 @@ library(dplyr)
 library(tidyr)
 library(readr)
 library(jsonlite)
-library(listviewer)
+# library(listviewer)
 
 url_base <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_%d)"
 max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10) + 3
 new_colnames <- c("baker", "signature", "technical", "showstopper")
 
-## function to get bakes across series
-get_bakes <- function(series, max_episodes) {
+## function to get challenges across series
+get_challenges <- function(series, max_episodes) {
   ## progress indicator
   cat(c("on your mark...","get set...", "BAKE!", sep = " "))
   pages <- read_html(sprintf(url_base, series))
@@ -26,45 +26,47 @@ get_bakes <- function(series, max_episodes) {
 }
 
 ## bind them all together in one list
-bakes <- map2(.x = 1:8, .y = max_episodes, .f = get_bakes)
+challenges <- map2(.x = 1:8, .y = max_episodes, .f = get_challenges)
 
 ## export list objects to json
 ## auto_unbox = TRUE in order to make this JSON as close as possible to the JSON
 ## null = "null" is necessary for roundtrips to work:
 ## list --> JSON --> original list
-bakes %>%
+challenges %>%
   toJSON(pretty = TRUE, auto_unbox = TRUE, null = "null") %>%
-  writeLines(here::here("inst", "extdata", "bakes.json"))
+  writeLines(here::here("inst", "extdata", "challenges.json"))
 
-## work now with the bakes list
+## work now with the challenges list
 ## make into a dataframe
 ## this counts each episode cumulatively, not by series
-bakes_df <- flatten_df(bakes, .id = "episode_count") %>%
+challenges_df <- flatten_df(challenges, .id = "episode_count") %>%
   mutate(episode_count = as.integer(episode_count))
 
 ## make episode counts by series, not cumulative
 ## also parse technical ranks to actual numbers
-bakes_df <- bakes_df %>%
+challenges_df <- challenges_df %>%
   arrange(series, episode_count, baker) %>%
   group_by(series, baker) %>%
   mutate(episode = row_number()) %>%
   select(series, episode, baker, everything(), -episode_count) %>%
   ungroup() %>%
   mutate(baker = ifelse(series == 2 & baker == "Jo", "Joanne", baker)) %>%
+  mutate_all(., funs(na_if(., "UNKNOWN"))) %>%
+  mutate_all(funs(na_if(., "N/A"))) %>%
   mutate(technical = parse_number(technical))
 
 ## dataframe to csv
-write_csv(bakes_df, here::here("data-raw", "bakes.csv"))
+write_csv(challenges_df, here::here("data-raw", "challenges.csv"))
 
-bakes_df %>%
+challenges_df %>%
   split(.$series, .$episode) %>%
   toJSON(pretty = TRUE, auto_unbox = TRUE, null = "null") %>%
-  writeLines(here::here("inst", "extdata", "bakes.json"))
+  writeLines(here::here("inst", "extdata", "challenges.json"))
 
-## listviewer::jsonedit(bakes, mode = "view")
+## listviewer::jsonedit(challenges, mode = "view")
 ## all.equal(), identical() and diffObj() say these objects are all the same
 # library(diffobj)
-# bakes_json <- fromJSON(here::here("inst", "extdata", "bakes.json"))
-# diffObj(bakes, bakes_json)
-# identical(bakes, bakes_json)
-# all.equal(bakes, fromJSON(toJSON(bakes)))
+# challenges_json <- fromJSON(here::here("inst", "extdata", "challenges.json"))
+# diffObj(challenges, challenges_json)
+# identical(challenges, challenges_json)
+# all.equal(challenges, fromJSON(toJSON(challenges)))

@@ -10,13 +10,22 @@
     <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakes.html</loc>
+    <loc>https://bakeoff.netlify.com/reference/challenge_results.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/challenges.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/ratings.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.com/reference/ratings_seasons.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.com/reference/results.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/seasons.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/series.html</loc>

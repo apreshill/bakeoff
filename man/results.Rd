@@ -3,7 +3,7 @@
 \docType{data}
 \name{results}
 \alias{results}
-\title{Results}
+\title{Each baker's fate, by episode}
 \format{A data frame with 886 rows representing individual bakers per episode and 4 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-8)}
@@ -12,7 +12,7 @@
 \item{result}{a character string denoting if the baker was \code{IN}, \code{OUT}, \code{STAR BAKER}, or \code{SICK} for a given episode. For finale episodes, values are either \code{WINNER} or \code{RUNNER-UP}. If \code{NA}, baker did not appear in episode.}
 }}
 \source{
-See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Results_summary}, for example, for series 1 results summary.
 }
 \usage{
 results

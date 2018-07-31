@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Overview of each series aired in the UK — series • bakeoff</title>
+<title>Seasons and airdates for the US version called 'The Great British Baking Show' — seasons • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
@@ -30,9 +30,9 @@
 
 
 
-<meta property="og:title" content="Overview of each series aired in the UK — series" />
+<meta property="og:title" content="Seasons and airdates for the US version called 'The Great British Baking Show' — seasons" />
 
-<meta property="og:description" content="Metadata for all GBBO series" />
+<meta property="og:description" content="US seasons and airdates for all GBBO series/episodes" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -115,38 +115,31 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Overview of each series aired in the UK</h1>
-    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/series.R'><code>R/series.R</code></a></small>
-    <div class="hidden name"><code>series.Rd</code></div>
+    <h1>Seasons and airdates for the US version called 'The Great British Baking Show'</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/seasons.R'><code>R/seasons.R</code></a></small>
+    <div class="hidden name"><code>seasons.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>Metadata for all GBBO series</p>
+    <p>US seasons and airdates for all GBBO series/episodes</p>
     
     </div>
 
-    <pre class="usage"><span class='no'>series</span></pre>
+    <pre class="usage"><span class='no'>seasons</span></pre>
         
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>A data frame with 8 rows representing individual series and 11 variables:</p><dl class='dl-horizontal'>
 <dt>series</dt><dd><p>an integer denoting UK series (1-8)</p></dd>
 <dt>episodes</dt><dd><p>an integer denoting total number of episodes within series</p></dd>
-<dt>premiere</dt><dd><p>a date denoting original airdate of series premiere episode in the UK</p></dd>
-<dt>finale</dt><dd><p>a date denoting original airdate of series finale episode in the UK</p></dd>
-<dt>winner</dt><dd><p>a character string denoting name of series winner</p></dd>
-<dt>avg_uk_viewers</dt><dd><p>average UK viewers in millions; also see <code>ratings</code></p></dd>
-<dt>day_of_week</dt><dd><p>a character string denoting weekday that series' episodes aired in UK</p></dd>
-<dt>timeslot</dt><dd><p>time of day that series' episodes aired in UK (24-hour clock)</p></dd>
-<dt>channel</dt><dd><p>a character string denoting channel that series aired on: one of <code>BBC One</code>, <code>BBC Two</code>, or <code>Channel 4</code></p></dd>
-<dt>runner_up_1</dt><dd><p>a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful</p></dd>
-<dt>runner_up_2</dt><dd><p>a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful</p></dd>
+<dt>us_season</dt><dd><p>an integer denoting US season (1-5)</p></dd>
+<dt>us_airdate</dt><dd><p>a date denoting original airdate of episode in the US, according to <a href='http://www.pbs.org/food/shows/great-british-baking-show/'>pbs.org</a></p></dd>
 </dl>
     
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
-    <p>See <a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview</a></p>
+    <p>US airdates manually recorded from <a href='http://www.pbs.org/food/shows/great-british-baking-show/'>http://www.pbs.org/food/shows/great-british-baking-show/</a></p>
     
 
   </div>

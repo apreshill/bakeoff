@@ -1,7 +1,7 @@
 Package: bakeoff
 Version: 0.1.0.9000
 Title: Data from "The Great British Bake Off"
-Description: Data about the bakers, bakes, and ratings for "The Great British Bake Off", from Wikipedia.
+Description: Data about the bakers, challenges, and ratings for "The Great British Bake Off", from Wikipedia.
 Authors@R: c(
   person("Alison", "Hill", 
           email = "apresstats@gmail.com", 

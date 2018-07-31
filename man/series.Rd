@@ -3,7 +3,7 @@
 \docType{data}
 \name{series}
 \alias{series}
-\title{Series}
+\title{Overview of each series aired in the UK}
 \format{A data frame with 8 rows representing individual series and 11 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-8)}
@@ -19,7 +19,7 @@
 \item{runner_up_2}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 }}
 \source{
-See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
 }
 \usage{
 series

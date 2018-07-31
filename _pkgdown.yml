@@ -9,18 +9,26 @@ authors:
 template:
   params:
     bootswatch: flatly
-    type: inverse
 
 reference:
-  - title: "Data sets"
+  - title: "Joined tibbles"
     desc: >
-      Data sets available in the package as tibbles
+      Tame and tidy data resulting from joining simple tibbles (below), based on shared units of observation.
+    contents:
+      - challenge_results
+      - ratings_seasons
+  - title: "Simple tibbles"
+    desc: >
+      Tibbles with data from [Wikipedia](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
+      followed by minimal taming using the [`fivethirtyeight` R data package guidelines](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines).
+      All variable types are cast properly, all tibbles are in tidy format, and all variable names are in `snake_case`.
     contents:
       - bakers
-      - bakes
+      - challenges
       - ratings
       - results
       - series
+      - seasons
   - title: "The package"
     desc: >
       More information on the package itself

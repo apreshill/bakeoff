@@ -126,8 +126,28 @@
     <tbody>
       <tr>
         <th colspan="2">
-          <h2 id="section-data-sets" class="hasAnchor"><a href="#section-data-sets" class="anchor"></a>Data sets</h2>
-          <p class="section-desc"><p>Data sets available in the package as tibbles</p></p>
+          <h2 id="section-joined-tibbles" class="hasAnchor"><a href="#section-joined-tibbles" class="anchor"></a>Joined tibbles</h2>
+          <p class="section-desc"><p>Tame and tidy data resulting from joining simple tibbles (below), based on shared units of observation.</p></p>
+        </th>
+      </tr>
+      <tr>
+        
+        <td>
+          <p><code><a href="challenge_results.html">challenge_results</a></code> </p>
+        </td>
+        <td><p>Each baker's signature, technical, and showstopper challenges, plus their fate, by episode</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="ratings_seasons.html">ratings_seasons</a></code> </p>
+        </td>
+        <td><p>Each episode's ratings plus original airdates in the UK (by series) and US (by season)</p></td>
+      </tr>
+    </tbody><tbody>
+      <tr>
+        <th colspan="2">
+          <h2 id="section-simple-tibbles" class="hasAnchor"><a href="#section-simple-tibbles" class="anchor"></a>Simple tibbles</h2>
+          <p class="section-desc"><p>Tibbles with data from <a href="https://en.wikipedia.org/wiki/The_Great_British_Bake_Off">Wikipedia</a>, followed by minimal taming using the <a href="https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines"><code>fivethirtyeight</code> R data package guidelines</a>. All variable types are cast properly, all tibbles are in tidy format, and all variable names are in <code>snake_case</code>.</p></p>
         </th>
       </tr>
       <tr>
@@ -135,31 +155,37 @@
         <td>
           <p><code><a href="bakers.html">bakers</a></code> </p>
         </td>
-        <td><p>Bakers</p></td>
+        <td><p>Each baker's name, age, occupation, and hometown</p></td>
       </tr><tr>
         
         <td>
-          <p><code><a href="bakes.html">bakes</a></code> </p>
+          <p><code><a href="challenges.html">challenges</a></code> </p>
         </td>
-        <td><p>Bakes</p></td>
+        <td><p>Each baker's signature, technical, and showstopper challenges, by episode</p></td>
       </tr><tr>
         
         <td>
           <p><code><a href="ratings.html">ratings</a></code> </p>
         </td>
-        <td><p>Ratings</p></td>
+        <td><p>Each episode's ratings</p></td>
       </tr><tr>
         
         <td>
           <p><code><a href="results.html">results</a></code> </p>
         </td>
-        <td><p>Results</p></td>
+        <td><p>Each baker's fate, by episode</p></td>
       </tr><tr>
         
         <td>
           <p><code><a href="series.html">series</a></code> </p>
         </td>
-        <td><p>Series</p></td>
+        <td><p>Overview of each series aired in the UK</p></td>
+      </tr><tr>
+        
+        <td>
+          <p><code><a href="seasons.html">seasons</a></code> </p>
+        </td>
+        <td><p>Seasons and airdates for the US version called 'The Great British Baking Show'</p></td>
       </tr>
     </tbody><tbody>
       <tr>
@@ -182,7 +208,8 @@
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#section-data-sets">Data sets</a></li>
+      <li><a href="#section-joined-tibbles">Joined tibbles</a></li>
+      <li><a href="#section-simple-tibbles">Simple tibbles</a></li>
       <li><a href="#section-the-package">The package</a></li>
     </ul>
   </div>

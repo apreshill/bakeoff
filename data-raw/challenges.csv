@@ -1,8 +1,8 @@
 series,episode,baker,signature,technical,showstopper
 1,1,Annetha,Light Jamaican Black Cakewith Strawberries and Cream,2,"Red, White & Blue Chocolate Cake with Cigarellos, Fresh Fruit, and Cream"
 1,1,David,Chocolate Orange Cake,3,"Black Forest Floor Gateauxwith Moulded Chocolate Leaves, Fallen Fruitand Chocolate Mushrooms Moulded from eggs"
-1,1,Edd,Caramel Cinnamon and Banana Cake,1,N/A
-1,1,Jasminder,Fresh Mango and Passion Fruit Hummingbird Cake,NA,N/A
+1,1,Edd,Caramel Cinnamon and Banana Cake,1,NA
+1,1,Jasminder,Fresh Mango and Passion Fruit Hummingbird Cake,NA,NA
 1,1,Jonathan,Carrot Cake with Lime and Cream Cheese Icing,9,Three Tiered White and Dark Chocolate with Almond and Cherry
 1,1,Lea,Cranberry and Pistachio Cakewith Orange Flower Water Icing,10,Raspberries and Cream filled Chocolatewith Chocolate-dipped Fresh Fruit
 1,1,Louise,Carrot and Orange Cake,NA,"Never Fail Chocolate Sponge Cake,with Fresh Fruit, White & Chocolate Cigarello Border"
@@ -52,20 +52,20 @@ Cranberry Bagels"
 24 Vanilla and Lemon Choux Buns
 24 Finger Sandwiches"
 2,1,Ben,Rhubarb and Custard CupcakesAfter Dinner Cupcakes,2,Vanilla Sponge with White Chocolate and Raspberry Buttercream
-2,1,Holly,Cherry Bakewell Inspired CupcakesGinger Cupcakes with Fig Truffle,1,UNKNOWN
-2,1,Ian,Apple and Cinnamon Cupcakes,10,UNKNOWN
+2,1,Holly,Cherry Bakewell Inspired CupcakesGinger Cupcakes with Fig Truffle,1,NA
+2,1,Ian,Apple and Cinnamon Cupcakes,10,NA
 2,1,Janet,Raspberry and Cream Cupcakes,8,Chocolate Marble Cakewith Dark and White Chocolate Truffles
-2,1,Jason,Lemon Meringue CupcakesApple and Cinnamon Cupcakes,6,UNKNOWN
+2,1,Jason,Lemon Meringue CupcakesApple and Cinnamon Cupcakes,6,NA
 2,1,Joanne,Chocolate Orange CupcakesOrange and Cardamom Cupcakes,11,Chocolate and Strawberry Cake
 2,1,Keith,Earl Grey Cupcakes,12,Chocolate and Sour Cream Cake
 2,1,Mary-Anne,Banoffee Cupcakes,4,Chocolate and Raspberry Opera cake
 2,1,Robert,Blackberry and Vanilla Cupcakeswith Liquorice Frosting,3,Genoise Layered Mousse Cakewith Chocolate Ganache
 2,1,Simon,Guinness and Chocolate Cupcakes,9,Two-Tiered Chocolate Courgette Cake
-2,1,Urvashi,Cherry Blossom CupcakesJapanese Lime Cupcakes,7,UNKNOWN
-2,1,Yasmin,Cardamom and Pomegranate Cupcakes,5,UNKNOWN
+2,1,Urvashi,Cherry Blossom CupcakesJapanese Lime Cupcakes,7,NA
+2,1,Yasmin,Cardamom and Pomegranate Cupcakes,5,NA
 2,2,Ben,"Chorizo, Pepper and Gruyere Quiche",1,Lemon Meringue Tarts
 2,2,Holly,Pesto Quiche,4,Milk Chocolate and Pistachio TartsTrifle Tarts
-2,2,Ian,"Stilton, Spinach and New Potato Quichewith Paprika and Walnut Pastry",2,UNKNOWN
+2,2,Ian,"Stilton, Spinach and New Potato Quichewith Paprika and Walnut Pastry",2,NA
 2,2,Janet,Quiche Printanière,8,Red Fruit TartsChocolate and Cherry Tarts
 2,2,Jason,Salmon and Pak Choi Quiche,3,Mint Chocolate Tarts Blueberry Bakewell Tarts
 2,2,Joanne,"Caramelised Onion, Gruyere and Thyme Quiche",10,Raspberry and Mascarpone Tarts with Lemon and Almond PastryHoney and Almond Tarts with Sweetcrust
@@ -74,12 +74,12 @@ Cranberry Bagels"
 2,2,Simon,Smoked Haddock and Watercress Quiche,11,"Passion Fruit and Ricotta TartsSalted Chocolate, Stem Ginger and Mascarpone Cream Tarts"
 2,2,Urvashi,"Crab, Coriander and Coconut Quiche",7,Strawberry and Basil TartsElderflower and Honeycomb Tarts
 2,2,Yasmin,Smoked Haddock and Watercress Quiche,6,Chocolate and Orange with Cinnamon-Orange Pastry TartsBlueberry and Hazelnut with Hazelnut Pastry Tarts
-2,3,Ben,"Walnut, Raisin and Rosemary Loaf",3,UNKNOWN
+2,3,Ben,"Walnut, Raisin and Rosemary Loaf",3,NA
 2,3,Holly,Picnic Loaf,6,Stilton and Walnut Rolls
 2,3,Ian,"Courgette, Caerphilly Cheese and Thyme Loaf",10,Walnut and Raisin RollsCracked Wheat Logs
 2,3,Janet,Zupfe Loaf with Gruyère Cheese,8,Apple and Walnut Granary Rolls Red Onion Cottage Rolls
-2,3,Jason,Cheese and Onion Tear and Share Loaf,7,UNKNOWN
-2,3,Joanne,"Stromboli flavored with Mozzarella, Ham, and Picante Pepper",1,UNKNOWN
+2,3,Jason,Cheese and Onion Tear and Share Loaf,7,NA
+2,3,Joanne,"Stromboli flavored with Mozzarella, Ham, and Picante Pepper",1,NA
 2,3,Mary-Anne,Ploughman's Loaf,5,Herb and Walnut BreadsChocolate and Chilli Buns
 2,3,Robert,Rye and Coriander Seed Loaf,4,Blueberry Brioche RollsLemon and Poppy Seed Rolls
 2,3,Urvashi,Salt and Peppercorn Loaf,9,Chilli and Halloumi RollsLemon and Coriander Mini Loaves
@@ -116,9 +116,9 @@ Almond Macarons"
 2,8,Holly,Banoffee Inspired Mille Feuille,2,Strawberry and Cream Meringue NestGooseberry and Elderflower 'Bakewell' TartsNeapolitan Ice-Cream Sandwich
 2,8,Joanne,Raspberry and Blueberry Mille Feuille,1,"Mini Victoria SandwichesRaspberry, White Chocolate and Pistachio Mini MeringuesMini Banoffee Pie with Banana Mousse"
 2,8,Mary-Anne,Lemon and Ginger Mille Feuille,3,Fruit Tarts with Elderflower CustardStrawberry and Rhubarb CheesecakesBlack Fruit Meringue with Everlasting Syllabub
-3,1,Brendan,"Plum, Sour Cherry & Walnut",10,UNKNOWN
+3,1,Brendan,"Plum, Sour Cherry & Walnut",10,NA
 3,1,Cathryn,"Apple, Hazelnut and Calvados",5,Hidden Cupcake Cake
-3,1,Danny,"Plum, Ginger & Orange",7,UNKNOWN
+3,1,Danny,"Plum, Ginger & Orange",7,NA
 3,1,James,"Parsnip, Pear, and Pecan",2,"""Simmer Dim"" Sunset Cake"
 3,1,John,"Toffee Apple, Orange & Cranberry",11,Hidden Pink Hearts Cake
 3,1,Manisha,"Vanilla, Peach and Raspberry",6,White Chocolate Cake with a Red Velvet and White Chocolate Mousse Heart
@@ -132,17 +132,17 @@ Almond Macarons"
 Cumin and Gruyere Bagels"
 3,2,Cathryn,"Spiced Mango NaanLime, Coriander and Chilli Tortillas",8,"Cranberry and Orange Bagels
 Chipotle, Chili, and Smoked Cheddar Bagels"
-3,2,Danny,Lime Coriander and Coconut TortillasZaatar Naan with Dukkah,3,UNKNOWN
+3,2,Danny,Lime Coriander and Coconut TortillasZaatar Naan with Dukkah,3,NA
 3,2,James,"Tomato, Garlic, and Parmesan FlatbreadsTattie Scones",2,"Orange, Mint and Chocolate Bagels
 'Millers' Sourdough Bagels"
 3,2,John,"Coriander and Chilli RotisGarlic, Pomegranate and Potato Pitas",1,"Fig, Walnut and Gruyere Bagels
 Blueberry and White Chocolate Bagels"
-3,2,Manisha,Indian FlatbreadsItalian Flatbreads,6,UNKNOWN
+3,2,Manisha,Indian FlatbreadsItalian Flatbreads,6,NA
 3,2,Peter,Fennel and Nigella Seed NaanBannock Bread,11,"Rosemary and Sea Salt Bagels
 Apple and Cinnamon Bagels"
 3,2,Ryan,Shanghai Spring Onion FlatbreadsGarlic and Coriander Naan,5,"Cinnamon and Date Bagels
 Tarragon and Rosemary Bagels"
-3,2,Sarah-Jane,Toasted Coconut and Lime RotisOatcakes,10,UNKNOWN
+3,2,Sarah-Jane,Toasted Coconut and Lime RotisOatcakes,10,NA
 3,2,Stuart,Bombay BreadChorizo and Spring Onion Naan,9,"Cinnamon and Cranberry Bagels
 Tomato and Thyme Bagels"
 3,2,Victoria,Coriander and Lemon NaanGarlic and Parsnip Chapatis,7,"Saffron and Golden Raisin Bagels
@@ -153,7 +153,7 @@ Porcini Bagels"
 3,3,James,Apple and Lavender Tarte Tatin,1,"Rose, Lychee and Raspberry Fruit Tart"
 3,3,John,Apple and Vanilla Tarte Tatin with Walnut Praline,6,"Berries, Grapes, Pomegranate, and Dragon Fruit Tart"
 3,3,Manisha,"Cinnamon, Apple and Pear Tarte Tatin",10,Rum and Tropical Fruit Tart
-3,3,Ryan,Spiced Pear Tarte Tatin,5,UNKNOWN
+3,3,Ryan,Spiced Pear Tarte Tatin,5,NA
 3,3,Sarah-Jane,Caramelised Banana Tarte Tatin,8,French Apple Tart with Blackberry and Cassis Jam
 3,3,Stuart,Pear and Almond Tarte Tatin,7,Raspberry Triple Chocolate Layered Tart
 3,3,Victoria,"Fig, Walnut and Pink Peppercorn Tarte Tatin",4,Tropical Fruit Tart with Black Pepper Crust

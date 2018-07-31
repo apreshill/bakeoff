@@ -1,4 +1,4 @@
-#' Bakers
+#' Each baker's name, age, occupation, and hometown
 #'
 #' Bakers across all GBBO series
 #'
@@ -13,5 +13,5 @@
 #'   \item{baker_last}{a character string giving family name}
 #'   \item{baker_first}{a character string giving given name}
 #' }
-#' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+#' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers}, for example, for series 1 bakers.
 "bakers"

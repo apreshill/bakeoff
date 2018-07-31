@@ -23,7 +23,9 @@ get_names <- function(series, max_episodes) {
 }
 
 challenge_names <- map2(.x = 1:8, .y = max_episodes, .f = get_names)
-map_chr(challenge_names, 1)
+
+
+names_df <- map_df(challenge_names, bind_rows, .id = 'series')
 
 ## export list objects to json
 ## auto_unbox = TRUE in order to make this JSON as close as possible to the JSON

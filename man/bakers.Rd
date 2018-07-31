@@ -3,7 +3,7 @@
 \docType{data}
 \name{bakers}
 \alias{bakers}
-\title{Bakers}
+\title{Each baker's name, age, occupation, and hometown}
 \format{A data frame with 95 rows representing individual bakers and 8 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-8)}
@@ -16,7 +16,7 @@
 \item{baker_first}{a character string giving given name}
 }}
 \source{
-See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers}, for example, for series 1 bakers.
 }
 \usage{
 bakers

@@ -1,4 +1,4 @@
-#' Series
+#' Overview of each series aired in the UK
 #'
 #' Metadata for all GBBO series
 #'
@@ -16,5 +16,5 @@
 #'   \item{runner_up_1}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 #'   \item{runner_up_2}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 #' }
-#' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+#' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
 "series"
