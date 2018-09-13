@@ -21,6 +21,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
 challenge_results
 }
 \description{
-Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all GBBO series, and who was eliminated, who won star baker, or if finale, who won and who was runner up. This joined tibble is made by joining the \code{challenges} and \code{results} simple tibbles by \code{series}, \code{episode}, and \code{baker}.
+Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all GBBO series, and who was eliminated, who won star baker, or if finale, who won and who was runner up. This joined tibble is made by joining the \code{\link{challenges}} and \code{\link{results}} simple tibbles by \code{series}, \code{episode}, and \code{baker}.
 }
 \keyword{datasets}

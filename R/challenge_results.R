@@ -1,6 +1,6 @@
 #' Each baker's signature, technical, and showstopper challenges, plus their fate, by episode
 #'
-#' Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all GBBO series, and who was eliminated, who won star baker, or if finale, who won and who was runner up. This joined tibble is made by joining the `challenges` and `results` simple tibbles by `series`, `episode`, and `baker`.
+#' Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all GBBO series, and who was eliminated, who won star baker, or if finale, who won and who was runner up. This joined tibble is made by joining the \code{\link{challenges}} and \code{\link{results}} simple tibbles by `series`, `episode`, and `baker`.
 #'
 #' @format A data frame with 886 rows representing individual bakers per episode and 7 variables:
 #' \describe{

@@ -24,6 +24,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Rat
 ratings_seasons
 }
 \description{
-This joined tibble is made by joining the \code{ratings} and \code{seasons} simple tibbles by both \code{series} and \code{episode}.
+This joined tibble is made by joining the \code{\link{ratings}} and \code{\link{seasons}} simple tibbles by both \code{series} and \code{episode}.
 }
 \keyword{datasets}
