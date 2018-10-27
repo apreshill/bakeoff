@@ -1,5 +1,4 @@
 #' Define the colors
-
 bakeoff_colors <- c(
   riptide     = "#84d6d3",
   bluesapphire= "#126180",
