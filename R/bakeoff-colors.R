@@ -32,6 +32,7 @@ bakeoff_colors <- c(
 #' If none specified, returns all
 #' If any specified, can be listed by names in quotes (no combine required)
 #'
+#' @export
 bakeoff_cols <- function(...) {
   cols <- c(...)
 
@@ -54,6 +55,7 @@ bakeoff_palette <- list(
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
 #'
+#' @export
 bakeoff_pal <- function(palette = "main", reverse = FALSE, ...) {
   pal <- bakeoff_palette[[palette]]
 
@@ -87,6 +89,7 @@ scale_color_bakeoff <- function(palette = "main", discrete = TRUE, reverse = FAL
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+#' @export
 scale_fill_bakeoff <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- bakeoff_pal(palette = palette, reverse = reverse)
 
