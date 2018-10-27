@@ -2,4 +2,5 @@
 
 export(bakeoff_cols)
 export(bakeoff_pal)
+export(scale_color_bakeoff)
 export(scale_fill_bakeoff)

@@ -71,6 +71,7 @@ bakeoff_pal <- function(palette = "main", reverse = FALSE, ...) {
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+#' @export
 scale_color_bakeoff <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- bakeoff_pal(palette = palette, reverse = reverse)
 
