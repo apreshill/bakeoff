@@ -15,6 +15,8 @@ reference:
     desc: >
       Tame and tidy data resulting from joining simple tibbles (below), based on shared units of observation.
     contents:
+      - baker_results
+      - episode_results
       - challenge_results
       - ratings_seasons
   - title: "Simple tibbles"

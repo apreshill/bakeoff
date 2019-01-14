@@ -16,12 +16,9 @@
     <loc>https://bakeoff.netlify.com/reference/bakeoff_pal.html</loc>
   </url>
   <url>
-<<<<<<< HEAD
-=======
     <loc>https://bakeoff.netlify.com/reference/baker_results.html</loc>
   </url>
   <url>
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
     <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
   </url>
   <url>
@@ -43,12 +40,6 @@
     <loc>https://bakeoff.netlify.com/reference/results.html</loc>
   </url>
   <url>
-<<<<<<< HEAD
-=======
-    <loc>https://bakeoff.netlify.com/reference/scale_color_bakeoff.html</loc>
-  </url>
-  <url>
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
     <loc>https://bakeoff.netlify.com/reference/scale_fill_bakeoff.html</loc>
   </url>
   <url>
