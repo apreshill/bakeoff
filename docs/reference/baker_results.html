@@ -6,13 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<<<<<<< HEAD
-<title>Use viridis_c with continous data
-
-Fill scale constructor for bakeoff colors — scale_fill_bakeoff • bakeoff</title>
-=======
-<title>Fill scale constructor for bakeoff colors — scale_fill_bakeoff • bakeoff</title>
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
+<title>Each baker's statistics — baker_results • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -36,18 +30,9 @@ Fill scale constructor for bakeoff colors — scale_fill_bakeoff • bakeoff</ti
 
 
 
-<<<<<<< HEAD
-<meta property="og:title" content="Use viridis_c with continous data
+<meta property="og:title" content="Each baker's statistics — baker_results" />
 
-Fill scale constructor for bakeoff colors — scale_fill_bakeoff" />
-
-<meta property="og:description" content="Use viridis_c with continous data
-Fill scale constructor for bakeoff colors" />
-=======
-<meta property="og:title" content="Fill scale constructor for bakeoff colors — scale_fill_bakeoff" />
-
-<meta property="og:description" content="Fill scale constructor for bakeoff colors" />
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
+<meta property="og:description" content="Bakers across all GBBO series" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -132,60 +117,62 @@ Fill scale constructor for bakeoff colors" />
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-<<<<<<< HEAD
-    <h1>Use viridis_c with continous data
-
-Fill scale constructor for bakeoff colors</h1>
-=======
-    <h1>Fill scale constructor for bakeoff colors</h1>
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
-    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/bakeoff-colors.R'><code>R/bakeoff-colors.R</code></a></small>
-    <div class="hidden name"><code>scale_fill_bakeoff.Rd</code></div>
+    <h1>Each baker's statistics</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/baker_results.R'><code>R/baker_results.R</code></a></small>
+    <div class="hidden name"><code>baker_results.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-<<<<<<< HEAD
-    <p>Use viridis_c with continous data</p>
-<p>Fill scale constructor for bakeoff colors</p>
-=======
-    <p>Fill scale constructor for bakeoff colors</p>
->>>>>>> 3e3714124fb0c401e6c3ca194c23c836c3b1e555
+    <p>Bakers across all GBBO series</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>scale_fill_bakeoff</span>(<span class='kw'>palette</span> <span class='kw'>=</span> <span class='st'>"main"</span>, <span class='kw'>discrete</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
-  <span class='kw'>reverse</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>, <span class='no'>...</span>)</pre>
+    <pre class="usage"><span class='no'>baker_results</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 95 rows representing individual bakers and 24 variables:</p><dl class='dl-horizontal'>
+<dt>series</dt><dd><p>an integer denoting UK series (1-8)</p></dd>
+<dt>baker_full</dt><dd><p>a character string giving full name</p></dd>
+<dt>baker</dt><dd><p>a character string giving given or nickname</p></dd>
+<dt>age</dt><dd><p>an integer denoting age in years at first episode appeared</p></dd>
+<dt>occupation</dt><dd><p>a character string giving occupation</p></dd>
+<dt>hometown</dt><dd><p>a character string giving hometown</p></dd>
+<dt>baker_last</dt><dd><p>a character string giving family name</p></dd>
+<dt>baker_first</dt><dd><p>a character string giving given name</p></dd>
+<dt>star_baker</dt><dd><p>an integer denoting the number of times a given baker won Star Baker</p></dd>
+<dt>technical_winner</dt><dd><p>an integer denoting the number of times a given baker won first place in the technical challenge</p></dd>
+<dt>technical_winner</dt><dd><p>an integer denoting the number of times a given baker was in the top 3 (1st, 2nd, or 3rd) on the technical challenge</p></dd>
+<dt>technical_bottom</dt><dd><p>an integer denoting the number of times a given baker was in the bottom 3 on the technical challenge</p></dd>
+<dt>technical_highest</dt><dd><p>an integer denoting the best technical rank earned by a given baker across all episodes appeared (higher is better)</p></dd>
+<dt>technical_lowest</dt><dd><p>an integer denoting the worst technical rank earned by a given baker across all episodes appeared (higher is better)</p></dd>
+<dt>technical_median</dt><dd><p>an integer denoting the median technical rank earned by a given baker across all episodes appeared (higher is better)</p></dd>
+<dt>series_winner</dt><dd><p>an integer; 0 if not the series winner, 1 if series winner</p></dd>
+<dt>series_runner_up</dt><dd><p>an integer; 0 if not a runner-up, 1 if a runner-up</p></dd>
+<dt>total_episodes_appeared</dt><dd><p>an integer denoting the total number of episodes in which a given baker appeared</p></dd>
+<dt>first_date_appeared</dt><dd><p>a date denoting original airdate of the first episode in which a given baker appeared (equivalent to the series premiere episode in the UK)</p></dd>
+<dt>last_date_appeared</dt><dd><p>a date denoting original airdate of the last episode in which a given baker appeared (in the UK)</p></dd>
+<dt>first_date_us</dt><dd><p>a date denoting original airdate of the first episode in which a given baker appeared (equivalent to the series premiere episode in the US)</p></dd>
+<dt>last_date_us</dt><dd><p>a date denoting original airdate of the last episode in which a given baker appeared (in the US)</p></dd>
+<dt>percent_episodes_appeared</dt><dd><p>a percentage denoting the number of episodes in a given series/season in which a given baker appeared out of all episodes aired in that series/season</p></dd>
+<dt>percent_technical_top3</dt><dd><p>a percentage denoting the number of episodes in which a given baker placed in the top 3 for the technical challenge, out of the number of total episodes that the baker appeared in</p></dd>
+</dl>
     
-    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
-    <table class="ref-arguments">
-    <colgroup><col class="name" /><col class="desc" /></colgroup>
-    <tr>
-      <th>palette</th>
-      <td><p>Character name of palette in bakeoff_palette</p></td>
-    </tr>
-    <tr>
-      <th>discrete</th>
-      <td><p>Boolean indicating whether color aesthetic is discrete or not</p></td>
-    </tr>
-    <tr>
-      <th>reverse</th>
-      <td><p>Boolean indicating whether the palette should be reversed</p></td>
-    </tr>
-    <tr>
-      <th>...</th>
-      <td><p>Additional arguments passed to discrete_scale() or
-scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE</p></td>
-    </tr>
-    </table>
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>See <a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers</a>, for example, for series 1 bakers.</p>
     
 
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
     <h2>Contents</h2>
     <ul class="nav nav-pills nav-stacked">
-      <li><a href="#arguments">Arguments</a></li>
-                </ul>
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+          </ul>
 
   </div>
 </div>
