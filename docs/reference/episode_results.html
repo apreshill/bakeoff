@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Articles • bakeoff</title>
+<title>Each episodes' statistics — episode_results • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +30,10 @@
 
 
 
-<meta property="og:title" content="Articles" />
+<meta property="og:title" content="Each episodes' statistics — episode_results" />
+
+<meta property="og:description" content="This tibble is made by collapsing the challenge_results tibbles by series and episode." />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +50,7 @@
   </head>
 
   <body>
-    <div class="container template-article-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -114,18 +117,49 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Articles</h1>
+    <h1>Each episodes' statistics</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/episode_results.R'><code>R/episode_results.R</code></a></small>
+    <div class="hidden name"><code>episode_results.Rd</code></div>
     </div>
 
-    <div class="section ">
-      <h3>All vignettes</h3>
-      <p class="section-desc"></p>
-
-      <ul>
-        <li><a href="bakeoffs-abroad.html">Vignette Title</a></li>
-        <li><a href="working-with-lists.html">Working with Lists</a></li>
-      </ul>
+    <div class="ref-description">
+    
+    <p>This tibble is made by collapsing the <code><a href='challenge_results.html'>challenge_results</a></code> tibbles by <code>series</code> and <code>episode</code>.</p>
+    
     </div>
+
+    <pre class="usage"><span class='no'>episode_results</span></pre>
+        
+    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+
+    <p>A data frame with 74 rows representing individual episodes per series and 10 variables:</p><dl class='dl-horizontal'>
+<dt>series</dt><dd><p>an integer denoting UK series (1-8)</p></dd>
+<dt>episode</dt><dd><p>an integer denoting episode number within a series</p></dd>
+<dt>bakers_appeared</dt><dd><p>an integer denoting the number of bakers who appeared in a given episode</p></dd>
+<dt>bakers_out</dt><dd><p>an integer denoting the number of bakers were either eliminated, left at will, or left due to illness in that episode</p></dd>
+<dt>bakers_remaining</dt><dd><p>an integer denoting the number of bakers who remained at the end of a given episode</p></dd>
+<dt>star_bakers</dt><dd><p>an integer denoting the number of bakers crowned Star Baker in a given episode</p></dd>
+<dt>technical_winners</dt><dd><p>an integer denoting the number of bakers who placed first in the technical challenge</p></dd>
+<dt>sb_name</dt><dd><p>a character string with the names of the bakers who won Star Baker in a given episode, separated by commas</p></dd>
+<dt>winner_name</dt><dd><p>a character string with the name of the series winner- only present for final episodes within each series</p></dd>
+<dt>eliminated</dt><dd><p>a character string with the name of the bakers who left a given episode, separated by commas</p></dd>
+</dl>
+    
+    <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
+
+    <p>See <a href='https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format'>https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format</a></p>
+    
+
+  </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      
+      <li><a href="#format">Format</a></li>
+
+      <li><a href="#source">Source</a></li>
+          </ul>
+
   </div>
 </div>
 

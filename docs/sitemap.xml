@@ -7,6 +7,18 @@
     <loc>https://bakeoff.netlify.com/reference/bakeoff.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_colors.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_cols.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_pal.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/baker_results.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
   </url>
   <url>
@@ -16,6 +28,9 @@
     <loc>https://bakeoff.netlify.com/reference/challenges.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.com/reference/episode_results.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.com/reference/ratings.html</loc>
   </url>
   <url>
@@ -23,6 +38,12 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/results.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/scale_color_bakeoff.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/scale_fill_bakeoff.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/seasons.html</loc>
