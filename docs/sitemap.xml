@@ -7,6 +7,15 @@
     <loc>https://bakeoff.netlify.com/reference/bakeoff.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_colors.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_cols.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/bakeoff_pal.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
   </url>
   <url>
@@ -23,6 +32,9 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/results.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.com/reference/scale_fill_bakeoff.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.com/reference/seasons.html</loc>

@@ -2,7 +2,9 @@
 % Please edit documentation in R/bakeoff-colors.R
 \name{scale_fill_bakeoff}
 \alias{scale_fill_bakeoff}
-\title{Fill scale constructor for bakeoff colors}
+\title{Use viridis_c with continous data
+
+Fill scale constructor for bakeoff colors}
 \usage{
 scale_fill_bakeoff(palette = "main", discrete = TRUE,
   reverse = FALSE, ...)
@@ -18,5 +20,7 @@ scale_fill_bakeoff(palette = "main", discrete = TRUE,
 scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE}
 }
 \description{
+Use viridis_c with continous data
+
 Fill scale constructor for bakeoff colors
 }

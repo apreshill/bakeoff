@@ -6,7 +6,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Articles • bakeoff</title>
+<title>Use viridis_c with continous data
+
+Fill scale constructor for bakeoff colors — scale_fill_bakeoff • bakeoff</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -30,7 +32,13 @@
 
 
 
-<meta property="og:title" content="Articles" />
+<meta property="og:title" content="Use viridis_c with continous data
+
+Fill scale constructor for bakeoff colors — scale_fill_bakeoff" />
+
+<meta property="og:description" content="Use viridis_c with continous data
+Fill scale constructor for bakeoff colors" />
+<meta name="twitter:card" content="summary" />
 
 
 
@@ -47,7 +55,7 @@
   </head>
 
   <body>
-    <div class="container template-article-index">
+    <div class="container template-reference-topic">
       <header>
       <div class="navbar navbar-default navbar-fixed-top" role="navigation">
   <div class="container">
@@ -114,18 +122,53 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-      <h1>Articles</h1>
+    <h1>Use viridis_c with continous data
+
+Fill scale constructor for bakeoff colors</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/bakeoff-colors.R'><code>R/bakeoff-colors.R</code></a></small>
+    <div class="hidden name"><code>scale_fill_bakeoff.Rd</code></div>
     </div>
 
-    <div class="section ">
-      <h3>All vignettes</h3>
-      <p class="section-desc"></p>
-
-      <ul>
-        <li><a href="bakeoffs-abroad.html">Vignette Title</a></li>
-        <li><a href="working-with-lists.html">Working with Lists</a></li>
-      </ul>
+    <div class="ref-description">
+    
+    <p>Use viridis_c with continous data</p>
+<p>Fill scale constructor for bakeoff colors</p>
+    
     </div>
+
+    <pre class="usage"><span class='fu'>scale_fill_bakeoff</span>(<span class='kw'>palette</span> <span class='kw'>=</span> <span class='st'>"main"</span>, <span class='kw'>discrete</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
+  <span class='kw'>reverse</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>, <span class='no'>...</span>)</pre>
+    
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>palette</th>
+      <td><p>Character name of palette in bakeoff_palette</p></td>
+    </tr>
+    <tr>
+      <th>discrete</th>
+      <td><p>Boolean indicating whether color aesthetic is discrete or not</p></td>
+    </tr>
+    <tr>
+      <th>reverse</th>
+      <td><p>Boolean indicating whether the palette should be reversed</p></td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td><p>Additional arguments passed to discrete_scale() or
+scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE</p></td>
+    </tr>
+    </table>
+    
+
+  </div>
+  <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
+    <h2>Contents</h2>
+    <ul class="nav nav-pills nav-stacked">
+      <li><a href="#arguments">Arguments</a></li>
+                </ul>
+
   </div>
 </div>
 

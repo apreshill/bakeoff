@@ -41,6 +41,10 @@ bakeoff_cols <- function(...) {
 
   bakeoff_colors[cols]
 }
+#' @examples
+#' bakeoff_cols()
+#' bakeoff_cols("riptide")
+#' bakeoff_cols("baltic", "yellow")
 
 bakeoff_palette <- list(
   main  = bakeoff_cols("bluesapphire", "magenta",
@@ -48,6 +52,7 @@ bakeoff_palette <- list(
                        "baltic", "marigold",
                        "burgundy", "yellow")
 )
+
 
 #' Return function to interpolate a bakeoff color palette
 #'
@@ -59,28 +64,39 @@ bakeoff_palette <- list(
 bakeoff_pal <- function(palette = "main", reverse = FALSE, ...) {
   pal <- bakeoff_palette[[palette]]
 
-  if (reverse) pal <- rev(pal)
+  if (reverse)
+    pal <- rev(pal)
   colorRampPalette(pal, ...)
 }
+#' @examples
+#' bakeoff_pal("main") # returns a function
+#' bakeoff_pal("main")(8)
 
 #' Color scale constructor for bakeoff colors
 #'
+#' # Use bakeoff_d with discrete data
 #' @param palette Character name of palette in bakeoff_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
 #'            scale_color_gradientn(), used respectively when discrete is TRUE or FALSE
 #'
+#' @family colour scales
+#' @rdname scale_bakeoff
 #' @export
 scale_color_bakeoff <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
   pal <- bakeoff_pal(palette = palette, reverse = reverse)
 
   if (discrete) {
-    discrete_scale("colour", paste0("bakeoff_", palette), palette = pal, ...)
+    ggplot2::discrete_scale(aesthetics = "colour",
+                   scale_name = paste0("bakeoff_", palette),
+                   palette = pal, ...)
   } else {
-    scale_color_gradientn(colours = pal(256), ...)
+    ggplot2::scale_color_gradientn(colours = pal(256), ...)
   }
 }
+
+#' # Use viridis_c with continous data
 
 #' Fill scale constructor for bakeoff colors
 #'
@@ -95,7 +111,9 @@ scale_fill_bakeoff <- function(palette = "main", discrete = TRUE, reverse = FALS
   pal <- bakeoff_pal(palette = palette, reverse = reverse)
 
   if (discrete) {
-    discrete_scale("fill", paste0("bakeoff_", palette), palette = pal, ...)
+    ggplot2::discrete_scale(aesthetics = "fill",
+                            scale_name = paste0("bakeoff_", palette),
+                            palette = pal, ...)
   } else {
     scale_fill_gradientn(colours = pal(256), ...)
   }
