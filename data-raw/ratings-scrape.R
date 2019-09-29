@@ -9,7 +9,7 @@ library(here)
 library(lubridate)
 
 url_base <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_%d)"
-ratings_start <- c(10, 12, 14, 19, 19, 19, 16, 16)
+ratings_start <- c(10, 12, 14, 19, 19, 19, 16, 16, 16)
 
 ## get the ratings data across series
 get_ratings <- function(series, ratings_start) {
@@ -28,7 +28,7 @@ new_colnames <- c("series", "episode", "airdate", "viewers_7day",
                   "bbc_iplayer_requests")
 
 ## bind them all together in dataframe
-ratings_df <- map2_dfr(.x = 1:8, .y = ratings_start,
+ratings_df <- map2_dfr(.x = 1:9, .y = ratings_start,
                     .f = get_ratings, .id = "series") %>%
   set_names(new_colnames) %>%
   group_by(series) %>%
