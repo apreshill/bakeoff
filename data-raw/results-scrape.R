@@ -19,7 +19,7 @@ get_results <- function(series) {
 }
 
 ## bind them all together in a dataframe
-results_df <- map_dfr(.x = 1:8, .f = get_results, .id = 'series') %>%
+results_df <- map_dfr(.x = 1:9, .f = get_results, .id = 'series') %>%
   select(series,
          baker = X1,
          episode_ = X2:X11) %>%

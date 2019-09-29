@@ -615,5 +615,95 @@
     "viewers_28day": 10.13,
     "network_rank": 1,
     "channels_rank": 4
+  },
+  {
+    "series": 9,
+    "episode": 1,
+    "uk_airdate": "2018-08-28",
+    "viewers_7day": 9.55,
+    "viewers_28day": 9.92,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 2,
+    "uk_airdate": "2018-09-04",
+    "viewers_7day": 9.31,
+    "viewers_28day": 9.76,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 3,
+    "uk_airdate": "2018-09-11",
+    "viewers_7day": 8.91,
+    "viewers_28day": 9.35,
+    "network_rank": 1,
+    "channels_rank": 2
+  },
+  {
+    "series": 9,
+    "episode": 4,
+    "uk_airdate": "2018-09-18",
+    "viewers_7day": 8.88,
+    "viewers_28day": 9.41,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 5,
+    "uk_airdate": "2018-09-25",
+    "viewers_7day": 8.67,
+    "viewers_28day": 9.15,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 6,
+    "uk_airdate": "2018-10-02",
+    "viewers_7day": 8.91,
+    "viewers_28day": 9.3,
+    "network_rank": 1,
+    "channels_rank": 4
+  },
+  {
+    "series": 9,
+    "episode": 7,
+    "uk_airdate": "2018-10-09",
+    "viewers_7day": 9.22,
+    "viewers_28day": 9.54,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 8,
+    "uk_airdate": "2018-10-16",
+    "viewers_7day": 9.69,
+    "viewers_28day": 9.93,
+    "network_rank": 1,
+    "channels_rank": 2
+  },
+  {
+    "series": 9,
+    "episode": 9,
+    "uk_airdate": "2018-10-23",
+    "viewers_7day": 9.5,
+    "viewers_28day": 9.7,
+    "network_rank": 1,
+    "channels_rank": 3
+  },
+  {
+    "series": 9,
+    "episode": 10,
+    "uk_airdate": "2018-10-30",
+    "viewers_7day": 10.34,
+    "viewers_28day": 10.54,
+    "network_rank": 1,
+    "channels_rank": 2
   }
 ]
