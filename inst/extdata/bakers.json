@@ -3,7 +3,7 @@
     {
       "baker_full": "Annetha Mills",
       "age": 30,
-      "occupation": "Single mother",
+      "occupation": "Midwife",
       "hometown": "Essex"
     },
     {
@@ -93,7 +93,7 @@
       "hometown": "Croydon"
     },
     {
-      "baker_full": "Joanne Wheatley",
+      "baker_full": "Joanne \"Jo\" Wheatley",
       "age": 41,
       "occupation": "Housewife",
       "hometown": "Ongar, Essex"
@@ -162,7 +162,7 @@
     },
     {
       "baker_full": "John Whaite",
-      "age": 23,
+      "age": 22,
       "occupation": "Law student",
       "hometown": "Wigan"
     },
@@ -197,16 +197,16 @@
       "hometown": "Bewbush, West Sussex"
     },
     {
-      "baker_full": "Victoria Chester",
-      "age": 50,
-      "occupation": "CEO of the charity Plantlife",
-      "hometown": "Somerset"
-    },
-    {
       "baker_full": "Stuart Marston-Smith",
       "age": 26,
       "occupation": "PE teacher",
       "hometown": "Lichfield, Staffordshire"
+    },
+    {
+      "baker_full": "Victoria Chester",
+      "age": 50,
+      "occupation": "CEO of the charity Plantlife",
+      "hometown": "Somerset"
     }
   ],
   [
@@ -267,7 +267,7 @@
     {
       "baker_full": "Mark Onley",
       "age": 37,
-      "occupation": "Carpenter & Kitchen Fitter",
+      "occupation": "Carpenter and Kitchen Fitter",
       "hometown": "Milton Keynes"
     },
     {
@@ -293,49 +293,49 @@
     {
       "baker_full": "Chetna Makan",
       "age": 35,
-      "occupation": "Fashion designer",
+      "occupation": "Fashion Designer",
       "hometown": "Broadstairs, Kent"
     },
     {
       "baker_full": "Claire Goodwin",
       "age": 31,
-      "occupation": "Speech therapist",
-      "hometown": "Ashton on Mersey, Trafford"
+      "occupation": "Speech Therapist",
+      "hometown": "Ashton upon Mersey, Trafford"
     },
     {
       "baker_full": "Diana Beard",
       "age": 69,
-      "occupation": "Women's Institute (WI) judge",
+      "occupation": "Women's Institute (WI) Judge",
       "hometown": "Alkington, Shropshire"
     },
     {
       "baker_full": "Enwezor Nzegwu",
       "age": 39,
-      "occupation": "Business consultant",
+      "occupation": "Business Consultant",
       "hometown": "Portsmouth, Hampshire"
     },
     {
       "baker_full": "Iain Watters",
       "age": 31,
-      "occupation": "Construction engineer",
-      "hometown": "London / Belfast"
+      "occupation": "Construction Engineer",
+      "hometown": "London/Belfast"
     },
     {
       "baker_full": "Jordan Cox",
       "age": 32,
-      "occupation": "IT manager",
+      "occupation": "IT Manager",
       "hometown": "Sneinton, Nottingham"
     },
     {
       "baker_full": "Kate Henry",
       "age": 41,
-      "occupation": "Furniture restorer",
+      "occupation": "Furniture Restorer",
       "hometown": "Brighton, East Sussex"
     },
     {
       "baker_full": "Luis Troyano",
       "age": 42,
-      "occupation": "Graphic designer",
+      "occupation": "Graphic Designer",
       "hometown": "Poynton, Cheshire"
     },
     {
@@ -347,13 +347,13 @@
     {
       "baker_full": "Nancy Birtwhistle",
       "age": 60,
-      "occupation": "Retired practice manager",
-      "hometown": "Barton-Upon-Humber, Lincolnshire"
+      "occupation": "Retired Practice Manager",
+      "hometown": "Barton-upon-Humber, Lincolnshire"
     },
     {
       "baker_full": "Norman Calder",
       "age": 66,
-      "occupation": "Retired naval officer",
+      "occupation": "Retired Naval Officer",
       "hometown": "Portknockie, Moray"
     },
     {
@@ -583,6 +583,160 @@
       "age": 46,
       "occupation": "Laboratory research scientist",
       "hometown": "North London"
+    }
+  ],
+  [
+    {
+      "baker_full": "Antony Amourdoux",
+      "age": 30,
+      "occupation": "Banker",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Briony Williams",
+      "age": 33,
+      "occupation": "Full-time parent",
+      "hometown": "Bristol"
+    },
+    {
+      "baker_full": "Dan Beasley-Harling",
+      "age": 36,
+      "occupation": "Full-time parent",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Imelda McCarron",
+      "age": 33,
+      "occupation": "Countryside recreation officer",
+      "hometown": "County Tyrone"
+    },
+    {
+      "baker_full": "Jon Jenkins",
+      "age": 47,
+      "occupation": "Blood courier",
+      "hometown": "Newport"
+    },
+    {
+      "baker_full": "Karen Wright",
+      "age": 60,
+      "occupation": "In-store sampling assistant",
+      "hometown": "Wakefield"
+    },
+    {
+      "baker_full": "Kim-Joy Hewlett",
+      "age": 27,
+      "occupation": "Mental health specialist",
+      "hometown": "Leeds"
+    },
+    {
+      "baker_full": "Luke Thompson",
+      "age": 30,
+      "occupation": "Civil servant/house and techno DJ",
+      "hometown": "Sheffield"
+    },
+    {
+      "baker_full": "Manon Lagrève",
+      "age": 26,
+      "occupation": "Software project manager",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Rahul Mandal",
+      "age": 30,
+      "occupation": "Research scientist",
+      "hometown": "Rotherham"
+    },
+    {
+      "baker_full": "Ruby Bhogal",
+      "age": 29,
+      "occupation": "Project manager",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Terry Hartill",
+      "age": 56,
+      "occupation": "Retired air steward",
+      "hometown": "West Midlands"
+    }
+  ],
+  [
+    {
+      "baker_full": "Alice Fevronia",
+      "age": 28,
+      "occupation": "Geography teacher",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Amelia Le Bruin",
+      "age": 24,
+      "occupation": "Fashion designer",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Dan Chambers",
+      "age": 32,
+      "occupation": "Support worker",
+      "hometown": "Rotherham"
+    },
+    {
+      "baker_full": "David Atherton",
+      "age": 36,
+      "occupation": "International health adviser",
+      "hometown": "London"
+    },
+    {
+      "baker_full": "Helena Garcia",
+      "age": 40,
+      "occupation": "Online project manager",
+      "hometown": "Leeds"
+    },
+    {
+      "baker_full": "Henry Bird",
+      "age": 20,
+      "occupation": "Student",
+      "hometown": "Durham"
+    },
+    {
+      "baker_full": "Jamie Finn",
+      "age": 20,
+      "occupation": "Part-time waiter",
+      "hometown": "Surrey"
+    },
+    {
+      "baker_full": "Michael Chakraverty",
+      "age": 26,
+      "occupation": "Theatre manager/fitness instructor",
+      "hometown": "Stratford-upon-Avon"
+    },
+    {
+      "baker_full": "Michelle Evans-Fecci",
+      "age": 35,
+      "occupation": "Print shop administrator",
+      "hometown": "Tenby, Wales"
+    },
+    {
+      "baker_full": "Phil Thorne",
+      "age": 56,
+      "occupation": "HGV driver",
+      "hometown": "Rainham"
+    },
+    {
+      "baker_full": "Priya O'Shea",
+      "age": 34,
+      "occupation": "Marketing consultant",
+      "hometown": "Leicester"
+    },
+    {
+      "baker_full": "Rosie Brandreth-Poynter",
+      "age": 28,
+      "occupation": "Veterinary surgeon",
+      "hometown": "Somerset"
+    },
+    {
+      "baker_full": "Steph Blackwell",
+      "age": 28,
+      "occupation": "Shop assistant",
+      "hometown": "Chester"
     }
   ]
 ]

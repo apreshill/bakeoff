@@ -1,5 +1,5 @@
 series,baker_full,age,occupation,hometown
-1,Annetha Mills,30,Single mother,Essex
+1,Annetha Mills,30,Midwife,Essex
 1,David Chambers,31,Entrepreneur,Milton Keynes
 1,"Edward ""Edd"" Kimber",24,Debt collector for Yorkshire Bank,Bradford
 1,Jasminder Randhawa,45,Assistant Credit Control Manager,Birmingham
@@ -14,7 +14,7 @@ series,baker_full,age,occupation,hometown
 2,Ian Vallance,40,Fundraiser for English Heritage,"Dunstable, Bedfordshire"
 2,Janet Basu,63,Teacher of Modern Languages,"Formby, Liverpool"
 2,Jason White,19,Civil Engineering Student,Croydon
-2,Joanne Wheatley,41,Housewife,"Ongar, Essex"
+2,"Joanne ""Jo"" Wheatley",41,Housewife,"Ongar, Essex"
 2,Keith Batsford,31,House husband,"Arlesey, Bedfordshire"
 2,Mary-Anne Boermans,45,Housewife,"Kidderminster, Worcestershire"
 2,Robert Billington,25,Photographer,London
@@ -25,14 +25,14 @@ series,baker_full,age,occupation,hometown
 3,Cathryn Dresser,27,Shop assistant,"Pease Pottage, West Sussex"
 3,Danny (Daniele) Bryden,45,Intensive care consultant,Sheffield
 3,James Morton,21,Medical student,"Hillswick, Shetland Islands"
-3,John Whaite,23,Law student,Wigan
+3,John Whaite,22,Law student,Wigan
 3,Manisha Parmar,27,Nursery nurse,Leicester
 3,Natasha Stringer,36,Midwife,"Tamworth, Staffordshire"
 3,Peter Maloney,43,Sales manager,"Windsor, Berkshire"
 3,Ryan Chong,38,Photographer,Bristol
 3,Sarah-Jane Willis,28,Vicar's wife,"Bewbush, West Sussex"
-3,Victoria Chester,50,CEO of the charity Plantlife,Somerset
 3,Stuart Marston-Smith,26,PE teacher,"Lichfield, Staffordshire"
+3,Victoria Chester,50,CEO of the charity Plantlife,Somerset
 4,Ali Imdad,25,Charity worker,"Saltley, Birmingham"
 4,Beca Lyne-Pirkis,31,Military Wives' Choir Singer,"Aldershot, Hampshire"
 4,Christine Wallace,66,Director of an engraving company,"Didcot, Oxfordshire"
@@ -42,21 +42,21 @@ series,baker_full,age,occupation,hometown
 4,Howard Middleton,51,Council Worker,Sheffield
 4,Kimberley Wilson,30,Psychologist,London
 4,Lucy Bellamy,38,Horticulturist,"Grimsby, Lincolnshire"
-4,Mark Onley,37,Carpenter & Kitchen Fitter,Milton Keynes
+4,Mark Onley,37,Carpenter and Kitchen Fitter,Milton Keynes
 4,Robert Smart,54,Space Satellite Designer,"Melbourn, Cambridgeshire"
 4,Ruby Tandoh,20,History of Art and Philosophy Student,"Southend, Essex"
 4,Toby Waterworth,30,Web Programmer,"Reading, Berkshire"
-5,Chetna Makan,35,Fashion designer,"Broadstairs, Kent"
-5,Claire Goodwin,31,Speech therapist,"Ashton on Mersey, Trafford"
-5,Diana Beard,69,Women's Institute (WI) judge,"Alkington, Shropshire"
-5,Enwezor Nzegwu,39,Business consultant,"Portsmouth, Hampshire"
-5,Iain Watters,31,Construction engineer,London / Belfast
-5,Jordan Cox,32,IT manager,"Sneinton, Nottingham"
-5,Kate Henry,41,Furniture restorer,"Brighton, East Sussex"
-5,Luis Troyano,42,Graphic designer,"Poynton, Cheshire"
+5,Chetna Makan,35,Fashion Designer,"Broadstairs, Kent"
+5,Claire Goodwin,31,Speech Therapist,"Ashton upon Mersey, Trafford"
+5,Diana Beard,69,Women's Institute (WI) Judge,"Alkington, Shropshire"
+5,Enwezor Nzegwu,39,Business Consultant,"Portsmouth, Hampshire"
+5,Iain Watters,31,Construction Engineer,London/Belfast
+5,Jordan Cox,32,IT Manager,"Sneinton, Nottingham"
+5,Kate Henry,41,Furniture Restorer,"Brighton, East Sussex"
+5,Luis Troyano,42,Graphic Designer,"Poynton, Cheshire"
 5,Martha Collison,17,Student,"Ascot, Berkshire"
-5,Nancy Birtwhistle,60,Retired practice manager,"Barton-Upon-Humber, Lincolnshire"
-5,Norman Calder,66,Retired naval officer,"Portknockie, Moray"
+5,Nancy Birtwhistle,60,Retired Practice Manager,"Barton-upon-Humber, Lincolnshire"
+5,Norman Calder,66,Retired Naval Officer,"Portknockie, Moray"
 5,Richard Burr,38,Builder,"Mill Hill, London"
 6,Alvin Magallanes,37,Nurse,"Bracknell, Berkshire"
 6,Dorret Conway,53,Accountant,"Penwortham, Lancashire"
@@ -94,3 +94,28 @@ series,baker_full,age,occupation,hometown
 8,Steven Carter-Bailey,34,Marketer,"Watford, Hertfordshire"
 8,Tom Hetherington,29,Architect,Edinburgh
 8,"Chuen-Yan ""Yan"" Tsou",46,Laboratory research scientist,North London
+9,Antony Amourdoux,30,Banker,London
+9,Briony Williams,33,Full-time parent,Bristol
+9,Dan Beasley-Harling,36,Full-time parent,London
+9,Imelda McCarron,33,Countryside recreation officer,County Tyrone
+9,Jon Jenkins,47,Blood courier,Newport
+9,Karen Wright,60,In-store sampling assistant,Wakefield
+9,Kim-Joy Hewlett,27,Mental health specialist,Leeds
+9,Luke Thompson,30,Civil servant/house and techno DJ,Sheffield
+9,Manon Lagrève,26,Software project manager,London
+9,Rahul Mandal,30,Research scientist,Rotherham
+9,Ruby Bhogal,29,Project manager,London
+9,Terry Hartill,56,Retired air steward,West Midlands
+10,Alice Fevronia,28,Geography teacher,London
+10,Amelia Le Bruin,24,Fashion designer,London
+10,Dan Chambers,32,Support worker,Rotherham
+10,David Atherton,36,International health adviser,London
+10,Helena Garcia,40,Online project manager,Leeds
+10,Henry Bird,20,Student,Durham
+10,Jamie Finn,20,Part-time waiter,Surrey
+10,Michael Chakraverty,26,Theatre manager/fitness instructor,Stratford-upon-Avon
+10,Michelle Evans-Fecci,35,Print shop administrator,"Tenby, Wales"
+10,Phil Thorne,56,HGV driver,Rainham
+10,Priya O'Shea,34,Marketing consultant,Leicester
+10,Rosie Brandreth-Poynter,28,Veterinary surgeon,Somerset
+10,Steph Blackwell,28,Shop assistant,Chester
