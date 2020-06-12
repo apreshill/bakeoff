@@ -25,7 +25,7 @@ get_bakers <- function(series) {
 }
 
 ## bind them all together in one list
-bakers <- map(.x = 1:9, .f = get_bakers)
+bakers <- map(.x = 1:10, .f = get_bakers)
 
 ## work now with the bakers list
 ## change all column names
