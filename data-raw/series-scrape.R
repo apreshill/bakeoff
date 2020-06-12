@@ -7,16 +7,24 @@ library(stringr)
 library(janitor)
 library(lubridate)
 
-url <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off"
-page <- read_html(url)
+url <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview"
+series <- url %>%
+  htmltab(2, rm_nodata_cols = F) %>%
+  clean_names() %>%
+  as_tibble() %>%
+  rename(avg_uk_viewers = "average_uk_viewers_millions") %>%
+  mutate(series = as.integer(series),
+         episodes = as.integer(episodes),
+         avg_uk_viewers = as.numeric(avg_uk_viewers))
 
 ## get table 2
-series <- page %>%
-  html_nodes(xpath = '//*[@id="mw-content-text"]/div/table') %>%
-  html_table(fill = TRUE) %>%
-  .[[2]] %>%
-  clean_names() %>%
-  rename(avg_uk_viewers = "average_uk_viewers_millions_21_22")
+# page <- xml2::read_html(url)
+# series <- page %>%
+#   html_nodes(xpath = '/html/body/div[3]/div[3]/div[4]/div/table[2]') %>%
+#   html_table(fill = TRUE) %>%
+#   .[[2]] %>%
+#   clean_names() %>%
+#   rename(avg_uk_viewers = "average_uk_viewers_millions_21_22")
 
 ## duplicate entries b/c of 2 runners-up per series
 ## clean things up a bit
