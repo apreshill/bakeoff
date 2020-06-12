@@ -19,7 +19,7 @@ get_results <- function(series) {
 }
 
 ## bind them all together in a dataframe
-results_df <- map_dfr(.x = 1:9, .f = get_results, .id = 'series') %>%
+results_df <- map_dfr(.x = 1:10, .f = get_results, .id = 'series') %>%
   select(series,
          baker = X1,
          episode_ = X2:X11) %>%
@@ -45,7 +45,7 @@ results <- results_df2 %>%
     is.na(result) ~ NA_character_)) %>%
   group_by(series, baker) %>%
   fill(gone, .direction = c("down")) %>%
-  mutate_all(funs(na_if(., ""))) %>%
+  mutate(across(everything(), ~na_if(., ""))) %>%
   mutate(new_result = coalesce(result, gone)) %>%
   replace_na(list(new_result = "IN")) %>%
   mutate(new_result2 = case_when(
