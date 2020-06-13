@@ -9,7 +9,7 @@ library(jsonlite)
 # library(listviewer)
 
 url_base <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_%d)"
-max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10) + 3
+max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10, 10, 10) + 3
 new_colnames <- c("baker", "signature", "technical", "showstopper")
 
 ## function to get challenges across series
@@ -26,7 +26,9 @@ get_challenges <- function(series, max_episodes) {
 }
 
 ## bind them all together in one list
-challenges <- map2(.x = 1:8, .y = max_episodes, .f = get_challenges)
+challenges <- map2(.x = 1:10,
+                   .y = max_episodes,
+                   .f = get_challenges)
 
 ## export list objects to json
 ## auto_unbox = TRUE in order to make this JSON as close as possible to the JSON
@@ -51,8 +53,9 @@ challenges_df <- challenges_df %>%
   select(series, episode, baker, everything(), -episode_count) %>%
   ungroup() %>%
   mutate(baker = ifelse(series == 2 & baker == "Jo", "Joanne", baker)) %>%
-  mutate_all(., funs(na_if(., "UNKNOWN"))) %>%
-  mutate_all(funs(na_if(., "N/A"))) %>%
+  mutate(across(everything(), ~na_if(., "UNKNOWN"))) %>%
+  mutate(across(everything(), ~na_if(., "N/A"))) %>%
+  mutate(across(everything(), ~na_if(., "Did not compete"))) %>%
   mutate(technical = parse_number(technical))
 
 ## dataframe to csv

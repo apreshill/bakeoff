@@ -14,7 +14,7 @@
       "baker": "David",
       "signature": "Chocolate Orange Cake",
       "technical": 3,
-      "showstopper": "Black Forest Floor Gateauxwith Moulded Chocolate Leaves, Fallen Fruitand Chocolate Mushrooms Moulded from eggs"
+      "showstopper": "Black Forest Floor Gateaux with Moulded Chocolate Leaves, Fallen Fruit and Chocolate Mushrooms Moulded from eggs"
     },
     {
       "series": 1,
@@ -72,7 +72,7 @@
       "episode": 1,
       "baker": "Ruth",
       "signature": "Three Tiered Lemon Drizzle Cakewith Fresh Cream and freshly made Lemon Curd",
-      "showstopper": "Classic Chocolate Sponge wrapped in a Chocolate Collartopped with Handmade White and Dark Chocolate Truffles"
+      "showstopper": "Classic Chocolate Sponge wrapped in a Chocolate Collar topped with Handmade White and Dark Chocolate Truffles"
     },
     {
       "series": 1,
@@ -144,7 +144,7 @@
       "baker": "David",
       "signature": "Chilli Bread",
       "technical": 4,
-      "showstopper": "Walnut and Seed Roll\nRed Berry and Almond Bun"
+      "showstopper": "Walnut and Seed RollRed Berry and Almond Bun"
     },
     {
       "series": 1,
@@ -160,7 +160,7 @@
       "baker": "Jasminder",
       "signature": "Focaccia",
       "technical": 5,
-      "showstopper": "Mango and Sultana Buns\nPan au Chocolat with Mars Bars\nTutti Frutti Wheel with Jelly Tots"
+      "showstopper": "Mango and Sultana BunsPan au Chocolat with Mars BarsTutti Frutti Wheel with Jelly Tots"
     },
     {
       "series": 1,
@@ -168,7 +168,7 @@
       "baker": "Jonathan",
       "signature": "Anchovy, Sweet Paprika and Oregano Bread",
       "technical": 6,
-      "showstopper": "Sticky Lemon Honey Bun\nOlive and Anchovy Roll\nSundried Tomatoes and Fresh Herbs Roll\nStilton, Walnut and Apple Roll\nCinnamon and Cardamom Chelsea Bun"
+      "showstopper": "Sticky Lemon Honey Bun Olive and Anchovy RollSundried Tomatoes and Fresh Herbs RollStilton, Walnut and Apple RollCinnamon and Cardamom Chelsea Bun"
     },
     {
       "series": 1,
@@ -176,7 +176,7 @@
       "baker": "Miranda",
       "signature": "Walnut and Apricot Bread",
       "technical": 3,
-      "showstopper": "Lemon Iced Buns\nChocolate and Orange Buns"
+      "showstopper": "Lemon Iced BunsChocolate and Orange Buns"
     },
     {
       "series": 1,
@@ -184,7 +184,7 @@
       "baker": "Ruth",
       "signature": "Maple and Pecan Bread",
       "technical": 2,
-      "showstopper": "Chocolate and Orange Panettone\nCranberry Bagels"
+      "showstopper": "Chocolate and Orange PanettoneCranberry Bagels"
     },
     {
       "series": 1,
@@ -248,7 +248,7 @@
       "baker": "Miranda",
       "signature": "Summery Salmon, Cod and Prawn Fish Pie",
       "technical": 1,
-      "showstopper": "Chocolate Pastry filled with Orange Cheesecake  Chocolate Pastry filled with Milk Chocolate Ganche  Strawberry Tart with Red Currant Glaze  Cheesy Crab, Broad Bean and Tomato, Pancetta Risotto Canapés"
+      "showstopper": "Chocolate Pastry filled with Orange Cheesecake  Chocolate Pastry filled with Milk Chocolate Ganache  Strawberry Tart with Red Currant Glaze  Cheesy Crab, Broad Bean and Tomato, Pancetta Risotto Canapés"
     },
     {
       "series": 1,
@@ -256,28 +256,27 @@
       "baker": "Ruth",
       "signature": "Minced Beef Pie",
       "technical": 3,
-      "showstopper": "Raspberry and Dark Chocolate Tart  Creme Patisserie and Cherry Tart  Citrus Curd Tart with Creme Brulee top  Tomato, Asparagus Twirl Canapés"
+      "showstopper": "Raspberry and Dark Chocolate Tart  Creme Patisserie and Cherry Tart  Citrus Curd Tart with Creme Brulee Top  Tomato, Asparagus Twirl Canapés"
     },
     {
       "series": 1,
       "episode": 6,
       "baker": "Edd",
       "signature": "Cinnamon and Banana Cake",
-      "showstopper": "24 Chocolate and Ginger Tarts\n24 Lemon Scones with Passion Fruit Curd\n24 Raspberry Choux Buns\n24 Finger Sandwiches"
+      "showstopper": "Chocolate and Ginger TartsLemon Scones with Passion Fruit CurdRaspberry Choux BunsFinger Sandwiches"
     },
     {
       "series": 1,
       "episode": 6,
       "baker": "Miranda",
-      "signature": "Lemon Cupcake",
-      "showstopper": "Eliminated after signature"
+      "signature": "Lemon Cupcake"
     },
     {
       "series": 1,
       "episode": 6,
       "baker": "Ruth",
       "signature": "Mint, Ginger and Blackberry Cake",
-      "showstopper": "24 Red Pepper and Cheese Quiche Tarts\n24 Sultana Scones\n24 Vanilla and Lemon Choux Buns\n24 Finger Sandwiches"
+      "showstopper": "Red Pepper and Cheese Quiche TartsSultana SconesVanilla and Lemon Choux BunsFinger Sandwiches"
     }
   ],
   "2": [
@@ -294,7 +293,8 @@
       "episode": 1,
       "baker": "Holly",
       "signature": "Cherry Bakewell Inspired CupcakesGinger Cupcakes with Fig Truffle",
-      "technical": 1
+      "technical": 1,
+      "showstopper": "Novelty Farm Cake"
     },
     {
       "series": 2,
@@ -340,7 +340,7 @@
       "baker": "Mary-Anne",
       "signature": "Banoffee Cupcakes",
       "technical": 4,
-      "showstopper": "Chocolate and Raspberry Opera cake"
+      "showstopper": "Chocolate and Raspberry Opera Cake"
     },
     {
       "series": 2,
@@ -409,7 +409,7 @@
       "baker": "Jason",
       "signature": "Salmon and Pak Choi Quiche",
       "technical": 3,
-      "showstopper": "Mint Chocolate Tarts Blueberry Bakewell Tarts"
+      "showstopper": "Mint Chocolate TartsBlueberry Bakewell Tarts"
     },
     {
       "series": 2,
@@ -433,7 +433,7 @@
       "baker": "Robert",
       "signature": "Smoked Bacon and Kale Quiche",
       "technical": 5,
-      "showstopper": "Chocolate, Fennel and Ginger TartAlmond, Creme Patissiere and Poached Pear Tart"
+      "showstopper": "Chocolate, Fennel and Ginger TartAlmond, Creme Patisserie and Poached Pear Tart"
     },
     {
       "series": 2,
@@ -534,7 +534,7 @@
       "baker": "Yasmin",
       "signature": "Egyptian Dukkah Loaf with Mixed Spices",
       "technical": 2,
-      "showstopper": "Pesto Bread\nSweet Coconut Rolls"
+      "showstopper": "Pesto BreadSweet Coconut Rolls"
     },
     {
       "series": 2,
@@ -550,7 +550,7 @@
       "baker": "Holly",
       "signature": "Strawberry and Custard Melts",
       "technical": 3,
-      "showstopper": "'Chocolate bars of my youth'\n(Caramel Macarons, Mint Chocolate Macarons and Chocolate Orange Macarons)"
+      "showstopper": "'Chocolate bars of my youth'(Caramel Macarons, Mint Chocolate Macarons and Chocolate Orange Macarons)"
     },
     {
       "series": 2,
@@ -558,7 +558,7 @@
       "baker": "Janet",
       "signature": "Christmas Marzipan Biscuits",
       "technical": 4,
-      "showstopper": "Raspberry Macarons\nBlackcurrant Macarons\nAlmond Macarons"
+      "showstopper": "Raspberry MacaronsBlackcurrant MacaronsAlmond Macarons"
     },
     {
       "series": 2,
@@ -566,7 +566,7 @@
       "baker": "Jason",
       "signature": "Lebkuchen",
       "technical": 1,
-      "showstopper": "Mocktail Macarons\n(Mojito, Cranberry Cooler, and Pina Colada)"
+      "showstopper": "Mocktail Macarons(Mojito, Cranberry Cooler, and Pina Colada)"
     },
     {
       "series": 2,
@@ -646,7 +646,7 @@
       "baker": "Robert",
       "signature": "Chicken and Mushroom Pie",
       "technical": 3,
-      "showstopper": "Rhubarb and Custard Meringue Pie"
+      "showstopper": "Rhubarb & Custard Meringue Pie"
     },
     {
       "series": 2,
@@ -700,7 +700,7 @@
       "series": 2,
       "episode": 7,
       "baker": "Holly",
-      "signature": "White Chocolate, Hazelnut and Raspberry Genoise Mousse Cake",
+      "signature": "White Chocolate, Hazelnut and Raspberry Génoise Mousse Cake",
       "technical": 1,
       "showstopper": "Apricot, Macadamia and White Chocolate PinwheelsAlmond CroissantsApple, Raisin and Cinnamon Plaits"
     },
@@ -758,14 +758,15 @@
       "series": 3,
       "episode": 1,
       "baker": "Brendan",
-      "signature": "Plum, Sour Cherry & Walnut",
-      "technical": 10
+      "signature": "Plum, Sour Cherry & Walnut Upside Down Cake",
+      "technical": 10,
+      "showstopper": "St. Patrick's Day Cake with Hidden Irish Flag[12]"
     },
     {
       "series": 3,
       "episode": 1,
       "baker": "Cathryn",
-      "signature": "Apple, Hazelnut and Calvados",
+      "signature": "Apple, Hazelnut and Calvados Upside Down Cake",
       "technical": 5,
       "showstopper": "Hidden Cupcake Cake"
     },
@@ -773,14 +774,15 @@
       "series": 3,
       "episode": 1,
       "baker": "Danny",
-      "signature": "Plum, Ginger & Orange",
-      "technical": 7
+      "signature": "Plum, Ginger & Orange Upside Down Cake",
+      "technical": 7,
+      "showstopper": "Nectar Cake with Hidden Beehive[13]"
     },
     {
       "series": 3,
       "episode": 1,
       "baker": "James",
-      "signature": "Parsnip, Pear, and Pecan",
+      "signature": "Parsnip, Pear, and Pecan Upside Down Cake",
       "technical": 2,
       "showstopper": "\"Simmer Dim\" Sunset Cake"
     },
@@ -788,7 +790,7 @@
       "series": 3,
       "episode": 1,
       "baker": "John",
-      "signature": "Toffee Apple, Orange & Cranberry",
+      "signature": "Toffee Apple, Orange & Cranberry Upside Down Cake",
       "technical": 11,
       "showstopper": "Hidden Pink Hearts Cake"
     },
@@ -796,7 +798,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Manisha",
-      "signature": "Vanilla, Peach and Raspberry",
+      "signature": "Vanilla, Peach and Raspberry Upside Down Cake",
       "technical": 6,
       "showstopper": "White Chocolate Cake with a Red Velvet and White Chocolate Mousse Heart"
     },
@@ -804,7 +806,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Natasha",
-      "signature": "Pineapple & Passion Fruit",
+      "signature": "Pineapple & Passion Fruit Upside Down Cake",
       "technical": 12,
       "showstopper": "Mother's Day Layered Rose Cake"
     },
@@ -812,7 +814,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Peter",
-      "signature": "Pear, Muscat & Chocolate",
+      "signature": "Pear, Muscat & Chocolate Upside Down Cake",
       "technical": 3,
       "showstopper": "Jubilee Cake"
     },
@@ -820,7 +822,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Ryan",
-      "signature": "Kumquat and Orange Polenta",
+      "signature": "Kumquat and Orange Polenta Upside Down Cake",
       "technical": 8,
       "showstopper": "Hidden Flowerbed Mousse Cake"
     },
@@ -828,7 +830,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Sarah-Jane",
-      "signature": "Pear, Chocolate and Hazelnut",
+      "signature": "Pear, Chocolate and Hazelnut Upside Down Cake",
       "technical": 1,
       "showstopper": "Hidden Crown Cake"
     },
@@ -836,7 +838,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Stuart",
-      "signature": "Tomato and Ginger",
+      "signature": "Tomato and Ginger Upside Down Cake",
       "technical": 9,
       "showstopper": "Lemon and Pistachio Union Flag Cake"
     },
@@ -844,7 +846,7 @@
       "series": 3,
       "episode": 1,
       "baker": "Victoria",
-      "signature": "Pear and Pecan",
+      "signature": "Pear and Pecan Upside Down Cake",
       "technical": 4,
       "showstopper": "Blackbird Pie Cake"
     },
@@ -852,9 +854,9 @@
       "series": 3,
       "episode": 2,
       "baker": "Brendan",
-      "signature": "Middle Eastern Taboon BreadIndian Rotis",
+      "signature": "Middle Eastern Taboon BreadIndian Roti",
       "technical": 4,
-      "showstopper": "Chocolate and Vanilla Bagels\nCumin and Gruyere Bagels"
+      "showstopper": "Chocolate and Vanilla Bagels; Cumin and Gruyere Bagels"
     },
     {
       "series": 3,
@@ -862,14 +864,15 @@
       "baker": "Cathryn",
       "signature": "Spiced Mango NaanLime, Coriander and Chilli Tortillas",
       "technical": 8,
-      "showstopper": "Cranberry and Orange Bagels\nChipotle, Chili, and Smoked Cheddar Bagels"
+      "showstopper": "Cranberry and Orange Bagels; Chipotle, Chilli, and Smoked Cheddar Bagels"
     },
     {
       "series": 3,
       "episode": 2,
       "baker": "Danny",
       "signature": "Lime Coriander and Coconut TortillasZaatar Naan with Dukkah",
-      "technical": 3
+      "technical": 3,
+      "showstopper": ""
     },
     {
       "series": 3,
@@ -877,7 +880,7 @@
       "baker": "James",
       "signature": "Tomato, Garlic, and Parmesan FlatbreadsTattie Scones",
       "technical": 2,
-      "showstopper": "Orange, Mint and Chocolate Bagels\n'Millers' Sourdough Bagels"
+      "showstopper": "Orange, Mint and Chocolate Bagels; 'Millers' Sourdough Bagels"
     },
     {
       "series": 3,
@@ -885,14 +888,15 @@
       "baker": "John",
       "signature": "Coriander and Chilli RotisGarlic, Pomegranate and Potato Pitas",
       "technical": 1,
-      "showstopper": "Fig, Walnut and Gruyere Bagels\nBlueberry and White Chocolate Bagels"
+      "showstopper": "Fig, Walnut and Gruyere Bagels;   Blueberry and White Chocolate Bagels"
     },
     {
       "series": 3,
       "episode": 2,
       "baker": "Manisha",
       "signature": "Indian FlatbreadsItalian Flatbreads",
-      "technical": 6
+      "technical": 6,
+      "showstopper": ""
     },
     {
       "series": 3,
@@ -900,7 +904,7 @@
       "baker": "Peter",
       "signature": "Fennel and Nigella Seed NaanBannock Bread",
       "technical": 11,
-      "showstopper": "Rosemary and Sea Salt Bagels\nApple and Cinnamon Bagels"
+      "showstopper": "Rosemary and Sea Salt Bagels; Apple and Cinnamon Bagels"
     },
     {
       "series": 3,
@@ -908,14 +912,15 @@
       "baker": "Ryan",
       "signature": "Shanghai Spring Onion FlatbreadsGarlic and Coriander Naan",
       "technical": 5,
-      "showstopper": "Cinnamon and Date Bagels\nTarragon and Rosemary Bagels"
+      "showstopper": "Cinnamon and Date Bagels; Tarragon and Rosemary Bagels"
     },
     {
       "series": 3,
       "episode": 2,
       "baker": "Sarah-Jane",
-      "signature": "Toasted Coconut and Lime RotisOatcakes",
-      "technical": 10
+      "signature": "Coconut RotiOatcakes",
+      "technical": 10,
+      "showstopper": ""
     },
     {
       "series": 3,
@@ -923,7 +928,7 @@
       "baker": "Stuart",
       "signature": "Bombay BreadChorizo and Spring Onion Naan",
       "technical": 9,
-      "showstopper": "Cinnamon and Cranberry Bagels\nTomato and Thyme Bagels"
+      "showstopper": "Cinnamon and Cranberry Bagels; Tomato and Thyme Bagels"
     },
     {
       "series": 3,
@@ -931,7 +936,7 @@
       "baker": "Victoria",
       "signature": "Coriander and Lemon NaanGarlic and Parsnip Chapatis",
       "technical": 7,
-      "showstopper": "Saffron and Golden Raisin Bagels\nPorcini Bagels"
+      "showstopper": "Saffron and Golden Raisin Bagels; Porcini Bagels"
     },
     {
       "series": 3,
@@ -1122,7 +1127,7 @@
       "baker": "John",
       "signature": "Venison and Haggis Wellington",
       "technical": 2,
-      "showstopper": "Star-Spangled Pecan Pie"
+      "showstopper": "Star Spangled Pecan Pie"
     },
     {
       "series": 3,
@@ -1152,7 +1157,7 @@
       "series": 3,
       "episode": 6,
       "baker": "Brendan",
-      "signature": "Rhubarb, Strawberry and Ginger Puddings\nSticky Toffee Puddings",
+      "signature": "Rhubarb, Strawberry and Ginger PuddingsSticky Toffee Puddings",
       "technical": 1,
       "showstopper": "Spinach, Cheese and Walnut Strudel"
     },
@@ -1160,9 +1165,9 @@
       "series": 3,
       "episode": 6,
       "baker": "Cathryn",
-      "signature": "Chocolate Walnut Whip Puddings\nElderflower Sponges",
+      "signature": "Chocolate Walnut Whip PuddingsElderflower Sponges",
       "technical": 3,
-      "showstopper": "Roasted Vegetable Couscous and Sheep Cheese Strudel"
+      "showstopper": "Roasted Vegetable, Couscous and Sheep Cheese Strudel"
     },
     {
       "series": 3,
@@ -1186,7 +1191,7 @@
       "baker": "John",
       "signature": "Spicy Toffee PuddingsRaspberry and White Chocolate Puddings",
       "technical": 5,
-      "showstopper": "Did not complete due to injury"
+      "showstopper": "Did not complete due to injury[1]"
     },
     {
       "series": 3,
@@ -1218,7 +1223,7 @@
       "baker": "Cathryn",
       "signature": "Lady Arundel's Manchet Buns",
       "technical": 5,
-      "showstopper": "Bonfire Night Tear 'n' Share Brioche"
+      "showstopper": "Bonfire Night Tear 'N' Share Brioche"
     },
     {
       "series": 3,
@@ -1312,7 +1317,7 @@
       "series": 3,
       "episode": 9,
       "baker": "Danny",
-      "signature": "Blackberry and Peppermint MacaroonsMiniature Raspberry and Basil FinanciersOrange and White Chocolate Langues de Chat",
+      "signature": "Blackberry and Peppermint MacaronsMiniature Raspberry and Basil FinanciersOrange and White Chocolate Langues de Chat",
       "technical": 4,
       "showstopper": "Rosewater and Lychee St. Honoré"
     },
@@ -1320,15 +1325,15 @@
       "series": 3,
       "episode": 9,
       "baker": "James",
-      "signature": "Lemon and Rhubarb TartletsChocolate Indulgence Petits FoursChilli, Lime and Raspberry Macaroons",
+      "signature": "Lemon and Rhubarb TartletsChocolate Indulgence Petits FoursChilli, Lime and Raspberry Macarons",
       "technical": 1,
-      "showstopper": "Coffee, Caramel and Hazelnut Paris-Brest"
+      "showstopper": "Coffee, Caramel and Hazelnut Paris–Brest"
     },
     {
       "series": 3,
       "episode": 9,
       "baker": "John",
-      "signature": "Lemon MadeleinesWhite Chocolate and Raspberry TartletsDark Chocolate and Cherry Macaroons",
+      "signature": "Lemon MadeleinesWhite Chocolate and Raspberry TartletsDark Chocolate and Cherry Macarons",
       "technical": 2,
       "showstopper": "Gateau St. Honoré a la Passion"
     },
@@ -1532,7 +1537,7 @@
       "baker": "Lucy",
       "signature": "Grissini with Salt",
       "technical": 12,
-      "showstopper": "Roast Tomato Bread"
+      "showstopper": "Roasted Tomato Bread"
     },
     {
       "series": 4,
@@ -1540,7 +1545,7 @@
       "baker": "Mark",
       "signature": "Rosemary & Raisin Breadsticks",
       "technical": 6,
-      "showstopper": "Sage & Garlic Plait"
+      "showstopper": "Sage and Garlic Plait"
     },
     {
       "series": 4,
@@ -1628,7 +1633,7 @@
       "baker": "Mark",
       "signature": "Ginger, Mango and Passion Fruit Trifle",
       "technical": 11,
-      "showstopper": "Rose and Pistachio MacaroonsChocolate and Raspberry Bites"
+      "showstopper": "Rose and Pistachio MacaronsChocolate and Raspberry Bites"
     },
     {
       "series": 4,
@@ -1636,7 +1641,7 @@
       "baker": "Robert",
       "signature": "Rhubarb and Orange Trifle",
       "technical": 2,
-      "showstopper": "Almond FriandsTurǫn Macaroons"
+      "showstopper": "Almond FriandsTurón Macarons"
     },
     {
       "series": 4,
@@ -1684,7 +1689,7 @@
       "baker": "Glenn",
       "signature": "Apple & Maple Syrup Pie",
       "technical": 9,
-      "showstopper": "Spanakopita (Walnut and Feta Cheese)"
+      "showstopper": "Spanakopita"
     },
     {
       "series": 4,
@@ -1908,7 +1913,7 @@
       "baker": "Frances",
       "signature": "'Chelsea Flour Show' Bun Bouquet",
       "technical": 3,
-      "showstopper": "Hidden Carrot Cake (Ground Praline, Beetroot and Walnut)"
+      "showstopper": "Hidden Carrot Cake"
     },
     {
       "series": 4,
@@ -1938,7 +1943,7 @@
       "series": 4,
       "episode": 9,
       "baker": "Frances",
-      "signature": "Legume Canapés:\nChantenay CarrotsChoux Pastry TomatoesCauliflower Cheese Scones",
+      "signature": "Légume Canapés\n(Chantenay Carrots, Choux Pastry Tomatoes, and Cauliflower Cheese Scones)",
       "technical": 2,
       "showstopper": "Great British Soap Opera Cake"
     },
@@ -2078,7 +2083,7 @@
       "baker": "Richard",
       "signature": "Pistachio and Strawberry Swiss Roll",
       "technical": 10,
-      "showstopper": "Miniature Coffee & Walnut Cakes"
+      "showstopper": "Miniature Coffee and Walnut Cakes"
     },
     {
       "series": 5,
@@ -2206,7 +2211,7 @@
       "baker": "Kate",
       "signature": "Orange and Cardamom Rye Bread Knots",
       "technical": 1,
-      "showstopper": "Prosciutto, Olive and Coriander Bread"
+      "showstopper": "Prosciutto, Olive & Coriander Bread"
     },
     {
       "series": 5,
@@ -2430,7 +2435,7 @@
       "baker": "Chetna",
       "signature": "Crispy Lentil Kachori",
       "technical": 6,
-      "showstopper": "Chocolate and Mango & Lemon Meringue Éclairs"
+      "showstopper": "Chocolate & Mango and Lemon Meringue Éclairs"
     },
     {
       "series": 5,
@@ -2438,7 +2443,7 @@
       "baker": "Kate",
       "signature": "Spinach and Paneer Spicy Samosa",
       "technical": 4,
-      "showstopper": "Neapolitan & Lemon Meringue Éclairs"
+      "showstopper": "Neapolitan and Lemon Meringue Éclairs"
     },
     {
       "series": 5,
@@ -2446,7 +2451,7 @@
       "baker": "Luis",
       "signature": "Childhood Empanadas",
       "technical": 5,
-      "showstopper": "Stars and Stripes Éclairs\n(Blueberry Cheesecake & Peanut Butter and Jelly Éclairs)"
+      "showstopper": "Stars and Stripes Éclairs"
     },
     {
       "series": 5,
@@ -2454,7 +2459,7 @@
       "baker": "Martha",
       "signature": "Mini Beef Wellingtons",
       "technical": 3,
-      "showstopper": "Rhubarb and Custard & Maple Syrup and Bacon Éclairs"
+      "showstopper": "Rhubarb & Custard and Maple Syrup & Bacon Éclairs"
     },
     {
       "series": 5,
@@ -2462,7 +2467,7 @@
       "baker": "Nancy",
       "signature": "Spicy Duck Pasties",
       "technical": 2,
-      "showstopper": "Smoked Salmon and Horseradish & Raspberry Ripple Éclairs"
+      "showstopper": "Smoked Salmon & Horseradish and Raspberry Ripple Éclairs"
     },
     {
       "series": 5,
@@ -2470,7 +2475,7 @@
       "baker": "Richard",
       "signature": "Minted Lamb Pasties",
       "technical": 1,
-      "showstopper": "Stair of Éclairs\n(Lavender and Blueberry & Rose and Raspberry Éclairs)"
+      "showstopper": "Stair of Éclairs: Blueberry & Lavender and Raspberry & Rose"
     },
     {
       "series": 5,
@@ -2486,7 +2491,7 @@
       "baker": "Luis",
       "signature": "Black Forest Cherry Tree",
       "technical": 2,
-      "showstopper": "Cocktail Doughnuts\n(Mudslide & Raspberry Mojito)"
+      "showstopper": "Cocktail Doughnuts"
     },
     {
       "series": 5,
@@ -2494,7 +2499,7 @@
       "baker": "Martha",
       "signature": "Spiced Plum Iced Bread Swirl",
       "technical": 5,
-      "showstopper": "Glazed Lemon & Poppy Seed DoughnutsChocolate & Passion Fruit Doughnuts"
+      "showstopper": "Glazed Lemon & Poppyseed DoughnutsChocolate & Passion Fruit Doughnuts"
     },
     {
       "series": 5,
@@ -2502,7 +2507,7 @@
       "baker": "Nancy",
       "signature": "Lincolnshire Plum Braid",
       "technical": 3,
-      "showstopper": "Doughnut Family Tree\n(Limoncello and Almond & Milk Chocolate and Orange)"
+      "showstopper": "Doughnut Family Tree"
     },
     {
       "series": 5,
@@ -2510,7 +2515,7 @@
       "baker": "Richard",
       "signature": "Fruit Swedish Tea Ring",
       "technical": 4,
-      "showstopper": "Rhubarb and Custard and Toffee Apple Doughnuts"
+      "showstopper": "Rhubarb and CustardToffee Apple Doughnuts"
     },
     {
       "series": 5,
@@ -2808,7 +2813,7 @@
       "baker": "Paul",
       "signature": "Cranberry and Orange Sweet Soda Breads",
       "technical": 10,
-      "showstopper": "King of the Jungle"
+      "showstopper": "King of the Jungle*"
     },
     {
       "series": 6,
@@ -2936,7 +2941,7 @@
       "baker": "Mat",
       "signature": "Sugar Free Carrot Cake",
       "technical": 4,
-      "showstopper": "Raspberry and Coconut Ice Cream Roll"
+      "showstopper": "Raspberry & Coconut Ice Cream Roll"
     },
     {
       "series": 6,
@@ -3306,7 +3311,7 @@
       "baker": "Kate",
       "signature": "\"A Biscuit for the Broads\"",
       "technical": 1,
-      "showstopper": "\"I Promise I will do my best\""
+      "showstopper": "\"I Promise I Will Do My Best\""
     },
     {
       "series": 7,
@@ -3658,7 +3663,7 @@
       "baker": "Jane",
       "signature": "Chocolate and Hazelnut Roulade",
       "technical": 4,
-      "showstopper": "Chocolate, Coffee, and Vanilla Joconde Cakes and Blackcurrant and Vanilla Ombre Mousses"
+      "showstopper": "Chocolate, Coffee, and Vanilla Joconde Cakes and Blackcurrant and Vanilla Ombré Mousses"
     },
     {
       "series": 7,
@@ -3666,7 +3671,7 @@
       "baker": "Selasi",
       "signature": "Summer Picnic Roulade",
       "technical": 6,
-      "showstopper": "Lemon, Strawberry and Passionfruit and Chocolate and Mint Mini Mousse Cakes"
+      "showstopper": "Lemon, Raspberry and Passionfruit and Chocolate and Mint Mini Mousse Cakes"
     },
     {
       "series": 7,
@@ -4362,7 +4367,7 @@
       "series": 8,
       "episode": 10,
       "baker": "Sophie",
-      "signature": "Spelt Boules, Mushroom Ciabatta and Orange Plaited Brioche",
+      "signature": "Spelt Boules, Mushroom Ciabatta & Orange Plaited Brioche",
       "technical": 2,
       "showstopper": "'Ode to the Honey Bee' Entremet"
     },
@@ -4373,6 +4378,1255 @@
       "signature": "Spelt & Rye, Toasted Garlic & Fontina and Sweet Chocolate Breads",
       "technical": 1,
       "showstopper": "'Yin Yang' Entremet"
+    }
+  ],
+  "9": [
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Antony",
+      "signature": "Turmeric and Caraway Goosnargh Cakes",
+      "technical": 12,
+      "showstopper": "\"Kilimanjaro Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Briony",
+      "signature": "Apple Cider Empire Biscuits",
+      "technical": 2,
+      "showstopper": "\"Bristol Biscuit Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Dan",
+      "signature": "Lemon and Strawberry Shrewsburys",
+      "technical": 4,
+      "showstopper": "\"New Dad in Palm Springs\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Imelda",
+      "signature": "Cherry and White Chocolate Oatmeal Biscuits",
+      "technical": 11,
+      "showstopper": "\"Seaside Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Jon",
+      "signature": "Aberffraw 'Creams'",
+      "technical": 5,
+      "showstopper": "\"A Sailing Selfie by the Sea\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Karen",
+      "signature": "Yorkshire Perkins",
+      "technical": 6,
+      "showstopper": "Rosewater and Cardamom \"Holiday Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Kim-Joy",
+      "signature": "Orange Blossom York Biscuits",
+      "technical": 10,
+      "showstopper": "\"Me at Miyajima Shrine\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Luke",
+      "signature": "Yorkshire Gingernuts",
+      "technical": 8,
+      "showstopper": "\"What Happens In Vegas...!\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Manon",
+      "signature": "Hazelnut Cornish Shortbread",
+      "technical": 3,
+      "showstopper": "Matcha and White Chocolate Ganache Japanese Selfie"
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Rahul",
+      "signature": "Fennel and Coconut Pitcaithly Bannock",
+      "technical": 7,
+      "showstopper": "\"First Spring in the UK\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Ruby",
+      "signature": "Masala Chai Devon Flats",
+      "technical": 1,
+      "showstopper": "\"Gingerbread Marathon Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 1,
+      "baker": "Terry",
+      "signature": "Lake District Ginger Shortbread",
+      "technical": 9,
+      "showstopper": "\"Brandy Snap Selfie\""
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Antony",
+      "signature": "Cardamom and Coconut Burfi Traybake",
+      "technical": 9,
+      "showstopper": "Pistachio, Saffron and Rose Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Briony",
+      "signature": "Turron and Orange Traybake",
+      "technical": 5,
+      "showstopper": "Chocolate Fudge and Salted Caramel Creation"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Dan",
+      "signature": "Black Forest Slice",
+      "technical": 3,
+      "showstopper": "Dark Chocolate and Raspberry Birthday Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Jon",
+      "signature": "Lemon Meringue Traybake",
+      "technical": 1,
+      "showstopper": "Hawaiian Shirt Pina Colada Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Karen",
+      "signature": "Almond and Marzipan Traybake with Rhubarb Jam",
+      "technical": 11,
+      "showstopper": "Strawberry Fayre Chocolate Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Kim-Joy",
+      "signature": "Pandan Chiffon Cake with Palm Sugar Cream",
+      "technical": 4,
+      "showstopper": "Yuzu and Raspberry Genoise Cat Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Luke",
+      "signature": "Lemon and Poppy Seed Traybake",
+      "technical": 7,
+      "showstopper": "Raspberry and White Chocolate Collar Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Manon",
+      "signature": "Rosemary and Honey Traybake",
+      "technical": 6,
+      "showstopper": "Almond Princess Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Rahul",
+      "signature": "Lemon and Cardamom Traybake",
+      "technical": 2,
+      "showstopper": "Chocolate Orange Layer Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Ruby",
+      "signature": "Boozy Black Forest Traybake",
+      "technical": 10,
+      "showstopper": "Chocolate Orange \"Jackson Pollock\" Collar Cake"
+    },
+    {
+      "series": 9,
+      "episode": 2,
+      "baker": "Terry",
+      "signature": "Rum and Raisin Traybake",
+      "technical": 8,
+      "showstopper": "Champagne and Strawberries Eiffel Tower Collar Cake"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Antony",
+      "signature": "Decadent Breakfast Chelsea Buns",
+      "technical": 8,
+      "showstopper": "Chocolate and Orange Adventure Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Briony",
+      "signature": "Balsamic Strawberry Chelsea Buns",
+      "technical": 9,
+      "showstopper": "Happily Ever After Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Dan",
+      "signature": "Sticky Spiced Orange Chelsea Buns",
+      "technical": 6,
+      "showstopper": "Wedding Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Jon",
+      "signature": "Cardiff City vs Chelsea Buns",
+      "technical": 2,
+      "showstopper": "Korovai Dydd Dewi Sant"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Karen",
+      "signature": "Peak District Christmas Chelsea Buns",
+      "technical": 5,
+      "showstopper": "French Breakfast Wedding Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Kim-Joy",
+      "signature": "Pistachio and Cardamom Tangzhong Chelsea Buns",
+      "technical": 10,
+      "showstopper": "Orange, Cinnamon and Cranberry 'Kit-ovai'"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Manon",
+      "signature": "Apricot, Cranberry and Marzipan Chai Chelsea Buns",
+      "technical": 3,
+      "showstopper": "Fabergé Inspired Traditional Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Rahul",
+      "signature": "Mango and Cranberry Chelsea Buns",
+      "technical": 4,
+      "showstopper": "Garden Wedding Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Ruby",
+      "signature": "Gujarela Chelsea Buns with Dates, Almonds and Raisins",
+      "technical": 7,
+      "showstopper": "Mama and Papa's Belated Wedding Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 3,
+      "baker": "Terry",
+      "signature": "Tangy Citrus Sticky Chelsea Buns",
+      "technical": 1,
+      "showstopper": "Garden Korovai"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Briony",
+      "signature": "Treacle Tart Roulade",
+      "technical": 5,
+      "showstopper": "Blood Orange & Amaretto Sticky Toffee Sphere"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Dan",
+      "signature": "Florida Roulade",
+      "technical": 1,
+      "showstopper": "Dan and the Giant Peach"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Jon",
+      "signature": "Mango and Passion Fruit Roulade",
+      "technical": 3,
+      "showstopper": "Lucy and Hannah's Ballet Cake"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Karen",
+      "signature": "Coffee Cream and Praline Roulade",
+      "technical": 7,
+      "showstopper": "Chateau Du Chambord Framboise"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Kim-Joy",
+      "signature": "'Sweet Dreams' Roulade",
+      "technical": 6,
+      "showstopper": "Melting Chocolate Galaxy"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Manon",
+      "signature": "Amarene and Kirsch Cherry Roulade",
+      "technical": 8,
+      "showstopper": "White Chocolate Renaissance Surprise"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Rahul",
+      "signature": "Rhubarb and Custard Roulade",
+      "technical": 4,
+      "showstopper": "Opera Cake with Kalash Inspired Dome"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Ruby",
+      "signature": "Pina Colada Roulade",
+      "technical": 2,
+      "showstopper": "Chocolate Egg"
+    },
+    {
+      "series": 9,
+      "episode": 4,
+      "baker": "Terry"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Briony",
+      "signature": "Honey and Apricot Ginger Cake",
+      "technical": 6,
+      "showstopper": "Turmeric Latte Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Dan",
+      "signature": "Ginger and Lemon Drip Cake",
+      "technical": 2,
+      "showstopper": "Birthday Kaleidoscope for Constance"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Jon",
+      "signature": "Family Christmas Ginger Cake",
+      "technical": 7,
+      "showstopper": "Birthday Chandelier for Emily's 21st"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Karen",
+      "signature": "Bonfire Night Ginger Cake",
+      "technical": 9,
+      "showstopper": "Pontefract Girls' School Reunion"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Kim-Joy",
+      "signature": "Stem Ginger Cake with Poached Pears",
+      "technical": 4,
+      "showstopper": "Christmas Spiced Ice Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Manon",
+      "signature": "Italian Meringue Ginger Cake",
+      "technical": 5,
+      "showstopper": "Art Deco Spiced Biscuit Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Rahul",
+      "signature": "Bonfire Night Caramel Ginger Cake",
+      "technical": 3,
+      "showstopper": "Durga Puja Cardamom Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Ruby",
+      "signature": "Jamaican Me Crazy Ginger Cake",
+      "technical": 1,
+      "showstopper": "Peacock Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 5,
+      "baker": "Terry",
+      "signature": "Caramelised Pear and Stem Ginger Cake",
+      "technical": 8,
+      "showstopper": "12 Days of Christmas Chandelier"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Briony",
+      "signature": "Home Comforts",
+      "technical": 1,
+      "showstopper": "\"Down the Rabbit Hole\" Banquet Pie"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Dan",
+      "signature": "Festive Samosas",
+      "technical": 6,
+      "showstopper": "Salmon Coulibiac"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Jon",
+      "signature": "A Romantic Dinner For Two, Samosa Style",
+      "technical": 2,
+      "showstopper": "Welsh Dragon Pie"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Kim-Joy",
+      "signature": "Flavours of India",
+      "technical": 5,
+      "showstopper": "Silke the Vegetarian Mermaid"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Manon",
+      "signature": "Samosas for Mum",
+      "technical": 4,
+      "showstopper": "\"What Has Poppy Eaten?\""
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Rahul",
+      "signature": "Paneer Singara and Misti Singara",
+      "technical": 3,
+      "showstopper": "Butterfly Pie"
+    },
+    {
+      "series": 9,
+      "episode": 6,
+      "baker": "Ruby",
+      "signature": "Traditional Samosas",
+      "technical": 7,
+      "showstopper": "Kohinoor Crown"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Briony",
+      "signature": "French Onion Tartlets and Celeriac & Apple Tartlets",
+      "technical": 5,
+      "showstopper": "Hazelnut Mocha Cake"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Jon",
+      "signature": "Garlic Mushroom Tartlets and Falafel & Hummus Tartlets",
+      "technical": 4,
+      "showstopper": "Only Fools Eat Horses Cake"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Kim-Joy",
+      "signature": "Broccoli & Tomato Quiches and Mascarpone Squirrel Tartlets",
+      "technical": 6,
+      "showstopper": "Lavender & Lemon Fox Cake"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Manon",
+      "signature": "Summer & Winter Tartlets",
+      "technical": 2,
+      "showstopper": "Spiced Apple Cake"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Rahul",
+      "signature": "Coriander Posto & Veg Tartlets and Ghugni Chaat Tartlets",
+      "technical": 1,
+      "showstopper": "Chocolate & Coconut Layer Cake with Raspberry Jam"
+    },
+    {
+      "series": 9,
+      "episode": 7,
+      "baker": "Ruby",
+      "signature": "Sage & Butternut Tartlets and 'Cheesy Greens' Tartlets",
+      "technical": 3,
+      "showstopper": "Chocolate, Lemon & Coconut Cake"
+    },
+    {
+      "series": 9,
+      "episode": 8,
+      "baker": "Briony",
+      "signature": "Spanish & West Country Smørrebrød",
+      "technical": 1,
+      "showstopper": "Nana Pat Kagekone"
+    },
+    {
+      "series": 9,
+      "episode": 8,
+      "baker": "Kim-Joy",
+      "signature": "Bumblebee Eggs & Fish Smørrebrød",
+      "technical": 2,
+      "showstopper": "Off to the Opera Kagekone"
+    },
+    {
+      "series": 9,
+      "episode": 8,
+      "baker": "Manon",
+      "signature": "Cheese and Fruit Smørrebrød",
+      "technical": 4,
+      "showstopper": "Birthday Girl Kagekone"
+    },
+    {
+      "series": 9,
+      "episode": 8,
+      "baker": "Rahul",
+      "signature": "Smoked Salmon & Roasted Vegetable Smørrebrød",
+      "technical": 5,
+      "showstopper": "Indian King Kagemand"
+    },
+    {
+      "series": 9,
+      "episode": 8,
+      "baker": "Ruby",
+      "signature": "Post-Gym Smørrebrød",
+      "technical": 3,
+      "showstopper": "Sister Kagekone"
+    },
+    {
+      "series": 9,
+      "episode": 9,
+      "baker": "Briony",
+      "signature": "Mojito Madeleines\nEspresso Martini Madeleines",
+      "technical": 3,
+      "showstopper": "British Tea to French Pâtisserie Window"
+    },
+    {
+      "series": 9,
+      "episode": 9,
+      "baker": "Kim-Joy",
+      "signature": "Ginger and Lemon Madeleines\nOrange Bunny Madeleines",
+      "technical": 2,
+      "showstopper": "Flavourite Flavours Window Display"
+    },
+    {
+      "series": 9,
+      "episode": 9,
+      "baker": "Rahul",
+      "signature": "Lemon and Raspberry Madeleines\nOrange Curd Madeleines",
+      "technical": 4,
+      "showstopper": "Classic Tribute to Pâtisserie Window"
+    },
+    {
+      "series": 9,
+      "episode": 9,
+      "baker": "Ruby",
+      "signature": "Pick Your Own Madeleines",
+      "technical": 1,
+      "showstopper": "Parisian Un Bouquet de Fleurs Window Display"
+    },
+    {
+      "series": 9,
+      "episode": 10,
+      "baker": "Kim-Joy",
+      "signature": "Amaretto Diplomat Filled Doughnuts & Lemon Ring Doughnuts",
+      "technical": 1,
+      "showstopper": "Lost City of Atlantis Dessert Landscape"
+    },
+    {
+      "series": 9,
+      "episode": 10,
+      "baker": "Rahul",
+      "signature": "Mango Créme Pâtissière Filled Doughnuts & Spiced Orange Ring Doughnuts",
+      "technical": 2,
+      "showstopper": "Edible Rock Garden"
+    },
+    {
+      "series": 9,
+      "episode": 10,
+      "baker": "Ruby",
+      "signature": "Dulce De Leche Filled Doughnuts & Raspberry and Cardamom Ring Doughnuts",
+      "technical": 3,
+      "showstopper": "Magical Edible Landscape"
+    }
+  ],
+  "10": [
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Alice",
+      "signature": "Gingerbread Fruit Cake Wreath",
+      "technical": 5,
+      "showstopper": "Like a Child in a Sweetshop Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Amelia",
+      "signature": "Christmas Cake",
+      "technical": 4,
+      "showstopper": "Carousel Birthday Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Dan",
+      "signature": "Jamaican Rum Cake",
+      "technical": 9,
+      "showstopper": "Pirate Island Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "David",
+      "signature": "Squishy Squashy Fruit Cake",
+      "technical": 10,
+      "showstopper": "Snakey Birthday Cakey"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Helena",
+      "signature": "Fruit Bat Cake",
+      "technical": 12,
+      "showstopper": "Away with the Fairies Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Henry",
+      "signature": "Wood Street Cake",
+      "technical": 1,
+      "showstopper": "Secret Woodland Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Jamie",
+      "signature": "Easter Simnel Cake",
+      "technical": 13,
+      "showstopper": "Salted Caramel Schnauzer Birthday Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Michael",
+      "signature": "Cup of Chai Cake",
+      "technical": 11,
+      "showstopper": "Treasure Chest Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Michelle",
+      "signature": "Bara Brith Teulu Ni (Our Family's Bara Brith)",
+      "technical": 6,
+      "showstopper": "Tŷ Tylwyth Teg (Fairy House Cake)"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Phil",
+      "signature": "Spiced Fruit Cake with Rum Glaze",
+      "technical": 8,
+      "showstopper": "Retro Rocket Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Priya",
+      "signature": "Sunshine Fruit Cake",
+      "technical": 7,
+      "showstopper": "Once Upon a Time Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Rosie",
+      "signature": "Spicy Chai Loaf",
+      "technical": 2,
+      "showstopper": "Magical Jungle Cake"
+    },
+    {
+      "series": 10,
+      "episode": 1,
+      "baker": "Steph",
+      "signature": "Great Grandma's Fruit Cake",
+      "technical": 3,
+      "showstopper": "A Sundae on the Beach Cake"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Alice",
+      "signature": "Honeycomb Peanut Mallow Bars",
+      "technical": 1,
+      "showstopper": "Chocolate and Coconut New Zealand Lamb"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Amelia",
+      "signature": "Pistachio, Almond & Raisin Nougat Biscuit Bars",
+      "technical": 9,
+      "showstopper": "Swimming with Dolphins"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "David",
+      "signature": "Coco-nutty Chocolate Bars",
+      "technical": 2,
+      "showstopper": "Wedding Spray"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Helena",
+      "signature": "Wicked Witch Fingers",
+      "technical": 12,
+      "showstopper": "Caught in a Spider's Web"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Henry",
+      "signature": "Coffee, Cardamom & Hazelnut Bars",
+      "technical": 6,
+      "showstopper": "Chapel Organ"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Jamie",
+      "signature": "Cherry Caramel Shortbread Biscuit Bars",
+      "technical": 11,
+      "showstopper": "Biscuit Guitar"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Michael",
+      "signature": "Lemon & Rosemary Biscuit Bars",
+      "technical": 4,
+      "showstopper": "Hamish the Highland Cow"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Michelle",
+      "signature": "Bakewell Bars",
+      "technical": 8,
+      "showstopper": "Dewi y Ddraig Cymraeg - Dewi the Welsh Dragon"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Phil",
+      "signature": "Orange, Cranberry & White Chocolate Fudge Bars",
+      "technical": 3,
+      "showstopper": "Tina the Tortoise"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Priya",
+      "signature": "Ruby Barfi Biscuit Bars",
+      "technical": 7,
+      "showstopper": "The Beast of Rocky Mountain"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Rosie",
+      "signature": "Virgin Mojito Biscuit Bars",
+      "technical": 5,
+      "showstopper": "My Favourite Chicken – A Celebration of Legs"
+    },
+    {
+      "series": 10,
+      "episode": 2,
+      "baker": "Steph",
+      "signature": "Chocolate, Caramel Macchiato Biscuit Bars",
+      "technical": 10,
+      "showstopper": "Ginger the Cat"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Alice",
+      "signature": "Baklava Tear & Share",
+      "technical": 7,
+      "showstopper": "Global Bread"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Amelia",
+      "signature": "Chorizo Brunch Tear & Share",
+      "technical": 11,
+      "showstopper": "Caterpillar Transformation"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "David",
+      "signature": "Cinnamon Swirl Tear & Share",
+      "technical": 2,
+      "showstopper": "Trio of African Masks"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Helena",
+      "signature": "Frosted Cinnamon and Pecan Tear & Share",
+      "technical": 8,
+      "showstopper": "Every Bread is Halloween"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Henry",
+      "signature": "Chicken and Pesto Tear & Share",
+      "technical": 1,
+      "showstopper": "Herb Garden"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Michael",
+      "signature": "Keralan Star Bread Tear & Share",
+      "technical": 6,
+      "showstopper": "Mediterranean Camp Fire"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Michelle",
+      "signature": "Noson Gaws (Cheese Night) Tear & Share",
+      "technical": 5,
+      "showstopper": "Gardd Ni (Our Garden)"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Phil",
+      "signature": "Pancetta and Cheese Focaccia Tear & Share",
+      "technical": 10,
+      "showstopper": "Winner's Wreath"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Priya",
+      "signature": "Smokey Jalapeño Tear & Share",
+      "technical": 4,
+      "showstopper": "Bird Boules"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Rosie",
+      "signature": "Chilli and Manchego Tear & Share",
+      "technical": 9,
+      "showstopper": "Bread Safari"
+    },
+    {
+      "series": 10,
+      "episode": 3,
+      "baker": "Steph",
+      "signature": "Sun-Dried Tomato and Pesto Star Tear & Share",
+      "technical": 3,
+      "showstopper": "Hand-Tied Bouquet of Flowers"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Alice",
+      "signature": "Leafy Yoghurt Cake",
+      "technical": 8,
+      "showstopper": "Afternoon Tea"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "David",
+      "signature": "A Kick of Limoncello Cake",
+      "technical": 2,
+      "showstopper": "Flavours of India Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Helena",
+      "signature": "Ghost Cake",
+      "technical": 9,
+      "showstopper": "Ye Olde English Sweet Shoppe Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Henry",
+      "signature": "Ode to a German Breakfast Cake",
+      "technical": 3,
+      "showstopper": "Seaside Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Michael",
+      "signature": "Cheesecake Surprise",
+      "technical": 7,
+      "showstopper": "Flag of India Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Michelle",
+      "signature": "Homely Rhubarb Cake",
+      "technical": 5,
+      "showstopper": "Home Comforts Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Phil",
+      "signature": "Trucking Lovely Rose Cake",
+      "technical": 6,
+      "showstopper": "A Corner of My Garden Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Priya",
+      "signature": "Choc-chip Banana Cake",
+      "technical": 10,
+      "showstopper": "Flavours of My Childhood Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Rosie",
+      "signature": "A Good Dose of Limoncello Cake",
+      "technical": 4,
+      "showstopper": "Cocktails & Canapés Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 4,
+      "baker": "Steph",
+      "signature": "Answer to Everything Cake",
+      "technical": 1,
+      "showstopper": "Pink and Pretty Mishti"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Alice",
+      "signature": "Chocolate & Orange Custard Pies",
+      "technical": 6,
+      "showstopper": "Piña Colada Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "David",
+      "signature": "Fancy Custards",
+      "technical": 9,
+      "showstopper": "Amaretto Sour Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Helena",
+      "signature": "Lemon and Lavender Pies",
+      "technical": 1,
+      "showstopper": "Vampire's Kiss Raspberry Vodka Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Henry",
+      "signature": "1920s Pies",
+      "technical": 3,
+      "showstopper": "White Russian Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Michael",
+      "signature": "Mango, Lime & Ginger Pies",
+      "technical": 8,
+      "showstopper": "Brambling Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Michelle",
+      "signature": "Blueberry & White Chocolate Crème Brûlée Pies",
+      "technical": 7,
+      "showstopper": "My Little Sister the Dancing Queen's Piña Colada Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Priya",
+      "signature": "Lemon & Raspberry Ripple Pies",
+      "technical": 2,
+      "showstopper": "Meena Colada Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Rosie",
+      "signature": "Little Blackberry Pies",
+      "technical": 5,
+      "showstopper": "White Russian Cake"
+    },
+    {
+      "series": 10,
+      "episode": 5,
+      "baker": "Steph",
+      "signature": "Zesty Citrus Custard Pies",
+      "technical": 4,
+      "showstopper": "Sour Lime Piña Colada Cake"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Alice",
+      "signature": "Black Forest Meringue",
+      "technical": 1,
+      "showstopper": "Tiramisu Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "David",
+      "signature": "Spiced Meringue Surprise",
+      "technical": 2,
+      "showstopper": "Delightful Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Henry",
+      "signature": "Towering Meringue Cake",
+      "technical": 4,
+      "showstopper": "Bonfire Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Michael",
+      "signature": "Dark Chocolate Meringue Cake",
+      "technical": 6,
+      "showstopper": "Black Forest Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Priya",
+      "signature": "Family Favourite",
+      "technical": 7,
+      "showstopper": "Summer Fruit Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Rosie",
+      "signature": "Layers of Lime and Raspberry",
+      "technical": 5,
+      "showstopper": "Ruby Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 6,
+      "baker": "Steph",
+      "signature": "Eton Mess",
+      "technical": 3,
+      "showstopper": "Mirror Bombe"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "Alice",
+      "signature": "Lemon, Blueberry & Almond Hot Cross Buns",
+      "technical": 6,
+      "showstopper": "Chocolate, Orange and Salted Caramel Kaleidoscope Sarawak Style Layered Cake"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "David",
+      "signature": "Kozunak Plaits",
+      "technical": 2,
+      "showstopper": "Sarawak Style Layer Cake Sculpture"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "Henry",
+      "signature": "Chocolate Kardemummabullar",
+      "technical": 3,
+      "showstopper": "Elegant Present Box"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "Michael",
+      "signature": "Figgy Pudding Hot Cross Buns",
+      "technical": 5,
+      "showstopper": "Jamaican Mule Sarawak Style Layer Cake"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "Rosie",
+      "signature": "Mardi Gras Finnish Semlor Peacock Festival Buns",
+      "technical": 1,
+      "showstopper": "Rainbow Sarawak Style Layer Cake"
+    },
+    {
+      "series": 10,
+      "episode": 7,
+      "baker": "Steph",
+      "signature": "Zest and Spice Hot Cross Buns",
+      "technical": 4,
+      "showstopper": "Orange and Chai Spiced Revitalise Cake"
+    },
+    {
+      "series": 10,
+      "episode": 8,
+      "baker": "Alice",
+      "signature": "Leek, Apple & Goat's Cheese Tarte Tatin",
+      "technical": 3,
+      "showstopper": "Apple Tree House Pie"
+    },
+    {
+      "series": 10,
+      "episode": 8,
+      "baker": "David",
+      "signature": "Caramelly Carroty Tarte Tatin",
+      "technical": 1,
+      "showstopper": "Whitby Fish Pie"
+    },
+    {
+      "series": 10,
+      "episode": 8,
+      "baker": "Henry",
+      "signature": "Crab, Tomato & New Potato Tarte Tatin",
+      "technical": 5,
+      "showstopper": "Chandelier Picnic Pie"
+    },
+    {
+      "series": 10,
+      "episode": 8,
+      "baker": "Rosie",
+      "signature": "Shallot, Aubergine & Goat's Cheese Spiced Tarte Tatin",
+      "technical": 2,
+      "showstopper": "Rapunzel's Tower"
+    },
+    {
+      "series": 10,
+      "episode": 8,
+      "baker": "Steph",
+      "signature": "Caramelised Onion & Goat's Cheese Tarte Tatin",
+      "technical": 4,
+      "showstopper": "Curried Chickpea & Potato Carousel"
+    },
+    {
+      "series": 10,
+      "episode": 9,
+      "baker": "Alice",
+      "signature": "Mocha, Hazelnut & Orange Domed Tarts",
+      "technical": 4,
+      "showstopper": "Save Our Oceans"
+    },
+    {
+      "series": 10,
+      "episode": 9,
+      "baker": "David",
+      "signature": "Aperitif Domed Tarts",
+      "technical": 2,
+      "showstopper": "Greenhouse Growing Moss"
+    },
+    {
+      "series": 10,
+      "episode": 9,
+      "baker": "Rosie",
+      "signature": "Lemon, Raspberry & Mint Domed Tarts",
+      "technical": 1,
+      "showstopper": "Time with Family"
+    },
+    {
+      "series": 10,
+      "episode": 9,
+      "baker": "Steph",
+      "signature": "Raspberry, Lemon & White Chocolate Domed Tarts",
+      "technical": 3,
+      "showstopper": "A Night at the Opera"
+    },
+    {
+      "series": 10,
+      "episode": 10,
+      "baker": "Alice",
+      "signature": "Chocolate, Pear, Ginger and Maple Cake",
+      "technical": 2,
+      "showstopper": "End of the School Year Celebration Picnic"
+    },
+    {
+      "series": 10,
+      "episode": 10,
+      "baker": "David",
+      "signature": "Chocolate, Armagnac and Prune Cake",
+      "technical": 1,
+      "showstopper": "Peachy Pic-Nik"
+    },
+    {
+      "series": 10,
+      "episode": 10,
+      "baker": "Steph",
+      "signature": "Black Forest Chocolate Cake",
+      "technical": 3,
+      "showstopper": "Picnic in the Park"
     }
   ]
 }
