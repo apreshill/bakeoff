@@ -6,7 +6,7 @@
 \title{Each episode's ratings}
 \format{A data frame with 74 rows representing individual episodes and 10 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-8)}
+\item{series}{an integer denoting UK series (1-10)}
 \item{episode}{an integer denoting episode number within a series}
 \item{uk_airdate}{a date denoting original airdate of episode in the UK}
 \item{viewers_7day}{number of viewers in millions within a 7-day window from airdate}
@@ -22,6 +22,6 @@ All official episode viewer number are from BARB, as entered on Wikipedia \url{h
 ratings
 }
 \description{
-Ratings for all episodes across all GBBO series
+Ratings for all episodes across all 10 GBBO series
 }
 \keyword{datasets}
