@@ -14,7 +14,7 @@
 \item{avg_uk_viewers}{average UK viewers in millions; also see \code{ratings}}
 \item{day_of_week}{a character string denoting weekday that series' episodes aired in UK}
 \item{timeslot}{time of day that series' episodes aired in UK (24-hour clock)}
-\item{channel}{a character string denoting channel that series aired on: one of \code{BBC One}, \code{BBC Two}, or \code{Channel 4}}
+\item{channel}{a character string denoting channel that series aired on: one of \verb{BBC One}, \verb{BBC Two}, or \verb{Channel 4}}
 \item{runner_up_1}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 \item{runner_up_2}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 }}
