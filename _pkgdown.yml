@@ -1,14 +1,10 @@
-url: https://bakeoff.netlify.com
+url: https://bakeoff.netlify.app
 
 authors:
   Alison Hill:
     href: https://alison.rbind.io
   Chester Ismay:
     href: https://chester.rbind.io
-
-template:
-  params:
-    bootswatch: flatly
 
 reference:
   - title: "Joined tibbles"
