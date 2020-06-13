@@ -2,9 +2,9 @@
 #'
 #' This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by `series` and `episode`.
 #'
-#' @format A data frame with 74 rows representing individual episodes per series and 10 variables:
+#' @format A data frame with 94 rows representing individual episodes per series and 10 variables:
 #' \describe{
-#'   \item{series}{an integer denoting UK series (1-8)}
+#'   \item{series}{an integer denoting UK series (1-10)}
 #'   \item{episode}{an integer denoting episode number within a series}
 #'   \item{bakers_appeared}{an integer denoting the number of bakers who appeared in a given episode}
 #'   \item{bakers_out}{an integer denoting the number of bakers were either eliminated, left at will, or left due to illness in that episode}
