@@ -4,9 +4,9 @@
 \name{series}
 \alias{series}
 \title{Overview of each series aired in the UK}
-\format{A data frame with 8 rows representing individual series and 11 variables:
+\format{A data frame with 10 rows representing individual series and 11 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-8)}
+\item{series}{an integer denoting UK series (1-10)}
 \item{episodes}{an integer denoting total number of episodes within series}
 \item{premiere}{a date denoting original airdate of series premiere episode in the UK}
 \item{finale}{a date denoting original airdate of series finale episode in the UK}
@@ -25,6 +25,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overvie
 series
 }
 \description{
-Metadata for all GBBO series
+Metadata for all 10 GBBO series
 }
 \keyword{datasets}

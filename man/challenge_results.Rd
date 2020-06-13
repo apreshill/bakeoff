@@ -9,7 +9,7 @@
 \item{series}{an integer denoting UK series (1-8)}
 \item{episode}{an integer denoting episode number within a series}
 \item{baker}{a character string giving given or nickname}
-\item{result}{a character string denoting if the baker was \code{IN}, \code{OUT}, \code{STAR BAKER}, or \code{SICK} for a given episode. For finale episodes, values are either \code{WINNER} or \code{RUNNER-UP}. If \code{NA}, baker did not appear in episode.}
+\item{result}{a character string denoting if the baker was \code{IN}, \code{OUT}, \verb{STAR BAKER}, or \code{SICK} for a given episode. For finale episodes, values are either \code{WINNER} or \code{RUNNER-UP}. If \code{NA}, baker did not appear in episode.}
 \item{signature}{a character string containing the bake for the signature challenge for that baker/episode. If \code{NA}, baker did not appear in episode.}
 \item{technical}{an integer denoting the rank on the technical challenge for that baker/episode; rank = 1 is winner of the technical challenge. If \code{NA}, baker did not appear in episode.}
 \item{showstopper}{a character string containing the bake for the showstopper challenge for that baker/episode. If \code{NA}, baker did not appear in episode.}

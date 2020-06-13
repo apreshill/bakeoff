@@ -4,7 +4,7 @@
 \name{ratings}
 \alias{ratings}
 \title{Each episode's ratings}
-\format{A data frame with 74 rows representing individual episodes and 10 variables:
+\format{A data frame with 94 rows representing individual episodes and 10 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-10)}
 \item{episode}{an integer denoting episode number within a series}
