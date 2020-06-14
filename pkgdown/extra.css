@@ -2,6 +2,12 @@
 /* https://github.com/tidyverse/tidytemplate/blob/master/inst/pkgdown/assets/tidymodels.css */
 
 @import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+pre, code {
+  font-family: "DM Mono", Consolas, Inconsolata, monospace;
+  font-size: 16px;
+}
 
 
 body {
