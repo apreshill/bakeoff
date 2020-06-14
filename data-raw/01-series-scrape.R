@@ -1,3 +1,5 @@
+# This script scrapes a single table from Wikipedia
+
 library(rvest)
 library(dplyr)
 library(tidyr)
@@ -6,6 +8,7 @@ library(tidyr)
 library(stringr)
 library(janitor)
 library(lubridate)
+library(htmltab)
 
 url <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview"
 series <- url %>%
@@ -35,7 +38,12 @@ series <- series %>%
   separate(timeslot, into = c("day_of_week", "timeslot"), sep = -7) %>%
   mutate(timeslot = str_replace_all(timeslot, "[^\x20-\x7E]", "")) %>%
   mutate(premiere = dmy(premiere),
-         finale = dmy(finale))
+         finale = dmy(finale),
+         series = as.integer(series),
+         episodes = as.integer(episodes))
 
 ## dataframe to csv
 write_csv(series, here::here("data-raw", "series.csv"))
+
+# end of exports
+usethis::use_data(series, overwrite = TRUE)
