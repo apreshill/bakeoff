@@ -12,4 +12,4 @@
 #'   \item{showstopper}{a character string containing the bake for the showstopper challenge for that baker/episode}
 #' }
 #' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
-"challenges"
+"episodes"
