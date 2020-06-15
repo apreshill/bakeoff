@@ -11,7 +11,7 @@ pre, code {
 
 
 body {
-  font-size: 16px;
+  font-size: 18px;
   font-family: Sen;
   line-height: 1.6em;
 }
@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 .page-header h1 {
-  color: #4254A7;
+  color: #126180;
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
@@ -36,11 +36,11 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: #4254A7;
+  color: #126180;
 }
 
 h3 {
-  color: #4254A7cc;
+  color: #126180cc;
 }
 
 .contents .page-header {
@@ -48,11 +48,11 @@ h3 {
 }
 
 a {
-  color: #4254A7;
+  color: #126180;
 }
 
 a:hover {
-  color: #4254A7;
+  color: #EB1708;
 }
 
 
@@ -68,33 +68,35 @@ a:hover {
 
 .navbar .info .version-danger {
   font-weight: bold;
-  color: #303E7A;
+  color: #126180;
 }
 
 .navbar-nav li a {
-  /* text-transform: uppercase;*/
+  /*text-transform: uppercase;*/
   letter-spacing: 1pt;
   font-size: 1em;
+  font-weight: bold;
 }
 
 .navbar-nav li a:hover {
-  color: #303E7A !important;
+  color: #126180 !important;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #303E7A;
+  color: #126180;
   background-color: inherit;
 }
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-	color: #474747;
+	color: #5F5E5F;
+	font-weight: bold;
 }
 
 .navbar-default .navbar-link:hover {
-	color: #303E7A;
+	color: #126180;
 }
 
 /* White Space */
@@ -128,7 +130,7 @@ a:hover {
   margin-bottom: 0.85em;
   /* text-transform: uppercase; */
   font-weight: 700;
-  color: #4254a7;
+  color: #126180;
   letter-spacing: 1.5pt;
   padding-left: 10px;
 }
@@ -155,12 +157,12 @@ a:hover {
 }
 
 #pkgdown-sidebar a {
-  color: #474747;
+  color: #5A5859;
 }
 
 #pkgdown-sidebar a:hover {
   text-decoration: underline;
-  color: #4254A7;
+  color: #126180;
 }
 
 
@@ -176,7 +178,7 @@ nav[data-toggle='toc'] .nav > .active > a,
 nav[data-toggle='toc'] .nav > .active:hover > a,
 nav[data-toggle='toc'] .nav > .active:focus > a,
 nav[data-toggle='toc'] ul > li > a:hover {
-  border-left: 3px solid #4254A7;
+  border-left: 3px solid #126180;
   padding-left: 10px;
   text-indent: -2px;
   letter-spacing: 1pt;
@@ -222,13 +224,14 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 /*----Copy Buttons ----*/
 
 .btn-primary {
-  background-color: #b6dfe2;
+  background-color: #fdaba3;
+  border-color: #fdaba3;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
-  background-color: #457b9d;
+  background-color: #126180;
 }
 
 /*----- COLORED LIST BULLET----*/
@@ -239,7 +242,7 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 
 .contents ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #4254A7; /* Change the color */
+  color: #fdaba3; /* Change the color */
   font-weight: normal; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
@@ -254,4 +257,8 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 .contents ul > li { /*to add back in space between bullet items that I took away by making p display inline */
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+a.anchor {
+	background-image: url(./link.svg);
 }
