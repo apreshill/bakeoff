@@ -28,7 +28,7 @@ h1, h2, h3 {
 }
 
 .page-header h1 {
-  color: #8E4866;
+  color: #4254A7;
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
@@ -36,11 +36,11 @@ h1, h2, h3 {
 }
 
 h2 {
-  color: #8E4866;
+  color: #4254A7;
 }
 
 h3 {
-  color: #8E4866cc;
+  color: #4254A7cc;
 }
 
 .contents .page-header {
@@ -48,18 +48,18 @@ h3 {
 }
 
 a {
-  color: #8E4866;
+  color: #4254A7;
 }
 
 a:hover {
-  color: #8e4866;
+  color: #4254A7;
 }
 
 
 /* navbar ----------------------------------------------- */
 
 .navbar {
-  background-color: #b5d2dc99;
+  background-color: #fdaba399;
   box-shadow: none !important;
   border-bottom: 0pt !important;
   padding-bottom: 1em;
@@ -68,7 +68,7 @@ a:hover {
 
 .navbar .info .version-danger {
   font-weight: bold;
-  color: #8E4866;
+  color: #303E7A;
 }
 
 .navbar-nav li a {
@@ -78,13 +78,13 @@ a:hover {
 }
 
 .navbar-nav li a:hover {
-  color: #8E4866 !important;
+  color: #303E7A !important;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #8E4866;
+  color: #303E7A;
   background-color: inherit;
 }
 
@@ -94,7 +94,7 @@ a:hover {
 }
 
 .navbar-default .navbar-link:hover {
-	color: #8E4866;
+	color: #303E7A;
 }
 
 /* White Space */
@@ -128,7 +128,7 @@ a:hover {
   margin-bottom: 0.85em;
   /* text-transform: uppercase; */
   font-weight: 700;
-  color: #8E4866;
+  color: #4254a7;
   letter-spacing: 1.5pt;
   padding-left: 10px;
 }
@@ -160,7 +160,7 @@ a:hover {
 
 #pkgdown-sidebar a:hover {
   text-decoration: underline;
-  color: #8e4866;
+  color: #4254A7;
 }
 
 
@@ -176,7 +176,7 @@ nav[data-toggle='toc'] .nav > .active > a,
 nav[data-toggle='toc'] .nav > .active:hover > a,
 nav[data-toggle='toc'] .nav > .active:focus > a,
 nav[data-toggle='toc'] ul > li > a:hover {
-  border-left: 3px solid #8E4866;
+  border-left: 3px solid #4254A7;
   padding-left: 10px;
   text-indent: -2px;
   letter-spacing: 1pt;
@@ -187,7 +187,7 @@ nav[data-toggle='toc'] ul > li > a:hover {
 nav[data-toggle='toc'] .nav > li > a:hover,
 nav[data-toggle='toc'] .nav > li > a:focus {
   padding-left: 10px;
-  border-left: 3px solid #b5d2dc;
+  border-left: 3px solid #fdaba3;
 }
 
 
@@ -239,7 +239,7 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 
 .contents ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #8E4866; /* Change the color */
+  color: #4254A7; /* Change the color */
   font-weight: normal; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
