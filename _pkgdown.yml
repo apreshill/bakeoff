@@ -22,7 +22,7 @@ reference:
       All variable types are cast properly, all tibbles are in tidy format, and all variable names are in `snake_case`.
     contents:
       - bakers
-      - challenges
+      - episodes
       - ratings
       - results
       - series
