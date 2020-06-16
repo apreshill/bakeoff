@@ -31,4 +31,4 @@ reference:
     desc: >
       More information on the package itself
     contents:
-      - bakeoff-package
+      - bakeoff
