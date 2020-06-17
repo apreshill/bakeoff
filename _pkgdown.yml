@@ -6,6 +6,16 @@ authors:
   Chester Ismay:
     href: https://chester.rbind.io
 
+navbar:
+  structure:
+    left:  [home]
+    right: [reference, news, github]
+  components:
+    news:
+      text: News
+      href: news/index.html
+
+
 reference:
   - title: "Joined tibbles"
     desc: >
@@ -27,6 +37,14 @@ reference:
       - results
       - series
       - seasons
+  - title: "Scales"
+    desc: >
+      Color and fill scales
+    contents:
+      - bakeoff_colors
+      - bakeoff_cols
+      - bakeoff_pal
+      - scale_bakeoff
   - title: "The package"
     desc: >
       More information on the package itself

@@ -4,7 +4,8 @@
 \name{ratings}
 \alias{ratings}
 \title{Each episode's ratings}
-\format{A data frame with 94 rows representing individual episodes and 10 variables:
+\format{
+A data frame with 94 rows representing individual episodes and 10 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-10)}
 \item{episode}{an integer denoting episode number within a series}
@@ -14,7 +15,8 @@
 \item{network_rank}{an integer denoting the episode's weekly ranking within network (note that the networks changed for series 8 and later)}
 \item{channels_rank}{an integer denoting the episode's weekly ranking across all channels}
 \item{bbc_iplayer_requests}{number of BBC iPlayer requests (note: not available for all series, and only for series that aired on the BBC)}
-}}
+}
+}
 \source{
 All official episode viewer number are from BARB, as entered on Wikipedia \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
 }

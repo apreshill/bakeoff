@@ -4,7 +4,9 @@
 \name{bakeoff_colors}
 \alias{bakeoff_colors}
 \title{Define the colors}
-\format{An object of class \code{character} of length 25.}
+\format{
+An object of class \code{character} of length 25.
+}
 \usage{
 bakeoff_colors
 }

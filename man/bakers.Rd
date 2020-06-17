@@ -4,7 +4,8 @@
 \name{bakers}
 \alias{bakers}
 \title{Each baker's name, age, occupation, and hometown}
-\format{A data frame with 120 rows representing individual bakers and 8 variables:
+\format{
+A data frame with 120 rows representing individual bakers and 8 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-10)}
 \item{baker_full}{a character string giving full name}
@@ -14,7 +15,8 @@
 \item{hometown}{a character string giving hometown}
 \item{baker_last}{a character string giving family name}
 \item{baker_first}{a character string giving given name}
-}}
+}
+}
 \source{
 See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers}, for example, for series 1 bakers.
 }

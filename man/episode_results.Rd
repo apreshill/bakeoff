@@ -4,7 +4,8 @@
 \name{episode_results}
 \alias{episode_results}
 \title{Each episodes' statistics}
-\format{A data frame with 94 rows representing individual episodes per series and 10 variables:
+\format{
+A data frame with 94 rows representing individual episodes per series and 10 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-10)}
 \item{episode}{an integer denoting episode number within a series}
@@ -16,7 +17,8 @@
 \item{sb_name}{a character string with the names of the bakers who won Star Baker in a given episode, separated by commas}
 \item{winner_name}{a character string with the name of the series winner- only present for final episodes within each series}
 \item{eliminated}{a character string with the name of the bakers who left a given episode, separated by commas}
-}}
+}
+}
 \source{
 See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
 }

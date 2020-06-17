@@ -4,7 +4,8 @@
 \name{series}
 \alias{series}
 \title{Overview of each series aired in the UK}
-\format{A data frame with 10 rows representing individual series and 11 variables:
+\format{
+A data frame with 10 rows representing individual series and 11 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-10)}
 \item{episodes}{an integer denoting total number of episodes within series}
@@ -17,7 +18,8 @@
 \item{channel}{a character string denoting channel that series aired on: one of \verb{BBC One}, \verb{BBC Two}, or \verb{Channel 4}}
 \item{runner_up_1}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
 \item{runner_up_2}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
-}}
+}
+}
 \source{
 See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
 }

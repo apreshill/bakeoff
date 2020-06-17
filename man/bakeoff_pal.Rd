@@ -4,7 +4,7 @@
 \alias{bakeoff_pal}
 \title{Return function to interpolate a bakeoff color palette}
 \usage{
-bakeoff_pal(palette = "main", reverse = FALSE, ...)
+bakeoff_pal(palette = "main", reverse = FALSE)
 }
 \arguments{
 \item{palette}{Character name of palette in bakeoff_palettes}
