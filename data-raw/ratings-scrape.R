@@ -42,9 +42,11 @@ ratings <- ratings_df %>%
   mutate(uk_airdate = ymd(uk_airdate)) %>%
   select(-uk_premiere) %>%
   mutate(across(-contains("airdate"), ~na_if(., "N/A"))) %>%
-  mutate_if(is.character, funs(parse_number)) %>%
-  mutate(series = as.integer(series),
-         episode = as.integer(episode)) %>%
+  mutate(across(where(is.character), parse_number)) %>%
+  arrange(series, episode) %>%
+  mutate(series = as.factor(series),
+         episode = as.factor(episode),
+         episode_count = row_number()) %>%
   rename(network_rank = weekly_ranking_network,
          channels_rank = weekly_ranking_all_channels)
 

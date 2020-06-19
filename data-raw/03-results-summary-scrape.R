@@ -56,8 +56,10 @@ results <- results_df2 %>%
   mutate(result = case_when(
     result %in% c("Runner up", "Runner Up", "Runner-Up", "Third Place") ~ "RUNNER-UP",
     result == "SB" ~ "STAR BAKER",
+    result %in% c("[a]", "WD") ~ "SICK",
     TRUE ~ result
-  ))
+  )) %>%
+  ungroup()
 
 ## dataframe to csv
 write_csv(results, here::here("data-raw", "results.csv"))

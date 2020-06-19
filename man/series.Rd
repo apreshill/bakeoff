@@ -7,7 +7,7 @@
 \format{
 A data frame with 10 rows representing individual series and 11 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-10)}
+\item{series}{an factor denoting UK series (1-10)}
 \item{episodes}{an integer denoting total number of episodes within series}
 \item{premiere}{a date denoting original airdate of series premiere episode in the UK}
 \item{finale}{a date denoting original airdate of series finale episode in the UK}

@@ -429,7 +429,7 @@ series,episode,baker,result
 5,2,Diana,IN
 5,3,Diana,IN
 5,4,Diana,IN
-5,5,Diana,WD
+5,5,Diana,SICK
 5,6,Diana,IN
 5,7,Diana,IN
 5,8,Diana,IN
@@ -998,7 +998,7 @@ series,episode,baker,result
 9,1,Terry,IN
 9,2,Terry,IN
 9,3,Terry,IN
-9,4,Terry,[a]
+9,4,Terry,SICK
 9,5,Terry,OUT
 9,6,Terry,NA
 9,7,Terry,NA

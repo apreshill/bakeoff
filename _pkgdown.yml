@@ -42,8 +42,7 @@ reference:
       Color and fill scales
     contents:
       - bakeoff_colors
-      - bakeoff_cols
-      - bakeoff_pal
+      - bakeoff_palette
       - scale_bakeoff
   - title: "The package"
     desc: >

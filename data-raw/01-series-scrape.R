@@ -16,9 +16,7 @@ series <- url %>%
   clean_names() %>%
   as_tibble() %>%
   rename(avg_uk_viewers = "average_uk_viewers_millions") %>%
-  mutate(series = as.integer(series),
-         episodes = as.integer(episodes),
-         avg_uk_viewers = as.numeric(avg_uk_viewers))
+  mutate(series = as.integer(series))
 
 ## get table 2
 # page <- xml2::read_html(url)
@@ -39,8 +37,9 @@ series <- series %>%
   mutate(timeslot = str_replace_all(timeslot, "[^\x20-\x7E]", "")) %>%
   mutate(premiere = dmy(premiere),
          finale = dmy(finale),
-         series = as.integer(series),
-         episodes = as.integer(episodes))
+         series = as.factor(series),
+         episodes = as.integer(episodes),
+         avg_uk_viewers = as.numeric(avg_uk_viewers))
 
 ## dataframe to csv
 write_csv(series, here::here("data-raw", "series.csv"))

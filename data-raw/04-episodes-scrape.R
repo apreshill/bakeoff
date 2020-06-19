@@ -10,7 +10,6 @@ library(jsonlite)
 
 url_base <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_%d)"
 max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10, 10, 10) + 3
-new_colnames <- c("baker", "signature", "technical", "showstopper")
 
 ## function to get episodes across series
 get_episodes <- function(series, max_episodes) {
@@ -21,7 +20,8 @@ get_episodes <- function(series, max_episodes) {
     html_nodes(xpath = '//*[@id="mw-content-text"]/div/table') %>%
     html_table(fill = TRUE) %>%
     .[4:max_episodes] %>%
-    map(~set_names(., new_colnames)) %>%
+    #map(~set_names(., new_colnames)) %>%
+    map(~rename_with(., ~ tolower(stringr::word(.x, sep = "[[:punct:][:space:][:digit:]]+")))) %>%
     map(mutate, series = series)
 }
 
@@ -29,6 +29,7 @@ get_episodes <- function(series, max_episodes) {
 episodes <- map2(.x = 1:10,
                    .y = max_episodes,
                    .f = get_episodes)
+
 
 ## export list objects to json
 ## auto_unbox = TRUE in order to make this JSON as close as possible to the JSON

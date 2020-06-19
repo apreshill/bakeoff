@@ -7,13 +7,22 @@
     <loc>https://bakeoff.netlify.app/reference/bakeoff.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_color_data.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_colors.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakeoff_cols.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_generate_pal.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakeoff_pal.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palette.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palette_names.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palettes.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/baker_results.html</loc>

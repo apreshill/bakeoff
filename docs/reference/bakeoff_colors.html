@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Define the colors — bakeoff_colors • bakeoff</title>
+<title>Extract named bakeoff colors as hex codes — bakeoff_colors • bakeoff</title>
 
 
 <!-- jquery -->
@@ -41,8 +41,8 @@
   <link href="../extra.css" rel="stylesheet">
   
 
-<meta property="og:title" content="Define the colors — bakeoff_colors" />
-<meta property="og:description" content="Define the colors" />
+<meta property="og:title" content="Extract named bakeoff colors as hex codes — bakeoff_colors" />
+<meta property="og:description" content="Extract named bakeoff colors as hex codes" />
 
 
 
@@ -113,22 +113,77 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Define the colors</h1>
-    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/bakeoff-colors.R'><code>R/bakeoff-colors.R</code></a></small>
+    <h1>Extract named bakeoff colors as hex codes</h1>
+    <small class="dont-index">Source: <a href='https://github.com/apreshill/bakeoff/blob/master/R/colors.R'><code>R/colors.R</code></a></small>
     <div class="hidden name"><code>bakeoff_colors.Rd</code></div>
     </div>
 
     <div class="ref-description">
-    <p>Define the colors</p>
+    <p>Extract named bakeoff colors as hex codes</p>
     </div>
 
-    <pre class="usage"><span class='no'>bakeoff_colors</span></pre>
+    <pre class="usage"><span class='fu'>bakeoff_colors</span>(<span class='no'>...</span>)</pre>
 
+    <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
+    <table class="ref-arguments">
+    <colgroup><col class="name" /><col class="desc" /></colgroup>
+    <tr>
+      <th>...</th>
+      <td><p>Character names of bakeoff colors.
+If none specified, returns all
+If any specified, can be listed by names in quotes (no combine required)</p></td>
+    </tr>
+    </table>
 
-    <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
+    <h2 class="hasAnchor" id="value"><a class="anchor" href="#value"></a>Value</h2>
 
-    <p>An object of class <code>character</code> of length 25.</p>
+    <p>A named character vector of hex colors.</p>
 
+    <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
+    <pre class="examples"><div class='input'><span class='fu'>bakeoff_colors</span>()</div><div class='output co'>#&gt;            rose           peach    garancemelon    garancepeach    desertflower 
+#&gt;       "#fdaba3"       "#edbba8"       "#f27168"       "#f7d2b1"       "#ff9a90" 
+#&gt;     tenderpeach     livingcoral   garanceyellow          yellow           lemon 
+#&gt;       "#f8d6b8"       "#fa7268"       "#fbed87"       "#fedb11"       "#e2bf54" 
+#&gt;     garancegold            gold garancemarigold        marigold          orange 
+#&gt;       "#b79f26"       "#9d8e42"       "#f4b31a"       "#ff7436"       "#f0a561" 
+#&gt;       tangerine   vibrantorange           berry       prismpink         magenta 
+#&gt;       "#ef8759"       "#ff6d2d"       "#ee5863"       "#efa5c8"       "#fb82b7" 
+#&gt;          violet      brightpink           flush             red          maroon 
+#&gt;       "#c6b7d5"       "#ed259d"       "#ca225e"       "#e74a2f"       "#5f1f29" 
+#&gt;        burgundy        cardinal            mint          garden           green 
+#&gt;       "#8e4866"       "#b92f3b"       "#deeee2"       "#629d62"       "#5b8c4d" 
+#&gt;          hunter            pear            pine           mason          baltic 
+#&gt;       "#284a29"       "#d3dcaa"       "#4c9a89"       "#98c0b8"       "#1a9a9d" 
+#&gt;      agategreen         riptide          marina            opal        bluegrey 
+#&gt;       "#5da19a"       "#84d6d3"       "#519199"       "#bdd9d4"       "#6999cd" 
+#&gt;          cobalt             sky   starlightblue      placidblue        bluebell 
+#&gt;       "#4254a7"       "#7f8cb4"       "#b5d2dc"       "#8daed7"       "#8d91c9" 
+#&gt;         matisse      brightnavy        deepblue     garanceblue    bluesapphire 
+#&gt;       "#187ba2"       "#2f77c1"       "#343c56"       "#283338"       "#126180" 
+#&gt;            blue           brick          almond        charcoal           cocoa 
+#&gt;       "#1c5c6e"       "#bc643a"       "#543f29"       "#313131"       "#a5774c" 
+#&gt;    garanceblack     garancegrey    garancewhite            grey            nude 
+#&gt;       "#1a1917"       "#a09e9f"       "#efede8"       "#95918d"       "#fdd9b9" 
+#&gt;           white           linen         tobacco 
+#&gt;       "#f0eee9"       "#f0d8c3"       "#9a7c37" </div><div class='input'><span class='fu'>bakeoff_colors</span>(<span class='st'>"riptide"</span>)</div><div class='output co'>#&gt;   riptide 
+#&gt; "#84d6d3" </div><div class='input'><span class='fu'>bakeoff_colors</span>(<span class='st'>"baltic"</span>, <span class='st'>"yellow"</span>)</div><div class='output co'>#&gt;    baltic    yellow 
+#&gt; "#1a9a9d" "#fedb11" </div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/names.html'>names</a></span>(<span class='fu'>bakeoff_colors</span>())</div><div class='output co'>#&gt;  [1] "rose"            "peach"           "garancemelon"    "garancepeach"   
+#&gt;  [5] "desertflower"    "tenderpeach"     "livingcoral"     "garanceyellow"  
+#&gt;  [9] "yellow"          "lemon"           "garancegold"     "gold"           
+#&gt; [13] "garancemarigold" "marigold"        "orange"          "tangerine"      
+#&gt; [17] "vibrantorange"   "berry"           "prismpink"       "magenta"        
+#&gt; [21] "violet"          "brightpink"      "flush"           "red"            
+#&gt; [25] "maroon"          "burgundy"        "cardinal"        "mint"           
+#&gt; [29] "garden"          "green"           "hunter"          "pear"           
+#&gt; [33] "pine"            "mason"           "baltic"          "agategreen"     
+#&gt; [37] "riptide"         "marina"          "opal"            "bluegrey"       
+#&gt; [41] "cobalt"          "sky"             "starlightblue"   "placidblue"     
+#&gt; [45] "bluebell"        "matisse"         "brightnavy"      "deepblue"       
+#&gt; [49] "garanceblue"     "bluesapphire"    "blue"            "brick"          
+#&gt; [53] "almond"          "charcoal"        "cocoa"           "garanceblack"   
+#&gt; [57] "garancegrey"     "garancewhite"    "grey"            "nude"           
+#&gt; [61] "white"           "linen"           "tobacco"        </div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>scales</span>)</div><div class='output co'>#&gt; <span class='warning'>Warning: package ‘scales’ was built under R version 3.6.2</span></div><div class='input'><span class='fu'><a href='https://scales.r-lib.org//reference/show_col.html'>show_col</a></span>(<span class='fu'>bakeoff_colors</span>(), <span class='kw'>label</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)</div><div class='img'><img src='bakeoff_colors-1.png' alt='' width='700' height='433' /></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
