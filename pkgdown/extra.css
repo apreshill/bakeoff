@@ -177,7 +177,7 @@ nav[data-toggle='toc'] .nav > .active > a,
 nav[data-toggle='toc'] .nav > .active:hover > a,
 nav[data-toggle='toc'] .nav > .active:focus > a,
 nav[data-toggle='toc'] ul > li > a:hover {
-  border-left: 3px solid #f4e4e7;
+  border-left: 3px solid #E7C5CB;
   padding-left: 10px;
   text-indent: -2px;
   letter-spacing: 1pt;
@@ -188,7 +188,7 @@ nav[data-toggle='toc'] ul > li > a:hover {
 nav[data-toggle='toc'] .nav > li > a:hover,
 nav[data-toggle='toc'] .nav > li > a:focus {
   padding-left: 10px;
-  border-left: 3px solid #f4e4e7;
+  border-left: 3px solid #E7C5CB;
 }
 
 
@@ -223,8 +223,8 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 /*----Copy Buttons ----*/
 
 .btn-primary {
-  background-color: #f4e4e7;
-  border-color: #f4e4e7;
+  background-color: #E7C5CB;
+  border-color: #E7C5CB;
 }
 
 .btn-primary:hover,
