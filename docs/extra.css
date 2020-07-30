@@ -177,7 +177,7 @@ nav[data-toggle='toc'] .nav > .active > a,
 nav[data-toggle='toc'] .nav > .active:hover > a,
 nav[data-toggle='toc'] .nav > .active:focus > a,
 nav[data-toggle='toc'] ul > li > a:hover {
-  border-left: 3px solid #187BA2;
+  border-left: 3px solid #f4e4e7;
   padding-left: 10px;
   text-indent: -2px;
   letter-spacing: 1pt;
@@ -188,7 +188,7 @@ nav[data-toggle='toc'] ul > li > a:hover {
 nav[data-toggle='toc'] .nav > li > a:hover,
 nav[data-toggle='toc'] .nav > li > a:focus {
   padding-left: 10px;
-  border-left: 3px solid #d7a09e;
+  border-left: 3px solid #f4e4e7;
 }
 
 
@@ -223,14 +223,15 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 /*----Copy Buttons ----*/
 
 .btn-primary {
-  background-color: #d7a09e;
-  border-color: #d7a09e;
+  background-color: #f4e4e7;
+  border-color: #f4e4e7;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
   background-color: #187BA2;
+  border-color: #187BA2;
 }
 
 /*----- COLORED LIST BULLET----*/
@@ -241,7 +242,7 @@ nav[data-toggle='toc'] .nav .nav > .active:focus > a {
 
 .contents ul li::before {
   content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #d7a09e; /* Change the color */
+  color: #f4e4e7; /* Change the color */
   font-weight: normal; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1.5em; /* Also needed for space (tweak if needed) */
