@@ -97,8 +97,9 @@ bakeoff_color_data <- c(
 #' bakeoff_colors("baltic", "yellow")
 #' names(bakeoff_colors())
 #'
-#' library(scales)
+#' if (require('scales')) {
 #' show_col(bakeoff_colors(), label = FALSE)
+#' }
 #' @export
 bakeoff_colors <- function(...) {
   cols <- c(...)

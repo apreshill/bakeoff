@@ -23,6 +23,7 @@ bakeoff_colors("riptide")
 bakeoff_colors("baltic", "yellow")
 names(bakeoff_colors())
 
-library(scales)
+if (require('scales')) {
 show_col(bakeoff_colors(), label = FALSE)
+}
 }
