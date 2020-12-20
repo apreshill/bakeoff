@@ -39,24 +39,26 @@ bakeoff_palette_names <- function() names(bakeoff_palettes)
 #' @examples
 #' bakeoff_palette("showstopper")
 #'
-#' library(scales)
-#' show_col(bakeoff_palette("finale"))
+#' if (require('scales')) {
+#'   show_col(bakeoff_palette("finale"))
+#'   }
 #'
-#' library(ggplot2)
+#' if (require('ggplot2')) {
 #' line_plot <- ggplot(ratings, aes(x = episode, y = viewers_7day,
 #' color = series, group = series)) + facet_wrap(~series) + geom_line(lwd = 2)
 #' line_plot + scale_color_manual(values = bakeoff_palette(), guide = FALSE)
 #'
-#' library(ggplot2)
 #' ggplot(episodes, aes(episode, fill = series)) + geom_bar() + facet_wrap(~series) +
 #' scale_fill_manual(values = bakeoff_palette("signature"), guide = FALSE)
+#' }
 #'
 #' # If you need more colors than normally found in a palette, you
 #' # can use a continuous palette to interpolate between existing
 #' # colours
 #' pal <- bakeoff_palette(palette = "finale", n = 20, type = "continuous")
-#' library(scales)
+#' if (require('scales')) {
 #' show_col(pal)
+#' }
 #' @export
 bakeoff_palette <- function(palette = "showstopper", n, direction = 1, type = c("discrete", "continuous")) {
 
@@ -81,7 +83,7 @@ bakeoff_palette <- function(palette = "showstopper", n, direction = 1, type = c(
   }
 
   out <- switch(type,
-                continuous = colorRampPalette(color_list)(n),
+                continuous = grDevices::colorRampPalette(color_list)(n),
                 discrete = color_list[1:n]
   )
 
@@ -110,12 +112,12 @@ bakeoff_generate_pal <- function(palette, direction) {
 #' @export
 print.palette <- function(x, ...) {
   n <- length(x)
-  old <- par(mar = c(0.5, 0.5, 0.5, 0.5))
-  on.exit(par(old))
+  old <- graphics::par(mar = c(0.5, 0.5, 0.5, 0.5))
+  on.exit(graphics::par(old))
 
-  image(1:n, 1, as.matrix(1:n), col = x,
+  graphics::image(1:n, 1, as.matrix(1:n), col = x,
         ylab = "", xaxt = "n", yaxt = "n", bty = "n")
 
-  rect(0, 0.9, n + 1, 1.1, col = rgb(1, 1, 1, 0.8), border = NA)
-  text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif")
+  graphics::rect(0, 0.9, n + 1, 1.1, col = grDevices::rgb(1, 1, 1, 0.8), border = NA)
+  graphics::text((n + 1) / 2, 1, labels = attr(x, "name"), cex = 1, family = "serif")
 }

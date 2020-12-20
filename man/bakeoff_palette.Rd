@@ -32,23 +32,25 @@ A bakeoff palette generator
 \examples{
 bakeoff_palette("showstopper")
 
-library(scales)
-show_col(bakeoff_palette("finale"))
+if (require('scales')) {
+  show_col(bakeoff_palette("finale"))
+  }
 
-library(ggplot2)
+if (require('ggplot2')) {
 line_plot <- ggplot(ratings, aes(x = episode, y = viewers_7day,
 color = series, group = series)) + facet_wrap(~series) + geom_line(lwd = 2)
 line_plot + scale_color_manual(values = bakeoff_palette(), guide = FALSE)
 
-library(ggplot2)
 ggplot(episodes, aes(episode, fill = series)) + geom_bar() + facet_wrap(~series) +
 scale_fill_manual(values = bakeoff_palette("signature"), guide = FALSE)
+}
 
 # If you need more colors than normally found in a palette, you
 # can use a continuous palette to interpolate between existing
 # colours
 pal <- bakeoff_palette(palette = "finale", n = 20, type = "continuous")
-library(scales)
+if (require('scales')) {
 show_col(pal)
+}
 }
 \keyword{colors}
