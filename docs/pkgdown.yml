@@ -1,8 +1,8 @@
-pandoc: 2.9.2.1
-pkgdown: 1.5.1
-pkgdown_sha: ~
-articles: []
-last_built: 2020-07-30T18:38Z
+pandoc: 2.11.2
+pkgdown: 1.6.1.9000
+pkgdown_sha: aaf1509f3c9f4f3677ee01e11299dff4a0d696fb
+articles: {}
+last_built: 2020-12-20T01:42Z
 urls:
   reference: https://bakeoff.netlify.app/reference
   article: https://bakeoff.netlify.app/articles

@@ -89,12 +89,7 @@ Fill scale constructor for bakeoff colors" />
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -105,7 +100,7 @@ Fill scale constructor for bakeoff colors" />
 </li>
 <li>
   <a href="https://github.com/apreshill/bakeoff/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -132,19 +127,19 @@ Fill scale constructor for bakeoff colors" />
 <p>Fill scale constructor for bakeoff colors</p>
     </div>
 
-    <pre class="usage"><span class='fu'>scale_color_bakeoff</span>(
-  <span class='kw'>palette</span> <span class='kw'>=</span> <span class='st'>"showstopper"</span>,
-  <span class='kw'>discrete</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
-  <span class='kw'>direction</span> <span class='kw'>=</span> <span class='fl'>1</span>,
-  <span class='no'>...</span>
-)
+    <pre class="usage"><span class='fu'>scale_color_bakeoff</span><span class='op'>(</span>
+  palette <span class='op'>=</span> <span class='st'>"showstopper"</span>,
+  discrete <span class='op'>=</span> <span class='cn'>TRUE</span>,
+  direction <span class='op'>=</span> <span class='fl'>1</span>,
+  <span class='va'>...</span>
+<span class='op'>)</span>
 
-<span class='fu'>scale_fill_bakeoff</span>(
-  <span class='kw'>palette</span> <span class='kw'>=</span> <span class='st'>"showstopper"</span>,
-  <span class='kw'>discrete</span> <span class='kw'>=</span> <span class='fl'>TRUE</span>,
-  <span class='kw'>direction</span> <span class='kw'>=</span> <span class='fl'>1</span>,
-  <span class='no'>...</span>
-)</pre>
+<span class='fu'>scale_fill_bakeoff</span><span class='op'>(</span>
+  palette <span class='op'>=</span> <span class='st'>"showstopper"</span>,
+  discrete <span class='op'>=</span> <span class='cn'>TRUE</span>,
+  direction <span class='op'>=</span> <span class='fl'>1</span>,
+  <span class='va'>...</span>
+<span class='op'>)</span></pre>
 
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -171,20 +166,22 @@ scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE</p></td
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
-<span class='kw'>if</span> (<span class='fu'><a href='https://rdrr.io/r/base/library.html'>require</a></span>(<span class='st'>'ggplot2'</span>)) {
+<span class='kw'>if</span> <span class='op'>(</span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>require</a></span><span class='op'>(</span><span class='st'><a href='http://ggplot2.tidyverse.org'>'ggplot2'</a></span><span class='op'>)</span><span class='op'>)</span> <span class='op'>{</span>
 
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='no'>ratings</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>episode</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='no'>viewers_7day</span>, <span class='kw'>group</span> <span class='kw'>=</span> <span class='no'>series</span>, <span class='kw'>color</span> <span class='kw'>=</span> <span class='no'>series</span>)) +
-    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_path.html'>geom_line</a></span>(<span class='kw'>lwd</span> <span class='kw'>=</span> <span class='fl'>3</span>) +
-    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span>() +
-    <span class='fu'>scale_color_bakeoff</span>(<span class='st'>"finale"</span>, <span class='kw'>guide</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)
-}</div><div class='img'><img src='scale_bakeoff-1.png' alt='' width='700' height='433' /></div><div class='input'>
-<span class='kw'>if</span> (<span class='fu'><a href='https://rdrr.io/r/base/library.html'>require</a></span>(<span class='st'>'ggplot2'</span>)) {
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>ratings</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>episode</span>, y <span class='op'>=</span> <span class='va'>viewers_7day</span>, group <span class='op'>=</span> <span class='va'>series</span>, color <span class='op'>=</span> <span class='va'>series</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_path.html'>geom_line</a></span><span class='op'>(</span>lwd <span class='op'>=</span> <span class='fl'>3</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'>scale_color_bakeoff</span><span class='op'>(</span><span class='st'>"finale"</span>, guide <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
+<span class='op'>}</span>
+</div><div class='img'><img src='scale_bakeoff-1.png' alt='' width='700' height='433' /></div><div class='input'>
+<span class='kw'>if</span> <span class='op'>(</span><span class='kw'><a href='https://rdrr.io/r/base/library.html'>require</a></span><span class='op'>(</span><span class='st'><a href='http://ggplot2.tidyverse.org'>'ggplot2'</a></span><span class='op'>)</span><span class='op'>)</span> <span class='op'>{</span>
 
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='no'>ratings</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>episode_count</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='no'>viewers_7day</span>, <span class='kw'>fill</span> <span class='kw'>=</span> <span class='no'>series</span>)) +
-    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_bar.html'>geom_col</a></span>() +
-    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span>() +
-    <span class='fu'>scale_fill_bakeoff</span>(<span class='st'>"finale"</span>, <span class='kw'>guide</span> <span class='kw'>=</span> <span class='fl'>FALSE</span>)
-}</div><div class='img'><img src='scale_bakeoff-2.png' alt='' width='700' height='433' /></div></pre>
+  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span><span class='op'>(</span><span class='va'>ratings</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span><span class='op'>(</span>x <span class='op'>=</span> <span class='va'>episode_count</span>, y <span class='op'>=</span> <span class='va'>viewers_7day</span>, fill <span class='op'>=</span> <span class='va'>series</span><span class='op'>)</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_bar.html'>geom_col</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span><span class='op'>(</span><span class='op'>)</span> <span class='op'>+</span>
+    <span class='fu'>scale_fill_bakeoff</span><span class='op'>(</span><span class='st'>"finale"</span>, guide <span class='op'>=</span> <span class='cn'>FALSE</span><span class='op'>)</span>
+<span class='op'>}</span>
+</div><div class='img'><img src='scale_bakeoff-2.png' alt='' width='700' height='433' /></div></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -200,7 +197,7 @@ scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE</p></td
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.9000.</p>
 </div>
 
       </footer>

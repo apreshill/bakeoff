@@ -91,12 +91,7 @@ Contribute to this package at https://github.com/apreshill/bakeoff." />
 
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
-  <a href="../index.html">
-    <span class="fas fa fas fa-home fa-lg"></span>
-     
-  </a>
-</li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
@@ -107,7 +102,7 @@ Contribute to this package at https://github.com/apreshill/bakeoff." />
 </li>
 <li>
   <a href="https://github.com/apreshill/bakeoff/">
-    <span class="fab fa fab fa-github fa-lg"></span>
+    <span class="fab fa-github fa-lg"></span>
      
   </a>
 </li>
@@ -141,8 +136,9 @@ Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>htt
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='co'># Example usage:</span>
-<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>bakeoff</span>)
-<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span>(<span class='no'>bakers</span>)</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 8</span><span>
+<span class='kw'><a href='https://rdrr.io/r/base/library.html'>library</a></span><span class='op'>(</span><span class='va'><a href='https://bakeoff.netlify.com'>bakeoff</a></span><span class='op'>)</span>
+<span class='fu'><a href='https://rdrr.io/r/utils/head.html'>head</a></span><span class='op'>(</span><span class='va'>bakers</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 6 x 8</span><span>
 #&gt;   series baker_full   baker    age occupation   hometown  baker_last baker_first
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;fct&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>        </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>      
 #&gt; </span><span style='color: #555555;'>1</span><span> 1      </span><span style='color: #555555;'>"</span><span>Annetha Mi… Annet…    30 Midwife      Essex     Mills      Annetha    
@@ -152,16 +148,20 @@ Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>htt
 #&gt; </span><span style='color: #555555;'>5</span><span> 1      </span><span style='color: #555555;'>"</span><span>Jonathan S… Jonat…    25 Research An… St Albans Shepherd   Jonathan   
 #&gt; </span><span style='color: #555555;'>6</span><span> 1      </span><span style='color: #555555;'>"</span><span>Lea Harris</span><span style='color: #555555;'>"</span><span> Lea       51 Retired      Midlothi… Harris     Lea        </div><div class='input'>
 <span class='co'># All information about any data set can be found in the help file:</span>
-?<span class='no'>bakers</span></div><div class='output co'>#&gt; <span class='message'>Rendering development documentation for 'bakers'</span></div><div class='input'>
+<span class='op'>?</span><span class='va'>bakers</span>
+</div><div class='output co'>#&gt; <span class='message'>Rendering development documentation for 'bakers'</span></div><div class='input'>
 <span class='co'># To view a list of all data sets:</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"bakeoff"</span>)
+<span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span><span class='op'>(</span>package <span class='op'>=</span> <span class='st'>"bakeoff"</span><span class='op'>)</span>
 
 <span class='co'># To view a detailed list of all data sets:</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/vignette.html'>vignette</a></span>(<span class='st'>"bakeoff"</span>, <span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"bakeoff"</span>)</div><div class='output co'>#&gt; <span class='warning'>Warning: vignette ‘bakeoff’ not found</span></div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/utils/vignette.html'>vignette</a></span><span class='op'>(</span><span class='st'>"bakeoff"</span>, package <span class='op'>=</span> <span class='st'>"bakeoff"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='warning'>Warning: vignette ‘bakeoff’ not found</span></div><div class='input'>
 <span class='co'># Some data sets include vignettes with an example analysis:</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/vignette.html'>vignette</a></span>(<span class='st'>"bakers"</span>, <span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"bakeoff"</span>)</div><div class='output co'>#&gt; <span class='warning'>Warning: vignette ‘bakers’ not found</span></div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/utils/vignette.html'>vignette</a></span><span class='op'>(</span><span class='st'>"bakers"</span>, package <span class='op'>=</span> <span class='st'>"bakeoff"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='warning'>Warning: vignette ‘bakers’ not found</span></div><div class='input'>
 <span class='co'># To browse all vignettes:</span>
-<span class='fu'><a href='https://rdrr.io/r/utils/browseVignettes.html'>browseVignettes</a></span>(<span class='kw'>package</span> <span class='kw'>=</span> <span class='st'>"bakeoff"</span>)</div><div class='output co'>#&gt; <span class='message'>No vignettes found by browseVignettes(package = "bakeoff")</span></div></span></pre>
+<span class='fu'><a href='https://rdrr.io/r/utils/browseVignettes.html'>browseVignettes</a></span><span class='op'>(</span>package <span class='op'>=</span> <span class='st'>"bakeoff"</span><span class='op'>)</span>
+</div><div class='output co'>#&gt; <span class='message'>No vignettes found by browseVignettes(package = "bakeoff")</span></div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="pkgdown-sidebar">
     <nav id="toc" data-toggle="toc" class="sticky-top">
@@ -177,7 +177,7 @@ Contribute to this package at <a href='https://github.com/apreshill/bakeoff'>htt
 </div>
 
 <div class="pkgdown">
-  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.5.1.</p>
+  <p>Site built with <a href="https://pkgdown.r-lib.org/">pkgdown</a> 1.6.1.9000.</p>
 </div>
 
       </footer>
