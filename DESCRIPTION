@@ -18,6 +18,7 @@ Imports:
     grDevices,
     graphics
 Suggests: 
+    knitr,
     ggplot2,
     scales
 VignetteBuilder: knitr
