@@ -4,3 +4,6 @@
 ^README\.Rmd$
 ^_pkgdown\.yml$
 ^docs$
+^data-raw$
+netlify.toml
+pkgdown

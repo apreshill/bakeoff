@@ -1,10 +1,10 @@
 #' Each baker's name, age, occupation, and hometown
 #'
-#' Bakers across all GBBO series
+#' Bakers across all 10 GBBO series
 #'
-#' @format A data frame with 95 rows representing individual bakers and 8 variables:
+#' @format A data frame with 120 rows representing individual bakers and 8 variables:
 #' \describe{
-#'   \item{series}{an integer denoting UK series (1-8)}
+#'   \item{series}{a factor denoting UK series (1-10)}
 #'   \item{baker_full}{a character string giving full name}
 #'   \item{baker}{a character string giving given or nickname}
 #'   \item{age}{an integer denoting age in years at first episode appeared}

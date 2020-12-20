@@ -4,7 +4,8 @@
 \name{ratings_seasons}
 \alias{ratings_seasons}
 \title{Each episode's ratings plus original airdates in the UK (by series) and US (by season)}
-\format{A data frame with 74 rows representing individual episodes and 10 variables:
+\format{
+A data frame with 74 rows representing individual episodes and 10 variables:
 \describe{
 \item{series}{an integer denoting UK series (1-8)}
 \item{episode}{an integer denoting episode number within a series}
@@ -16,7 +17,8 @@
 \item{bbc_iplayer_requests}{number of BBC iPlayer requests (note: not available for all series, and only for series that aired on the BBC)}
 \item{us_season}{an integer denoting US season (1-5)}
 \item{us_airdate}{a date denoting original airdate of episode in the US, according to \href{http://www.pbs.org/food/shows/great-british-baking-show/}{pbs.org}}
-}}
+}
+}
 \source{
 See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Ratings}
 }

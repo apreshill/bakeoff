@@ -4,9 +4,10 @@
 \name{baker_results}
 \alias{baker_results}
 \title{Each baker's statistics}
-\format{A data frame with 95 rows representing individual bakers and 24 variables:
+\format{
+A data frame with 95 rows representing individual bakers and 24 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-8)}
+\item{series}{an integer denoting UK series (1-10)}
 \item{baker_full}{a character string giving full name}
 \item{baker}{a character string giving given or nickname}
 \item{age}{an integer denoting age in years at first episode appeared}
@@ -30,7 +31,8 @@
 \item{last_date_us}{a date denoting original airdate of the last episode in which a given baker appeared (in the US)}
 \item{percent_episodes_appeared}{a percentage denoting the number of episodes in a given series/season in which a given baker appeared out of all episodes aired in that series/season}
 \item{percent_technical_top3}{a percentage denoting the number of episodes in which a given baker placed in the top 3 for the technical challenge, out of the number of total episodes that the baker appeared in}
-}}
+}
+}
 \source{
 See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The_Bakers}, for example, for series 1 bakers.
 }
@@ -38,6 +40,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The
 baker_results
 }
 \description{
-Bakers across all GBBO series
+Bakers across all 10 GBBO series
 }
 \keyword{datasets}

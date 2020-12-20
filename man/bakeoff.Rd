@@ -3,7 +3,6 @@
 \docType{package}
 \name{bakeoff}
 \alias{bakeoff}
-\alias{bakeoff-package}
 \title{bakeoff: Data Behind the Tent at 'The Great British Bake Off'}
 \description{
 An R package that provides access to data

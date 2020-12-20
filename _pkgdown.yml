@@ -1,4 +1,4 @@
-url: https://bakeoff.netlify.com
+url: https://bakeoff.netlify.app
 
 authors:
   Alison Hill:
@@ -6,9 +6,15 @@ authors:
   Chester Ismay:
     href: https://chester.rbind.io
 
-template:
-  params:
-    bootswatch: flatly
+navbar:
+  structure:
+    left:  [home]
+    right: [reference, news, github]
+  components:
+    news:
+      text: News
+      href: news/index.html
+
 
 reference:
   - title: "Joined tibbles"
@@ -26,13 +32,20 @@ reference:
       All variable types are cast properly, all tibbles are in tidy format, and all variable names are in `snake_case`.
     contents:
       - bakers
-      - challenges
+      - episodes
       - ratings
       - results
       - series
       - seasons
+  - title: "Scales"
+    desc: >
+      Color and fill scales
+    contents:
+      - bakeoff_colors
+      - bakeoff_palette
+      - scale_bakeoff
   - title: "The package"
     desc: >
       More information on the package itself
     contents:
-      - bakeoff-package
+      - bakeoff

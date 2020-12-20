@@ -52,13 +52,13 @@ series,episode,baker,result
 1,3,Miranda,IN
 1,4,Miranda,IN
 1,5,Miranda,IN
-1,6,Miranda,RUNNER-UP
+1,6,Miranda,Runner-up
 1,1,Ruth,IN
 1,2,Ruth,IN
 1,3,Ruth,IN
 1,4,Ruth,IN
 1,5,Ruth,IN
-1,6,Ruth,RUNNER-UP
+1,6,Ruth,Runner-up
 2,1,Ben,IN
 2,2,Ben,IN
 2,3,Ben,IN
@@ -74,7 +74,7 @@ series,episode,baker,result
 2,5,Holly,IN
 2,6,Holly,IN
 2,7,Holly,IN
-2,8,Holly,RUNNER-UP
+2,8,Holly,Runner-up
 2,1,Ian,IN
 2,2,Ian,IN
 2,3,Ian,OUT
@@ -122,7 +122,7 @@ series,episode,baker,result
 2,5,Mary-Anne,IN
 2,6,Mary-Anne,IN
 2,7,Mary-Anne,IN
-2,8,Mary-Anne,RUNNER-UP
+2,8,Mary-Anne,Runner-up
 2,1,Robert,IN
 2,2,Robert,IN
 2,3,Robert,IN
@@ -164,7 +164,7 @@ series,episode,baker,result
 3,7,Brendan,IN
 3,8,Brendan,IN
 3,9,Brendan,IN
-3,10,Brendan,RUNNER-UP
+3,10,Brendan,Runner-up
 3,1,Cathryn,IN
 3,2,Cathryn,IN
 3,3,Cathryn,IN
@@ -194,7 +194,7 @@ series,episode,baker,result
 3,7,James,IN
 3,8,James,STAR BAKER
 3,9,James,STAR BAKER
-3,10,James,RUNNER-UP
+3,10,James,Runner-up
 3,1,John,IN
 3,2,John,STAR BAKER
 3,3,John,IN
@@ -354,7 +354,7 @@ series,episode,baker,result
 4,7,Kimberley,IN
 4,8,Kimberley,IN
 4,9,Kimberley,STAR BAKER
-4,10,Kimberley,RUNNER-UP
+4,10,Kimberley,Runner-up
 4,1,Lucy,IN
 4,2,Lucy,OUT
 4,3,Lucy,NA
@@ -394,7 +394,7 @@ series,episode,baker,result
 4,7,Ruby,IN
 4,8,Ruby,STAR BAKER
 4,9,Ruby,IN
-4,10,Ruby,RUNNER-UP
+4,10,Ruby,Runner-up
 4,1,Toby,OUT
 4,2,Toby,NA
 4,3,Toby,NA
@@ -429,7 +429,7 @@ series,episode,baker,result
 5,2,Diana,IN
 5,3,Diana,IN
 5,4,Diana,IN
-5,5,Diana,WD
+5,5,Diana,SICK
 5,6,Diana,IN
 5,7,Diana,IN
 5,8,Diana,IN
@@ -484,7 +484,7 @@ series,episode,baker,result
 5,7,Luis,IN
 5,8,Luis,IN
 5,9,Luis,IN
-5,10,Luis,RUNNER-UP
+5,10,Luis,Runner-up
 5,1,Martha,IN
 5,2,Martha,IN
 5,3,Martha,IN
@@ -524,7 +524,7 @@ series,episode,baker,result
 5,7,Richard,STAR BAKER
 5,8,Richard,STAR BAKER
 5,9,Richard,STAR BAKER
-5,10,Richard,RUNNER-UP
+5,10,Richard,Runner-up
 6,1,Alvin,IN
 6,2,Alvin,IN
 6,3,Alvin,IN
@@ -564,7 +564,7 @@ series,episode,baker,result
 6,7,Ian,IN
 6,8,Ian,IN
 6,9,Ian,IN
-6,10,Ian,RUNNER-UP
+6,10,Ian,Runner-up
 6,1,Marie,STAR BAKER
 6,2,Marie,OUT
 6,3,Marie,NA
@@ -634,7 +634,7 @@ series,episode,baker,result
 6,7,Tamal,STAR BAKER
 6,8,Tamal,IN
 6,9,Tamal,IN
-6,10,Tamal,RUNNER-UP
+6,10,Tamal,Runner-up
 6,1,Ugnė,IN
 6,2,Ugnė,IN
 6,3,Ugnė,IN
@@ -654,7 +654,7 @@ series,episode,baker,result
 7,7,Andrew,STAR BAKER
 7,8,Andrew,IN
 7,9,Andrew,STAR BAKER
-7,10,Andrew,RUNNER-UP
+7,10,Andrew,Runner-up
 7,1,Benjamina,IN
 7,2,Benjamina,IN
 7,3,Benjamina,IN
@@ -684,7 +684,7 @@ series,episode,baker,result
 7,7,Jane,IN
 7,8,Jane,IN
 7,9,Jane,IN
-7,10,Jane,RUNNER-UP
+7,10,Jane,Runner-up
 7,1,Kate,IN
 7,2,Kate,IN
 7,3,Kate,IN
@@ -814,7 +814,7 @@ series,episode,baker,result
 8,7,Kate,IN
 8,8,Kate,IN
 8,9,Kate,IN
-8,10,Kate,RUNNER-UP
+8,10,Kate,Runner-up
 8,1,Liam,IN
 8,2,Liam,IN
 8,3,Liam,IN
@@ -864,7 +864,7 @@ series,episode,baker,result
 8,7,Steven,STAR BAKER
 8,8,Steven,IN
 8,9,Steven,IN
-8,10,Steven,RUNNER-UP
+8,10,Steven,Runner-up
 8,1,Tom,IN
 8,2,Tom,IN
 8,3,Tom,IN
@@ -954,7 +954,7 @@ series,episode,baker,result
 9,7,Kim-Joy,STAR BAKER
 9,8,Kim-Joy,IN
 9,9,Kim-Joy,IN
-9,10,Kim-Joy,RUNNER-UP
+9,10,Kim-Joy,Runner-up
 9,1,Luke,IN
 9,2,Luke,OUT
 9,3,Luke,NA
@@ -994,14 +994,144 @@ series,episode,baker,result
 9,7,Ruby,IN
 9,8,Ruby,STAR BAKER
 9,9,Ruby,STAR BAKER
-9,10,Ruby,RUNNER-UP
+9,10,Ruby,Runner-up
 9,1,Terry,IN
 9,2,Terry,IN
 9,3,Terry,IN
-9,4,Terry,[a]
+9,4,Terry,SICK
 9,5,Terry,OUT
 9,6,Terry,NA
 9,7,Terry,NA
 9,8,Terry,NA
 9,9,Terry,NA
 9,10,Terry,NA
+10,1,Alice,IN
+10,2,Alice,STAR BAKER
+10,3,Alice,IN
+10,4,Alice,IN
+10,5,Alice,IN
+10,6,Alice,IN
+10,7,Alice,IN
+10,8,Alice,IN
+10,9,Alice,STAR BAKER
+10,10,Alice,Runner-up
+10,1,Amelia,IN
+10,2,Amelia,IN
+10,3,Amelia,OUT
+10,4,Amelia,NA
+10,5,Amelia,NA
+10,6,Amelia,NA
+10,7,Amelia,NA
+10,8,Amelia,NA
+10,9,Amelia,NA
+10,10,Amelia,NA
+10,1,Dan,OUT
+10,2,Dan,NA
+10,3,Dan,NA
+10,4,Dan,NA
+10,5,Dan,NA
+10,6,Dan,NA
+10,7,Dan,NA
+10,8,Dan,NA
+10,9,Dan,NA
+10,10,Dan,NA
+10,1,David,IN
+10,2,David,IN
+10,3,David,IN
+10,4,David,IN
+10,5,David,IN
+10,6,David,IN
+10,7,David,IN
+10,8,David,IN
+10,9,David,IN
+10,10,David,WINNER
+10,1,Helena,IN
+10,2,Helena,IN
+10,3,Helena,IN
+10,4,Helena,IN
+10,5,Helena,OUT
+10,6,Helena,NA
+10,7,Helena,NA
+10,8,Helena,NA
+10,9,Helena,NA
+10,10,Helena,NA
+10,1,Henry,IN
+10,2,Henry,IN
+10,3,Henry,IN
+10,4,Henry,IN
+10,5,Henry,IN
+10,6,Henry,IN
+10,7,Henry,STAR BAKER
+10,8,Henry,OUT
+10,9,Henry,NA
+10,10,Henry,NA
+10,1,Jamie,IN
+10,2,Jamie,OUT
+10,3,Jamie,NA
+10,4,Jamie,NA
+10,5,Jamie,NA
+10,6,Jamie,NA
+10,7,Jamie,NA
+10,8,Jamie,NA
+10,9,Jamie,NA
+10,10,Jamie,NA
+10,1,Michael,IN
+10,2,Michael,IN
+10,3,Michael,STAR BAKER
+10,4,Michael,IN
+10,5,Michael,IN
+10,6,Michael,IN
+10,7,Michael,OUT
+10,8,Michael,NA
+10,9,Michael,NA
+10,10,Michael,NA
+10,1,Michelle,STAR BAKER
+10,2,Michelle,IN
+10,3,Michelle,IN
+10,4,Michelle,IN
+10,5,Michelle,OUT
+10,6,Michelle,NA
+10,7,Michelle,NA
+10,8,Michelle,NA
+10,9,Michelle,NA
+10,10,Michelle,NA
+10,1,Phil,IN
+10,2,Phil,IN
+10,3,Phil,IN
+10,4,Phil,OUT
+10,5,Phil,NA
+10,6,Phil,NA
+10,7,Phil,NA
+10,8,Phil,NA
+10,9,Phil,NA
+10,10,Phil,NA
+10,1,Priya,IN
+10,2,Priya,IN
+10,3,Priya,IN
+10,4,Priya,IN
+10,5,Priya,IN
+10,6,Priya,OUT
+10,7,Priya,NA
+10,8,Priya,NA
+10,9,Priya,NA
+10,10,Priya,NA
+10,1,Rosie,IN
+10,2,Rosie,IN
+10,3,Rosie,IN
+10,4,Rosie,IN
+10,5,Rosie,IN
+10,6,Rosie,IN
+10,7,Rosie,IN
+10,8,Rosie,IN
+10,9,Rosie,OUT
+10,10,Rosie,NA
+10,1,Steph,IN
+10,2,Steph,IN
+10,3,Steph,IN
+10,4,Steph,STAR BAKER
+10,5,Steph,STAR BAKER
+10,6,Steph,STAR BAKER
+10,7,Steph,IN
+10,8,Steph,STAR BAKER
+10,9,Steph,IN
+10,10,Steph,Runner-up

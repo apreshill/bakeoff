@@ -1,57 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://bakeoff.netlify.com/index.html</loc>
+    <loc>https://bakeoff.netlify.app/index.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakeoff.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakeoff_colors.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_color_data.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakeoff_cols.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_colors.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakeoff_pal.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_generate_pal.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/baker_results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palette.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/bakers.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palette_names.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/challenge_results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_palettes.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/challenges.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/baker_results.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/episode_results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakers.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/ratings.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/challenge_results.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/ratings_seasons.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/episode_results.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/episodes.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/scale_fill_bakeoff.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/ratings.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/seasons.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/ratings_seasons.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/reference/series.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/results.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/articles/bakeoffs-abroad.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/scale_bakeoff.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.com/articles/working-with-lists.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/seasons.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/series.html</loc>
   </url>
 </urlset>

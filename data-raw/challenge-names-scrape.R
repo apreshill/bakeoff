@@ -8,7 +8,7 @@ library(jsonlite)
 library(listviewer)
 
 url_base <- "https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_%d)"
-max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10) + 3
+max_episodes <- c(6, 8, 10, 10, 10, 10, 10, 10, 10, 10) + 3
 
 ## function to get names for each challenge
 get_names <- function(series, max_episodes) {
@@ -22,7 +22,7 @@ get_names <- function(series, max_episodes) {
     map(~names(.))
 }
 
-challenge_names <- map2(.x = 1:8, .y = max_episodes, .f = get_names)
+challenge_names <- map2(.x = 1:10, .y = max_episodes, .f = get_names)
 
 
 names_df <- map_df(challenge_names, bind_rows, .id = 'series')
