@@ -6,6 +6,9 @@ authors:
   Chester Ismay:
     href: https://chester.rbind.io
 
+template:
+  bootstrap: 4
+
 navbar:
   structure:
     left:  [home]
