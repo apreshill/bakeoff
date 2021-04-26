@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# bakeoff <a href='https://bakeoff.netlify.app'><img src='man/figures/logo.png' align="right" height="138.5" /></a>
+# bakeoff <img src='man/figures/logo.png' align="right" alt="bakeoff hex logo" width="120" />
 
 The goal of bakeoff is to enable data wrangling, analysis, and
 visualizations using data from “The Great British Bake Off”.

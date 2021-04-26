@@ -6,7 +6,23 @@ authors:
   Chester Ismay:
     href: https://chester.rbind.io
 
+template:
+  bootstrap: 4
+  bslib:
+    font_scale: 1.0
+    base_font:
+      google: "Sen"
+    code_font:
+      google: "DM Mono"
+    primary: "#f4e4e7"
+    secondary: "#555555"
+    bg: "white"
+    fg: "#333333"
+
 navbar:
+  type: light
+  bg: primary
+  fg: secondary
   structure:
     left:  [home]
     right: [reference, news, github]
