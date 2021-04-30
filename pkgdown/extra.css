@@ -158,13 +158,13 @@ nav[data-toggle="toc"] .nav > li > a:focus {
 	letter-spacing: 1pt;
 }
 
- nav[data-toggle="toc"] .nav-link.active,
- nav[data-toggle="toc"] .nav-link.active:hover,
- nav[data-toggle="toc"] .nav-link.active:focus {
-   color: var(--matisse);
-   background-color: var(--dawn);
-   letter-spacing: 1pt;
- }
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav-link.active:focus {
+	color: var(--matisse);
+	background-color: var(--dawn);
+	letter-spacing: 1pt;
+}
 
 /* Links NOT hovered or active */
 
