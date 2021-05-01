@@ -14,7 +14,7 @@
 #'   \item{baker_first}{a character string giving given name}
 #'   \item{star_baker}{an integer denoting the number of times a given baker won Star Baker}
 #'   \item{technical_winner}{an integer denoting the number of times a given baker won first place in the technical challenge}
-#'   \item{technical_winner}{an integer denoting the number of times a given baker was in the top 3 (1st, 2nd, or 3rd) on the technical challenge}
+#'   \item{technical_top3}{an integer denoting the number of times a given baker was in the top 3 (1st, 2nd, or 3rd) on the technical challenge}
 #'   \item{technical_bottom}{an integer denoting the number of times a given baker was in the bottom 3 on the technical challenge}
 #'   \item{technical_highest}{an integer denoting the best technical rank earned by a given baker across all episodes appeared (higher is better)}
 #'   \item{technical_lowest}{an integer denoting the worst technical rank earned by a given baker across all episodes appeared (higher is better)}
