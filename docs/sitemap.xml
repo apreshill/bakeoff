@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bakeoff.netlify.app/404.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/articles/bakeoffs-abroad.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/articles/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/articles/working-with-lists.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/authors.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.app/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/news/index.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff.html</loc>
@@ -13,7 +37,13 @@
     <loc>https://bakeoff.netlify.app/reference/bakeoff_colors.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_cols.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_generate_pal.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/bakeoff_pal.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_palette.html</loc>
@@ -34,10 +64,16 @@
     <loc>https://bakeoff.netlify.app/reference/challenge_results.html</loc>
   </url>
   <url>
+    <loc>https://bakeoff.netlify.app/reference/challenges.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.app/reference/episode_results.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/episodes.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/index.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/ratings.html</loc>
@@ -50,6 +86,9 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/scale_bakeoff.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/scale_fill_bakeoff.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/seasons.html</loc>
