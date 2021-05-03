@@ -22,7 +22,7 @@ template:
 navbar:
   type: light
   bg: primary
-  fg: secondary
+  fg: fg
   structure:
     left:  [home]
     right: [reference, news, github]
@@ -60,8 +60,7 @@ reference:
       - bakeoff_colors
       - bakeoff_palette
       - scale_bakeoff
-  - title: "The package"
-    desc: >
-      More information on the package itself
-    contents:
-      - bakeoff
+      - bakeoff_color_data
+      - bakeoff_generate_pal
+      - bakeoff_palette_names
+      - bakeoff_palettes

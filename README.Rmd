@@ -13,7 +13,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# bakeoff <img src='man/figures/logo.png' align="right" alt="bakeoff hex logo" width="120" />
+# bakeoff <a href='https://bakeoff.netlify.app'><img src='man/figures/logo.png' align="right" height="138" /></a>
 
 
 The goal of bakeoff is to enable data wrangling, analysis, and visualizations using data from "The Great British Bake Off".
