@@ -14,15 +14,23 @@ template:
       google: "Sen"
     code_font:
       google: "DM Mono"
-    primary: "#f4e4e7"
-    secondary: "#555555"
-    bg: "white"
-    fg: "#333333"
+    primary: "#187BA2"                  # sidebar heading colors / not content
+    secondary: "#595959"                # version badge bg only? maybe headers if not def
+    bg: "white"                         # background of site
+    fg: "#333333"                       # all body text, cannot leave blank? but also no work?
+    navbar-bg: "#f4e4e7"                # navbar bg color :)
+    navbar-light-brand-color: "#595959" # pkgname color, would be lt active color
+    navbar-light-color: "#595959"       # navbar text color
+    navbar-light-active-color: "#126180"
+    navbar-light-hover-color: "#126180"
+    headings-color: "#187BA2"           # inherits from nobody!
+    # these don't work
+    link-color: "#767676"               # should inherit primary, but doesn't?
+    link-hover-color: "#187BA2"         # nope
 
 navbar:
   type: light
-  bg: primary
-  fg: fg
+  bg: navbar-bg
   structure:
     left:  [home]
     right: [reference, news, github]

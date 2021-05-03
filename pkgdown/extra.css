@@ -2,8 +2,8 @@
 /* https://github.com/tidyverse/tidytemplate/blob/master/inst/pkgdown/assets/tidymodels.css */
 
 :root {
-  --scorpion: #595959;
-  --boulder: #555555;
+  --scorpion: #595959; /* unused given bslib vars */
+  --boulder: #767676;
   --night-rider: #333333;
   --sapphire: #126180;
   --matisse: #187BA2;
@@ -14,7 +14,7 @@
 
 /* spacing */
 
-body {
+body > p {
   line-height: 1.6em;
 }
 
@@ -31,29 +31,21 @@ h1, h2, h3 {
 	margin-bottom: 1.5rem;
 	margin-top: 2rem;
 }
-
+/*
 .contents h1,
 .page-header h1 {
   color: var(--matisse);
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
-}
-
-h2 {
-  color: var(--matisse);
-}
-
-h3 {
-  color: #187BA2cc;
-}
+}*/
 
 a:hover {
   color: var(--sapphire);
 }
 
 a {
-  color: var(--scorpion);
+  color: var(--boulder);
 }
 
 
@@ -64,13 +56,14 @@ a {
   padding-top: 1em;
 }
 
+/*
 .navbar-light .navbar-nav .nav-link:hover {
 	color: var(--sapphire);
-}
+}*/
 
 .navbar-light .navbar-nav .active > .nav-link {
 	background: var(--pearl);
-	color: var(--matisse);
+	/*color: var(--matisse);*/
 	border-radius: 0rem;
 }
 
@@ -79,9 +72,10 @@ li.nav-item a.nav-link {
   letter-spacing: 1.5pt;
 }
 
+/*
 .navbar-default .navbar-link:hover {
 	color: var(--sapphire);
-}
+}*/
 
 /* White Space */
 
@@ -104,12 +98,10 @@ li.nav-item a.nav-link {
 
 /* sidebar ------------------------------------------------ */
 
-#sidebar,
 #pkgdown-sidebar {
   margin-top: 7em;
 }
 
-#sidebar h2:first-child,
 #pkgdown-sidebar h2:first-child {
 	margin-top: 1rem;
   margin-bottom: 0.85rem;
@@ -118,15 +110,15 @@ li.nav-item a.nav-link {
   letter-spacing: 1.5pt;
   font-size: large;
   padding-left: 0.5em;
+  margin-left: -.1em;
 }
 
-#sidebar ul.list-unstyled {
+#pkgdown-sidebar ul.list-unstyled {
   list-style: none;
   margin-bottom: 1.2em;
 }
 
-#pkgdown-sidebar .list-unstyled li,
-#sidebar .list-unstyled li {
+#pkgdown-sidebar .list-unstyled li {
   padding-bottom: 1em;
   margin-bottom: 0;
   line-height: 1.6em;
@@ -134,13 +126,17 @@ li.nav-item a.nav-link {
   padding-left: 0.5em;
 }
 
-#sidebar small.roles {
+#pkgdown-sidebar small.roles {
   text-transform: uppercase;
-  color: #00000094;
+  color: var(--boulder);
 }
 
-#sidebar a {
-  color: #767676;
+#pkgdown-sidebar a {
+  color: var(--boulder);
+}
+
+#pkgdown-sidebar a {
+  color: var(--night-rider);
 }
 
 #pkgdown-sidebar h2:not(first-child) {
@@ -151,7 +147,7 @@ li.nav-item a.nav-link {
 
 nav[data-toggle="toc"] .nav > li > a:hover {
 	color: inherit;
-	background-color: var(--pearl);
+	background-color: var(--dawn);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -159,19 +155,20 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 /* Active/focus links */
 
+/*
 nav[data-toggle="toc"] .nav > li > a:focus {
 	color: var(--matisse);
 	background-color: var(--dawn);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
-}
+}*/
 
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
-	color: var(--matisse);
-	background-color: var(--dawn);
+	color: var(--sapphire);
+	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -221,7 +218,7 @@ nav[data-toggle="toc"] .nav > li > a {
 	border: none;
 }
 
-.form-control:focus,
+.form-control::placeholder.active,
 .form-control::placeholder:focus {
 	color: var(--night-rider);
 	opacity: 1;
