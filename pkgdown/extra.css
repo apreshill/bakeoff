@@ -135,7 +135,7 @@ li.nav-item a.nav-link {
   color: var(--boulder);
 }
 
-#pkgdown-sidebar a {
+#pkgdown-sidebar a:hover {
   color: var(--night-rider);
 }
 
@@ -155,20 +155,19 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 /* Active/focus links */
 
-/*
 nav[data-toggle="toc"] .nav > li > a:focus {
 	color: var(--matisse);
 	background-color: var(--dawn);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
-}*/
+}
 
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
 	color: var(--sapphire);
-	background-color: var(--pearl);
+	background-color: var(--oyster);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -222,5 +221,6 @@ nav[data-toggle="toc"] .nav > li > a {
 .form-control::placeholder:focus {
 	color: var(--night-rider);
 	opacity: 1;
+	border-color: var(--matisse);
 }
 
