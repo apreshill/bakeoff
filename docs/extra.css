@@ -206,3 +206,7 @@ nav[data-toggle="toc"] .nav > li > a {
 	border-color: var(--matisse);
 }
 
+.template-reference-topic .page-header {
+  margin-bottom: 2rem !important;
+}
+
