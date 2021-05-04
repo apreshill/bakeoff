@@ -7,3 +7,4 @@
 ^data-raw$
 netlify.toml
 pkgdown
+^\.github$
