@@ -1,102 +1,81 @@
 /* heavily adapted from Desirée De Leon's tidymodels pkgdown CSS */
 /* https://github.com/tidyverse/tidytemplate/blob/master/inst/pkgdown/assets/tidymodels.css */
 
-@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
-
-pre, code {
-  font-family: "DM Mono", Consolas, Inconsolata, monospace;
-  font-size: 16px;
+:root {
+  --scorpion: #595959; /* unused given bslib vars */
+  --boulder: #767676;
+  --night-rider: #333333;
+  --sapphire: #126180;
+  --matisse: #187BA2;
+  --dawn: #f4e4e7;
+  --oyster: #E7C5CB;
+  --pearl: #faf2f3;
 }
 
+/* spacing */
 
-body {
-  font-size: 18px;
-  font-family: Sen;
+body > p {
   line-height: 1.6em;
 }
 
-h1 {font-size: 40px;}
-h2 {font-size: 30px;}
-h3 {font-size: 23px;}
-
-h1, h2, h3 {
-  font-family: 'Sen', sans-serif;
-  font-weight: normal;
-  font-size: 1.3em;
-  letter-spacing: 1.2pt;
-  /* text-transform: uppercase; */
+pre, code {
+  font-size: 16px;
 }
 
+h1, h2, h3 {
+  font-weight: normal;
+  letter-spacing: 1.2pt;
+}
+
+.contents h2, .contents h3, .contents h4 {
+	margin-bottom: 1.5rem;
+	margin-top: 2rem;
+}
+/*
+.contents h1,
 .page-header h1 {
-  color: #187BA2;
+  color: var(--matisse);
   font-weight: normal;
   text-transform: none;
   letter-spacing: normal;
-  font-size: 2.4em;
-}
-
-h2 {
-  color: #187BA2;
-}
-
-h3 {
-  color: #187BA2cc;
-}
-
-.contents .page-header {
-  margin-top: 10px;
-}
+}*/
 
 a:hover {
-  color: #126180;
+  color: var(--sapphire);
 }
 
 a {
-  color: #595959;
+  color: var(--boulder);
 }
 
 
 /* navbar ----------------------------------------------- */
 
 .navbar {
-  background-color: #f4e4e7;
-  box-shadow: none !important;
-  border-bottom: 0pt !important;
   padding-bottom: 1em;
   padding-top: 1em;
 }
 
-.navbar .info .version-danger {
-  font-weight: bold;
-  color: #126180;
+/*
+.navbar-light .navbar-nav .nav-link:hover {
+	color: var(--sapphire);
+}*/
+
+.navbar-light .navbar-nav .active > .nav-link {
+	background: var(--pearl);
+	/*color: var(--matisse);*/
+	border-radius: 0rem;
 }
 
-.navbar-nav li a {
+li.nav-item a.nav-link {
   text-transform: uppercase;
   letter-spacing: 1.5pt;
-  font-size: 1em;
 }
 
-.navbar-nav li a:hover {
-  color: #187BA2 !important;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #187BA2;
-  background-color: inherit;
-}
-
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-	color: #555555;
-}
-
+/*
 .navbar-default .navbar-link:hover {
-	color: #187BA2;
-}
+	color: var(--sapphire);
+}*/
 
 /* White Space */
 
@@ -110,151 +89,124 @@ a {
   }
 }
 
-.contents h1, .contents h2, .contents h3, .contents h4{
-  margin-bottom: 1.3em;
-  margin-top: -30px; /* originally -40px */
+/*----- COLORED LIST BULLET----*/
+
+.contents ul > li::marker {
+  color: var(--sapphire);
 }
 
 
 /* sidebar ------------------------------------------------ */
 
 #pkgdown-sidebar {
-  /* border-left: 1px solid #7e7e7e; */
-  padding-left: 25px;
-  top: 7em; /* so that navbar doesn't cover it for sticky pos */
+  margin-top: 7em;
 }
 
-#pkgdown-sidebar h2 {
-  font-size: 1em;
-  margin-bottom: 0.85em;
+#pkgdown-sidebar h2:first-child {
+	margin-top: 1rem;
+  margin-bottom: 0.85rem;
   text-transform: uppercase;
-  /* font-weight: 700; */
-  color: #187BA2;
+  color: var(--matisse);
   letter-spacing: 1.5pt;
-  padding-left: 10px;
+  font-size: large;
+  padding-left: 0.5em;
+  margin-left: -.1em;
 }
 
 #pkgdown-sidebar ul.list-unstyled {
-  padding-left: 0;
   list-style: none;
   margin-bottom: 1.2em;
 }
 
-
 #pkgdown-sidebar .list-unstyled li {
   padding-bottom: 1em;
-  padding-left: 10px;
   margin-bottom: 0;
   line-height: 1.6em;
   letter-spacing: 0.4pt;
+  padding-left: 0.5em;
 }
 
 #pkgdown-sidebar small.roles {
-  font-size: 0.8em;
   text-transform: uppercase;
-  color: #00000094;
+  color: var(--boulder);
 }
 
-#pkgdown-sidebar a {
-  color: #767676;
+.template-home #pkgdown-sidebar a {
+  color: var(--boulder);
 }
 
-#pkgdown-sidebar a:hover {
-  text-decoration: underline;
-  color: #187BA2;
+.template-home #pkgdown-sidebar a:hover {
+  color: var(--night-rider);
 }
 
+#pkgdown-sidebar h2:not(first-child) {
+  margin-top: 1.5rem;
+}
 
 /*----TOC sidebar on non-homepages----*/
 
-nav[data-toggle='toc'] .nav > li > a {
-    padding: 4px 20px 4px 10px; /* Left-padding changed from 6px to 5px, so shift left does not happen on hover */
+nav[data-toggle="toc"] .nav > li > a:hover {
+	color: inherit;
+	background-color: var(--pearl);
+	letter-spacing: 1pt;
+	padding-left: 0.5em;
+	margin-left: 0px;
 }
 
-/* Active, hover, and focus links */
+/* Active/focus links */
 
-nav[data-toggle='toc'] .nav > .active > a,
-nav[data-toggle='toc'] .nav > .active:hover > a,
-nav[data-toggle='toc'] .nav > .active:focus > a,
-nav[data-toggle='toc'] ul > li > a:hover {
-  border-left: 3px solid #E7C5CB;
-  padding-left: 10px;
-  text-indent: -2px;
-  letter-spacing: 1pt;
-  font-size: 15px;
-  text-decoration: none !important;
+nav[data-toggle="toc"] .nav > li > a:focus,
+nav[data-toggle="toc"] .nav-link.active,
+nav[data-toggle="toc"] .nav-link.active:hover,
+nav[data-toggle="toc"] .nav-link.active:focus {
+	color: var(--sapphire);
+	background-color: var(--pearl);
+	letter-spacing: 1pt;
+	padding-left: 0.5em;
+	margin-left: 0px;
 }
-
-nav[data-toggle='toc'] .nav > li > a:hover,
-nav[data-toggle='toc'] .nav > li > a:focus {
-  padding-left: 10px;
-  border-left: 3px solid #E7C5CB;
-}
-
 
 /* Links NOT hovered or active */
 
 nav[data-toggle='toc'] ul > li > a {
-  border-left: 3px solid #FFFFFF;
-  padding-left: 10px;
-  text-indent: -2px;
-  letter-spacing: 1pt;
-  font-size: 15px;
-  text-decoration: none !important;
+	letter-spacing: 1pt;
+	padding-left: 0.5em;
 }
 
-/* Nested List items: never get border*/
-
-nav[data-toggle='toc'] .nav .nav > li > a:hover,
-nav[data-toggle='toc'] .nav .nav > li > a:active,
-nav[data-toggle='toc'] .nav .nav > li > a:focus,
-nav[data-toggle='toc'] .nav .nav > li > a,
-
-nav[data-toggle='toc'] .nav .nav > .active > a,
-nav[data-toggle='toc'] .nav .nav > .active:hover > a,
-nav[data-toggle='toc'] .nav .nav > .active:focus > a {
-  padding-left: calc(10px + 15px);
-  font-size: 1.35rem;
-  border-left: none !important;
+nav[data-toggle="toc"] .nav > li > a {
+	padding-left: 0.5em;
+	margin-left: 0px;
 }
-
 
 
 /*----Copy Buttons ----*/
 
 .btn-primary {
-  background-color: #E7C5CB;
-  border-color: #E7C5CB;
+  background-color: var(--oyster);
+  border-color: var(--oyster);
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
-  background-color: #187BA2;
-  border-color: #187BA2;
+  background-color: var(--matisse);
+  border-color: var(--matisse);
 }
 
-/*----- COLORED LIST BULLET----*/
+/*----Search box----*/
 
-.contents ul {
-  list-style: none; /* Remove default bullets */
+.form-control {
+	border: none;
 }
 
-.contents ul li::before {
-  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: #f4e4e7; /* Change the color */
-  font-weight: normal; /* If you want it to be bold */
-  display: inline-block; /* Needed to add space between the bullet and the text */
-  width: 1.5em; /* Also needed for space (tweak if needed) */
-  margin-left: -1.5em; /* Also needed for space (tweak if needed) */
+.form-control::placeholder.active,
+.form-control::placeholder:focus {
+	color: var(--night-rider);
+	opacity: 1;
+	border-color: var(--matisse);
 }
 
-.contents ul > li > p {
-  display: inline; /* to have content show up next to bullet */
-  line-height: 1.6em;
+.template-reference-topic .page-header {
+  margin-bottom: 2rem !important;
 }
 
-.contents ul > li { /*to add back in space between bullet items that I took away by making p display inline */
-  margin-top: 1em;
-  margin-bottom: 1em;
-}

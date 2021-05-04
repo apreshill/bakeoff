@@ -6,7 +6,31 @@ authors:
   Chester Ismay:
     href: https://chester.rbind.io
 
+template:
+  bootstrap: 4
+  bslib:
+    font_scale: 1.0
+    base_font:
+      google: "Sen"
+    code_font:
+      google: "DM Mono"
+    primary: "#187BA2"                  # sidebar heading colors / not content
+    secondary: "#595959"                # version badge bg only? maybe headers if not def
+    bg: "white"                         # background of site
+    fg: "#333333"                       # all body text, cannot leave blank? but also no work?
+    navbar-bg: "#f4e4e7"                # navbar bg color :)
+    navbar-light-brand-color: "#595959" # pkgname color, would be lt active color
+    navbar-light-color: "#595959"       # navbar text color
+    navbar-light-active-color: "#126180"
+    navbar-light-hover-color: "#126180"
+    headings-color: "#187BA2"           # inherits from nobody!
+    # these don't work
+    link-color: "#767676"               # should inherit primary, but doesn't?
+    link-hover-color: "#187BA2"         # nope
+
 navbar:
+  type: light
+  bg: navbar-bg
   structure:
     left:  [home]
     right: [reference, news, github]
@@ -44,8 +68,7 @@ reference:
       - bakeoff_colors
       - bakeoff_palette
       - scale_bakeoff
-  - title: "The package"
-    desc: >
-      More information on the package itself
-    contents:
-      - bakeoff
+      - bakeoff_color_data
+      - bakeoff_generate_pal
+      - bakeoff_palette_names
+      - bakeoff_palettes
