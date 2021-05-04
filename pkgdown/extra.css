@@ -147,7 +147,7 @@ li.nav-item a.nav-link {
 
 nav[data-toggle="toc"] .nav > li > a:hover {
 	color: inherit;
-	background-color: var(--dawn);
+	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -189,19 +189,8 @@ nav[data-toggle="toc"] .nav > li > a {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active:hover {
-  background-color: #187BA2;
-  border-color: #187BA2;
-}
-
-.navbar-brand {
-	color: red;
-}
-
-.nav-link,
-.nav-tabs > li > a,
-.nav-pills > li > a,
-.nav-tabs > li > a {
-	color: red;
+  background-color: var(--matisse);
+  border-color: var(--matisse);
 }
 
 /*----Search box----*/
