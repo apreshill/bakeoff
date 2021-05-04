@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://bakeoff.netlify.app/404.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/LICENSE-text.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/LICENSE.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/authors.html</loc>
+  </url>
+  <url>
     <loc>https://bakeoff.netlify.app/index.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/news/index.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_color_data.html</loc>
@@ -35,6 +50,9 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/episodes.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/index.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/ratings.html</loc>
