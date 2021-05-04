@@ -131,11 +131,11 @@ li.nav-item a.nav-link {
   color: var(--boulder);
 }
 
-#pkgdown-sidebar a {
+.template-home #pkgdown-sidebar a {
   color: var(--boulder);
 }
 
-#pkgdown-sidebar a:hover {
+.template-home #pkgdown-sidebar a:hover {
   color: var(--night-rider);
 }
 
@@ -145,9 +145,10 @@ li.nav-item a.nav-link {
 
 /*----TOC sidebar on non-homepages----*/
 
-nav[data-toggle="toc"] .nav > li > a:hover {
+nav[data-toggle="toc"] .nav > li > a:hover,
+nav[data-toggle="toc"] .nav-link.active:hover {
 	color: inherit;
-	background-color: var(--dawn);
+	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -155,19 +156,11 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 /* Active/focus links */
 
-nav[data-toggle="toc"] .nav > li > a:focus {
-	color: var(--matisse);
-	background-color: var(--dawn);
-	letter-spacing: 1pt;
-	padding-left: 0.5em;
-	margin-left: 0px;
-}
-
+nav[data-toggle="toc"] .nav > li > a:focus,
 nav[data-toggle="toc"] .nav-link.active,
-nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
 	color: var(--sapphire);
-	background-color: var(--oyster);
+	background-color: var(--dawn);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
