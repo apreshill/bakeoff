@@ -147,7 +147,7 @@ li.nav-item a.nav-link {
 
 nav[data-toggle="toc"] .nav > li > a:hover {
 	color: inherit;
-	background-color: var(--pearl);
+	background-color: var(--dawn);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -160,7 +160,7 @@ nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
 	color: var(--sapphire);
-	background-color: var(--dawn);
+	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
