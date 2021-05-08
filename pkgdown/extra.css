@@ -56,10 +56,10 @@ a {
   padding-top: 1em;
 }
 
-/*
+/* needed to bring this back b/c pkdgown.css overrides my navbar-light-hover-color in YAML */
 .navbar-light .navbar-nav .nav-link:hover {
 	color: var(--sapphire);
-}*/
+}
 
 .navbar-light .navbar-nav .active > .nav-link {
 	background: var(--pearl);
