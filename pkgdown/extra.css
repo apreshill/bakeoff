@@ -151,6 +151,8 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
+	border-radius: 0rem;
+	border: none;
 }
 
 /* Active/focus links */
@@ -164,6 +166,8 @@ nav[data-toggle="toc"] .nav-link.active:focus {
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
+	border-radius: 0rem;
+	border: none;
 }
 
 /* Links NOT hovered or active */
@@ -171,11 +175,15 @@ nav[data-toggle="toc"] .nav-link.active:focus {
 nav[data-toggle='toc'] ul > li > a {
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
+	border-radius: 0rem;
+	border: none;
 }
 
 nav[data-toggle="toc"] .nav > li > a {
 	padding-left: 0.5em;
 	margin-left: 0px;
+	border-radius: 0rem;
+	border: none;
 }
 
 
