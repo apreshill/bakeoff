@@ -44,7 +44,7 @@ jobs:
           pak::pkg_install("r-lib/pkgdown")
           pak::pkg_install("rstudio/bslib")
           pak::pkg_install("tidyverse/ggplot2")
-          pak::pkg_install("r-lib/sscales")
+          pak::pkg_install("r-lib/scales")
         shell: Rscript {0}
 
       - name: Install package
