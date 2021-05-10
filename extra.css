@@ -118,7 +118,7 @@ li.nav-item a.nav-link {
 /*----TOC sidebar on non-homepages----*/
 
 nav[data-toggle="toc"] .nav > li > a:hover {
-	color: var(--sapphire);
+	color: inherit;
 	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
