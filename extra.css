@@ -2,7 +2,7 @@
 /* https://github.com/tidyverse/tidytemplate/blob/master/inst/pkgdown/assets/tidymodels.css */
 
 :root {
-  --scorpion: #595959; /* unused given bslib vars */
+  --scorpion: #595959;
   --boulder: #767676;
   --night-rider: #333333;
   --sapphire: #126180;
@@ -12,7 +12,7 @@
   --pearl: #faf2f3;
 }
 
-/* spacing */
+/* spacing ----------------------------------------------- */
 
 body > p {
   line-height: 1.6em;
@@ -31,34 +31,22 @@ h1, h2, h3 {
 	margin-bottom: 1.5rem;
 	margin-top: 2rem;
 }
-/*
-.contents h1,
-.page-header h1 {
-  color: var(--matisse);
-  font-weight: normal;
-  text-transform: none;
-  letter-spacing: normal;
-}*/
 
-a:hover {
-  color: var(--sapphire);
+.row {
+  margin-top: 1.5em;
 }
 
-a {
-  color: var(--boulder);
+@media (min-width: 768px) {
+  .contents {
+    padding-right: 4em;
+  }
 }
-
 
 /* navbar ----------------------------------------------- */
 
 .navbar {
   padding-bottom: 1em;
   padding-top: 1em;
-}
-
-/* needed to bring this back b/c pkdgown.css overrides my navbar-light-hover-color in YAML */
-.navbar-light .navbar-nav .nav-link:hover {
-	color: var(--sapphire);
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
@@ -72,22 +60,6 @@ li.nav-item a.nav-link {
   letter-spacing: 1.5pt;
 }
 
-/*
-.navbar-default .navbar-link:hover {
-	color: var(--sapphire);
-}*/
-
-/* White Space */
-
-.row {
-  margin-top: 1.5em;
-}
-
-@media (min-width: 768px) {
-  .contents {
-    padding-right: 4em;
-  }
-}
 
 /*----- COLORED LIST BULLET----*/
 
@@ -146,7 +118,7 @@ li.nav-item a.nav-link {
 /*----TOC sidebar on non-homepages----*/
 
 nav[data-toggle="toc"] .nav > li > a:hover {
-	color: inherit;
+	color: var(--sapphire);
 	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
@@ -161,7 +133,7 @@ nav[data-toggle="toc"] .nav > li > a:focus,
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
-	color: var(--sapphire);
+	color: var(--matisse);
 	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
@@ -217,4 +189,57 @@ nav[data-toggle="toc"] .nav > li > a {
 .template-reference-topic .page-header {
   margin-bottom: 2rem !important;
 }
+
+#search-input {
+  color: var(--night-rider);
+}
+
+/*----Replaced these with Bootstrap 4 variables in YAML----*/
+
+/* headings-color
+.contents h1,
+.page-header h1 {
+  color: var(--matisse);
+  font-weight: normal;
+  text-transform: none;
+  letter-spacing: normal;
+}*/
+
+/*
+.navbar-default .navbar-link:hover {
+	color: var(--sapphire);
+}*/
+
+/*----Pkgdown is overriding these----*/
+
+/* fg in YAML */
+body {
+	color: var(--scorpion);
+}
+
+/* navbar-light-color in YAML */
+.navbar-light .navbar-nav .nav-link {
+	color: var(--scorpion);
+}
+
+/* navbar-light-hover-color in YAML */
+.navbar-light .navbar-nav .nav-link:hover {
+	color: var(--sapphire);
+}
+
+/* navbar-light-active-color in YAML */
+.navbar-light .navbar-nav .active > .nav-link {
+	color: var(--matisse);
+}
+
+/* link-hover-color */
+a:hover {
+  color: var(--sapphire);
+}
+
+/* link-color */
+a {
+  color: var(--boulder);
+}
+
 
