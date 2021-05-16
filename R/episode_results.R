@@ -1,6 +1,6 @@
-#' Each episodes' statistics
+#' Episode results
 #'
-#' This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by `series` and `episode`.
+#' Each episodes' statistics. This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by `series` and `episode`.
 #'
 #' @format A data frame with 94 rows representing individual episodes per series and 10 variables:
 #' \describe{

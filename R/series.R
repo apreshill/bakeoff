@@ -1,6 +1,6 @@
-#' Overview of each series aired in the UK
+#' Series
 #'
-#' Metadata for all 10 GBBO series
+#' Metadata for all 10 GBBO series that aired in the UK
 #'
 #' @format A data frame with 10 rows representing individual series and 11 variables:
 #' \describe{
