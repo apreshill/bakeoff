@@ -1,6 +1,6 @@
-#' Each baker's fate, by episode
+#' Results
 #'
-#' Results for all bakers per episode across all 10 GBBO series
+#' Results of each episode per baker across all 10 GBBO series
 #'
 #' @format A data frame with 1,136 rows representing individual bakers per episode and 4 variables:
 #' \describe{

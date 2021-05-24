@@ -121,6 +121,7 @@ nav[data-toggle="toc"] .nav > li > a:hover {
 
 /* Active/focus links */
 
+/*
 nav[data-toggle="toc"] .nav > li > a:focus,
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
@@ -130,7 +131,7 @@ nav[data-toggle="toc"] .nav-link.active:focus {
 	margin-left: 0px;
 	border-radius: 0rem;
 	border: none;
-}
+}*/
 
 /* Links NOT hovered or active */
 
@@ -146,21 +147,6 @@ nav[data-toggle="toc"] .nav > li > a {
 	margin-left: 0px;
 	border-radius: 0rem;
 	border: none;
-}
-
-
-/*----Copy Buttons ----*/
-
-.btn-primary {
-  background-color: var(--oyster);
-  border-color: var(--oyster);
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active:hover {
-  background-color: var(--matisse);
-  border-color: var(--matisse);
 }
 
 /*----Search box----*/

@@ -30,18 +30,11 @@ template:
 navbar:
   structure:
     left:  [home]
-    right: [reference, news, articles, github]
+    right: [reference, news, github]
   components:
     news:
       text: News
       href: news/index.html
-    articles:
-      text: Articles
-      menu:
-      - text: Introduction
-        href: https://github.com/apreshill/bakeoff/
-      - text: Analysis 1
-        href: https://github.com/apreshill/bakeoff/
 
 reference:
   - title: "Joined tibbles"

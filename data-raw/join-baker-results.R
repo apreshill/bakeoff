@@ -5,11 +5,13 @@ library(readr)
 library(dplyr)
 library(stringr)
 library(lubridate)
+library(tidyr)
 
 ## for baker info
 bakers <- read_csv(here::here("data-raw", "bakers.csv"))
 
 ## for airdates
+dates <- read_csv(here::here("data-raw", "ratings_seasons.csv"))
 
 # add total bakers
 challenge_results <- read_csv(here::here("data-raw",
@@ -17,7 +19,8 @@ challenge_results <- read_csv(here::here("data-raw",
   group_by(series, episode) %>%
   mutate(total_bakers = sum(!is.na(result))) %>%
   ungroup() %>%
-  arrange(series, episode)
+  arrange(series, episode) %>%
+  left_join(select(dates, series, episode, ends_with("airdate")))
 
 # get summaries for each outcome
 collapse_by_baker <- challenge_results %>%
@@ -33,8 +36,8 @@ collapse_by_baker <- challenge_results %>%
             series_winner = sum(result == "WINNER", na.rm = TRUE),
             series_runner_up = sum(result == "RUNNER UP", na.rm = TRUE),
             total_episodes_appeared = max(episode, na.rm = TRUE),
-            first_date_appeared = min(uk_premiere),
-            last_date_appeared = max(uk_premiere),
+            first_date_appeared = min(uk_airdate),
+            last_date_appeared = max(uk_airdate),
             first_date_us = min(dmy(us_airdate)),
             last_date_us = max(dmy(us_airdate))) %>%
   ungroup() %>%
@@ -54,14 +57,12 @@ collapse_by_baker <- challenge_results %>%
   na_if(10000)
 
 # merge
-baker_results <- bakers %>%
-  full_join(collapse_by_baker) %>%
+baker_results <- collapse_by_baker %>%
+  left_join(bakeoff::bakers %>% mutate(series = as.numeric(series))) %>%
   select(everything(), -total_episodes_series)
 
 #**************************************************************
 # output files
 
-write_csv(baker_results, out_csv)
-save(baker_results, file = out_rda)
-
-
+write_csv(baker_results, "baker_results.csv")
+usethis::use_data(baker_results, overwrite = TRUE)

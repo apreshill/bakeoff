@@ -1,5 +1,6 @@
-#' Each episode's ratings plus original airdates in the UK (by series) and US (by season)
+#' Ratings
 #'
+#' Each episode's ratings plus original airdates in the UK (by series) and US (by season).
 #' This joined tibble is made by joining the \code{\link{ratings}} and \code{\link{seasons}} simple tibbles by both `series` and `episode`.
 #'
 #' @format A data frame with 74 rows representing individual episodes and 10 variables:
