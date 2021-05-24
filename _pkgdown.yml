@@ -14,41 +14,27 @@ template:
       google: "Sen"
     code_font:
       google: "DM Mono"
-    bg: "white"                         # background of site
-    primary: "#187BA2"                  # sidebar heading colors / but not content
-    headings-color: "#187BA2"           # inherits from body if not set
-    navbar-bg: "#f4e4e7"                # navbar bg color / inherits primary if not set
-    secondary: "#595959"                # version badge bg only? could maybe hit component hover+active (if not set)
-    navbar-light-brand-color: "#595959" # pkgname color / inherits navbar-light-active-color if not set
-    # these don't work
-    link-color: "#767676"               # should inherit primary, but doesn't? now pkgdown overrides
-    link-hover-color: "#187BA2"         # pkgdown overrides
-    fg: "#595959"                       # all body text, cannot leave blank? but also bootstrap overrides?
-    navbar-light-active-color: "#187BA2"
-    navbar-light-hover-color: "#126180" # pkgdown overrides
-    navbar-light-color: "#595959"       # pkgdown overrides
-    # going deeper! could this be sidebar TOC + copy button?
-    component-active-bg: "#faf2f3"      # would be pearl pink
-    component-active-color: "#187BA2"   # would be matisse blue
+    bg: "white"
+    fg: "#595959"
+    primary: "#187BA2"                   # matisse blue
+    secondary: "#faf2f3"                 # pearl pink
+    headings-color: "#187BA2"            # matisse blue
+    link-color: "#767676"                # boulder
+    link-hover-color: "#126180"          # sapphire
+    # navbar
+    navbar-bg: "#f4e4e7"                         # dawn pink
+    navbar-light-brand-hover-color: "#187BA2"    # matisse blue
+    navbar-light-hover-color: "#126180"          # sapphire
+    info: "#595959"                              # scorpion
 
 navbar:
-  #type: light
-  bg: navbar-bg
   structure:
     left:  [home]
-    right: [reference, news, articles, github]
+    right: [reference, news, github]
   components:
     news:
       text: News
       href: news/index.html
-    articles:
-      text: Articles
-      menu:
-      - text: Introduction
-        href: https://github.com/apreshill/bakeoff/
-      - text: Analysis 1
-        href: https://github.com/apreshill/bakeoff/
-
 
 reference:
   - title: "Joined tibbles"

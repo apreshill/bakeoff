@@ -14,13 +14,11 @@
 
 /* spacing ----------------------------------------------- */
 
+/*
 body > p {
   line-height: 1.6em;
 }
-
-pre, code {
-  font-size: 16px;
-}
+*/
 
 h1, h2, h3 {
   font-weight: normal;
@@ -50,8 +48,8 @@ h1, h2, h3 {
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-	background: var(--pearl);
-	/*color: var(--matisse);*/
+	/*background: var(--pearl);
+	color: var(--matisse);*/
 	border-radius: 0rem;
 }
 
@@ -78,7 +76,6 @@ li.nav-item a.nav-link {
 	margin-top: 1rem;
   margin-bottom: 0.85rem;
   text-transform: uppercase;
-  color: var(--matisse);
   letter-spacing: 1.5pt;
   font-size: large;
   padding-left: 0.5em;
@@ -103,10 +100,6 @@ li.nav-item a.nav-link {
   color: var(--boulder);
 }
 
-.template-home #pkgdown-sidebar a {
-  color: var(--boulder);
-}
-
 .template-home #pkgdown-sidebar a:hover {
   color: var(--night-rider);
 }
@@ -119,7 +112,6 @@ li.nav-item a.nav-link {
 
 nav[data-toggle="toc"] .nav > li > a:hover {
 	color: inherit;
-	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -134,8 +126,6 @@ nav[data-toggle="toc"] .nav > li > a:focus,
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
-	color: var(--matisse);
-	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -179,67 +169,3 @@ nav[data-toggle="toc"] .nav > li > a {
 #search-input {
   color: var(--night-rider);
 }
-
-/*----Replaced these with Bootstrap 4 variables in YAML----*/
-
-/* headings-color
-.contents h1,
-.page-header h1 {
-  color: var(--matisse);
-  font-weight: normal;
-  text-transform: none;
-  letter-spacing: normal;
-}*/
-
-/*
-.navbar-default .navbar-link:hover {
-	color: var(--sapphire);
-}*/
-
-/*----Copy Buttons ----*/
-
-.btn-primary {
-  background-color: var(--oyster);
-  border-color: var(--oyster);
-}
-
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active:hover {
-  background-color: var(--matisse);
-  border-color: var(--matisse);
-}
-
-/*----Pkgdown is overriding these----*/
-
-/* fg in YAML */
-body {
-	color: var(--scorpion);
-}
-
-/* navbar-light-color in YAML */
-.navbar-light .navbar-nav .nav-link {
-	color: var(--scorpion);
-}
-
-/* navbar-light-hover-color in YAML */
-.navbar-light .navbar-nav .nav-link:hover {
-	color: var(--sapphire);
-}
-
-/* navbar-light-active-color in YAML */
-.navbar-light .navbar-nav .active > .nav-link {
-	color: var(--matisse);
-}
-
-/* link-hover-color */
-a:hover {
-  color: var(--sapphire);
-}
-
-/* link-color */
-a {
-  color: var(--boulder);
-}
-
-
