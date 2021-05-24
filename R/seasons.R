@@ -1,6 +1,6 @@
-#' Seasons and airdates for the US version called 'The Great British Baking Show'
+#' Seasons
 #'
-#' US seasons and airdates for all GBBO series/episodes
+#' Seasons and airdates for all episodes aired in the US as 'The Great British Baking Show'
 #'
 #' @format A data frame with 8 rows representing individual series and 11 variables:
 #' \describe{

@@ -1,4 +1,4 @@
-#' Each baker's signature, technical, and showstopper challenges, by episode
+#' Episodes
 #'
 #' Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all 10 GBBO series
 #'

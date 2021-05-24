@@ -1,4 +1,4 @@
-#' Each baker's name, age, occupation, and hometown
+#' Bakers
 #'
 #' Bakers across all 10 GBBO series
 #'

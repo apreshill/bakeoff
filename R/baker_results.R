@@ -1,6 +1,6 @@
-#' Each baker's statistics
+#' Baker results
 #'
-#' Bakers across all 10 GBBO series
+#' Statistics summarizing each baker's performance during the series they appeared on.
 #'
 #' @format A data frame with 95 rows representing individual bakers and 24 variables:
 #' \describe{
