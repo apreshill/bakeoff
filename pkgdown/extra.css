@@ -14,13 +14,11 @@
 
 /* spacing ----------------------------------------------- */
 
+/*
 body > p {
   line-height: 1.6em;
 }
-
-pre, code {
-  font-size: 16px;
-}
+*/
 
 h1, h2, h3 {
   font-weight: normal;
@@ -50,8 +48,8 @@ h1, h2, h3 {
 }
 
 .navbar-light .navbar-nav .active > .nav-link {
-	background: var(--pearl);
-	/*color: var(--matisse);*/
+	/*background: var(--pearl);
+	color: var(--matisse);*/
 	border-radius: 0rem;
 }
 
@@ -78,7 +76,6 @@ li.nav-item a.nav-link {
 	margin-top: 1rem;
   margin-bottom: 0.85rem;
   text-transform: uppercase;
-  color: var(--matisse);
   letter-spacing: 1.5pt;
   font-size: large;
   padding-left: 0.5em;
@@ -103,10 +100,6 @@ li.nav-item a.nav-link {
   color: var(--boulder);
 }
 
-.template-home #pkgdown-sidebar a {
-  color: var(--boulder);
-}
-
 .template-home #pkgdown-sidebar a:hover {
   color: var(--night-rider);
 }
@@ -119,7 +112,6 @@ li.nav-item a.nav-link {
 
 nav[data-toggle="toc"] .nav > li > a:hover {
 	color: inherit;
-	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
@@ -133,8 +125,6 @@ nav[data-toggle="toc"] .nav > li > a:focus,
 nav[data-toggle="toc"] .nav-link.active,
 nav[data-toggle="toc"] .nav-link.active:hover,
 nav[data-toggle="toc"] .nav-link.active:focus {
-	color: var(--matisse);
-	background-color: var(--pearl);
 	letter-spacing: 1pt;
 	padding-left: 0.5em;
 	margin-left: 0px;
