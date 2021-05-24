@@ -18,14 +18,14 @@ template:
     fg: "#595959"
     primary: "#187BA2"                   # matisse blue
     secondary: "#faf2f3"                 # pearl pink
-    navbar-bg: "#f4e4e7"                 # dawn pink
     headings-color: "#187BA2"            # matisse blue
     link-color: "#767676"                # boulder
     link-hover-color: "#126180"          # sapphire
     # navbar
+    navbar-bg: "#f4e4e7"                         # dawn pink
     navbar-light-brand-hover-color: "#187BA2"    # matisse blue
     navbar-light-hover-color: "#126180"          # sapphire
-    info: "#595959"
+    info: "#595959"                              # scorpion
 
 navbar:
   structure:
