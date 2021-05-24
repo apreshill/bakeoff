@@ -1,8 +1,8 @@
 pandoc: 2.7.3
 pkgdown: 1.6.1.9001
-pkgdown_sha: 3b870d0efcfcf92a42aa881d58c3462cdbb110a8
+pkgdown_sha: 99e768ca0a6dda36f0a7f460f07e5317ea56b1c0
 articles: {}
-last_built: 2021-05-24T18:29Z
+last_built: 2021-05-24T18:31Z
 urls:
   reference: https://bakeoff.netlify.app/reference
   article: https://bakeoff.netlify.app/articles
