@@ -15,19 +15,22 @@ template:
     code_font:
       google: "DM Mono"
     bg: "white"
-    fg: "#595959"
-    primary: "#187BA2"                   # matisse blue
-    secondary: "#faf2f3"                 # pearl pink
-    headings-color: "#187BA2"            # matisse blue
-    link-color: "#767676"                # boulder
-    link-hover-color: "#126180"          # sapphire
-    # navbar
-    navbar-bg: "#f4e4e7"                         # dawn pink
-    navbar-light-brand-hover-color: "#187BA2"    # matisse blue
-    navbar-light-hover-color: "#126180"          # sapphire
-    info: "#595959"                              # scorpion
+    fg: "#2F1847"
+    headings-color: "#539987"
+    primary: "#982649"
+    secondary: "#FBD989"
+    list-group-active-bg: transparent
+    list-group-active-color: black
+    component-active-bg: transparent
+    component-active-color: "#0144a3"
+    navbar-bg: "#F7CCB6"
+    border-radius: 0rem
+    link-color: "#B33C86"                             # inherit primary if not set
+    link-hover-color: "#EA638C"                  # darkens primary if not set
+    body-color: dodgerblue
 
 navbar:
+  type: light
   structure:
     left:  [home]
     right: [reference, news, github]
