@@ -7,14 +7,13 @@ authors:
     href: https://chester.rbind.io
 
 template:
-  bootstrap: 4
+  bootstrap: 5
   bslib:
-    font_scale: 1.0
     base_font:
       google: "Sen"
     code_font:
       google: "DM Mono"
-    bg: "white"
+    bg: "#fff"
     fg: "#595959"
     primary: "#187BA2"                   # matisse blue
     secondary: "#faf2f3"                 # pearl pink
@@ -23,11 +22,13 @@ template:
     link-hover-color: "#126180"          # sapphire
     # navbar
     navbar-bg: "#f4e4e7"                         # dawn pink
-    navbar-light-brand-hover-color: "#187BA2"    # matisse blue
+    navbar-light-brand-hover-color: "#187BA2"    # matisse blue / does not work?
     navbar-light-hover-color: "#126180"          # sapphire
     info: "#595959"                              # scorpion
 
 navbar:
+  type: light
+  bg: "#f4e4e7"  # apparently this plus navbar-bg needs to be set to same color?
   structure:
     left:  [home]
     right: [reference, news, github]
