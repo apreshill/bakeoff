@@ -3,6 +3,7 @@ on:
     branches:
       - main
       - master
+      - bslib
 
 name: pkgdown
 
@@ -41,7 +42,7 @@ jobs:
       - name: Install package and dependencies
         run: |
           pak::local_install_dev_deps(upgrade = TRUE)
-          pak::pkg_install("r-lib/pkgdown@cupcake")
+          pak::pkg_install("r-lib/pkgdown")
           pak::pkg_install("rstudio/bslib")
           pak::pkg_install("tidyverse/ggplot2")
           pak::pkg_install("r-lib/scales")
