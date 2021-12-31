@@ -27,7 +27,7 @@ template:
     info: "#595959"                              # scorpion
 
 navbar:
-  type: light
+  type: dark
   bg: "#f4e4e7"  # apparently this plus navbar-bg needs to be set to same color?
   structure:
     left:  [home]
