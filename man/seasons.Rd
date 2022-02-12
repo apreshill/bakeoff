@@ -3,7 +3,7 @@
 \docType{data}
 \name{seasons}
 \alias{seasons}
-\title{Seasons and airdates for the US version called 'The Great British Baking Show'}
+\title{Seasons}
 \format{
 A data frame with 8 rows representing individual series and 11 variables:
 \describe{
@@ -20,6 +20,6 @@ US airdates manually recorded from \url{http://www.pbs.org/food/shows/great-brit
 seasons
 }
 \description{
-US seasons and airdates for all GBBO series/episodes
+Seasons and airdates for all episodes aired in the US as 'The Great British Baking Show'
 }
 \keyword{datasets}

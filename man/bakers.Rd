@@ -3,7 +3,7 @@
 \docType{data}
 \name{bakers}
 \alias{bakers}
-\title{Each baker's name, age, occupation, and hometown}
+\title{Bakers}
 \format{
 A data frame with 120 rows representing individual bakers and 8 variables:
 \describe{

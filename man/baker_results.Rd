@@ -3,7 +3,7 @@
 \docType{data}
 \name{baker_results}
 \alias{baker_results}
-\title{Each baker's statistics}
+\title{Baker results}
 \format{
 A data frame with 95 rows representing individual bakers and 24 variables:
 \describe{
@@ -40,6 +40,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#The
 baker_results
 }
 \description{
-Bakers across all 10 GBBO series
+Statistics summarizing each baker's performance during the series they appeared on.
 }
 \keyword{datasets}

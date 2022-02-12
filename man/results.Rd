@@ -3,7 +3,7 @@
 \docType{data}
 \name{results}
 \alias{results}
-\title{Each baker's fate, by episode}
+\title{Results}
 \format{
 A data frame with 1,136 rows representing individual bakers per episode and 4 variables:
 \describe{
@@ -20,6 +20,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Res
 results
 }
 \description{
-Results for all bakers per episode across all 10 GBBO series
+Results of each episode per baker across all 10 GBBO series
 }
 \keyword{datasets}

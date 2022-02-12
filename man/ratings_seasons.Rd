@@ -3,7 +3,7 @@
 \docType{data}
 \name{ratings_seasons}
 \alias{ratings_seasons}
-\title{Each episode's ratings plus original airdates in the UK (by series) and US (by season)}
+\title{Ratings}
 \format{
 A data frame with 74 rows representing individual episodes and 10 variables:
 \describe{
@@ -26,6 +26,7 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Rat
 ratings_seasons
 }
 \description{
+Each episode's ratings plus original airdates in the UK (by series) and US (by season).
 This joined tibble is made by joining the \code{\link{ratings}} and \code{\link{seasons}} simple tibbles by both \code{series} and \code{episode}.
 }
 \keyword{datasets}

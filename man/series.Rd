@@ -3,7 +3,7 @@
 \docType{data}
 \name{series}
 \alias{series}
-\title{Overview of each series aired in the UK}
+\title{Series}
 \format{
 A data frame with 10 rows representing individual series and 11 variables:
 \describe{
@@ -27,6 +27,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overvie
 series
 }
 \description{
-Metadata for all 10 GBBO series
+Metadata for all 10 GBBO series that aired in the UK
 }
 \keyword{datasets}

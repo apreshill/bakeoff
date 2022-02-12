@@ -3,7 +3,7 @@
 \docType{data}
 \name{episode_results}
 \alias{episode_results}
-\title{Each episodes' statistics}
+\title{Episode results}
 \format{
 A data frame with 94 rows representing individual episodes per series and 10 variables:
 \describe{
@@ -26,6 +26,6 @@ See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
 episode_results
 }
 \description{
-This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by \code{series} and \code{episode}.
+Each episodes' statistics. This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by \code{series} and \code{episode}.
 }
 \keyword{datasets}

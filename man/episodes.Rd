@@ -3,7 +3,7 @@
 \docType{data}
 \name{episodes}
 \alias{episodes}
-\title{Each baker's signature, technical, and showstopper challenges, by episode}
+\title{Episodes}
 \format{
 A data frame with 704 rows representing individual bakers per episode and 6 variables:
 \describe{

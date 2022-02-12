@@ -3,7 +3,7 @@
 \docType{data}
 \name{challenge_results}
 \alias{challenge_results}
-\title{Each baker's signature, technical, and showstopper challenges, plus their fate, by episode}
+\title{Challenge results}
 \format{
 A data frame with 886 rows representing individual bakers per episode and 7 variables:
 \describe{
