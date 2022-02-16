@@ -1,29 +1,28 @@
 #' Challenge results
 #'
-#' Details about the three challenges (signature, technical, and showstopper)
-#' for each baker/episode across all GBBO series, and who was eliminated, who
-#' won star baker, or if finale, who won and who was runner up. This joined
-#' tibble is made by joining the [challenges] and [results] *Simple Tibbles* by
-#' `series`, `episode`, and `baker`.
+#' Details about the three challenges (`"signature"`, `"technical"`, and
+#' `"showstopper"`) for each baker/episode across all GBBO series. Who was
+#' eliminated? Who won star baker? In the finale, who won and who was runner up?
 #'
 #' @format A data frame with 886 rows representing individual bakers per episode
 #'   and 7 variables:
 #' \describe{
-#'   \item{series}{an integer denoting UK series (1-8)}
-#'   \item{episode}{an integer denoting episode number within a series}
-#'   \item{baker}{a character string giving given or nickname}
+#'   \item{series}{an integer denoting the UK series number (`1`-`8`).}
+#'   \item{episode}{an integer denoting episode number within a series.}
+#'   \item{baker}{a character string with a given name or nickname.}
 #'   \item{result}{a character string denoting if the baker was `IN`, `OUT`,
 #'   `STAR BAKER`, or `SICK` for a given episode. For finale episodes, values
-#'   are either `WINNER` or `RUNNER-UP`. If `NA`, the baker did not appear in
+#'   are either `WINNER` or `Runner-up`. If `NA`, the baker did not appear in
 #'   episode.}
 #'   \item{signature}{a character string containing the bake for the signature
-#'   challenge for that baker/episode. If `NA`, baker did not appear in
+#'   challenge for that baker/episode. If `NA`, the baker did not appear in
 #'   episode.}
 #'   \item{technical}{an integer denoting the rank on the technical challenge
-#'   for that baker/episode; rank = 1 is winner of the technical challenge. If
-#'   `NA`, baker did not appear in episode.}
+#'   for that baker/episode. A value of `1` means the baker was the winner of
+#'   the technical challenge. If `NA`, the baker did not appear in the
+#'   episode.}
 #'   \item{showstopper}{a character string containing the bake for the
-#'   showstopper challenge for that baker/episode. If `NA`, baker did not
+#'   showstopper challenge for that baker/episode. If `NA`, the baker did not
 #'   appear in episode.}
 #' }
 #' @source See

@@ -8,21 +8,22 @@
 A data frame with 886 rows representing individual bakers per episode
 and 7 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-8)}
-\item{episode}{an integer denoting episode number within a series}
-\item{baker}{a character string giving given or nickname}
+\item{series}{an integer denoting the UK series number (\code{1}-\code{8}).}
+\item{episode}{an integer denoting episode number within a series.}
+\item{baker}{a character string with a given name or nickname.}
 \item{result}{a character string denoting if the baker was \code{IN}, \code{OUT},
 \verb{STAR BAKER}, or \code{SICK} for a given episode. For finale episodes, values
-are either \code{WINNER} or \code{RUNNER-UP}. If \code{NA}, the baker did not appear in
+are either \code{WINNER} or \code{Runner-up}. If \code{NA}, the baker did not appear in
 episode.}
 \item{signature}{a character string containing the bake for the signature
-challenge for that baker/episode. If \code{NA}, baker did not appear in
+challenge for that baker/episode. If \code{NA}, the baker did not appear in
 episode.}
 \item{technical}{an integer denoting the rank on the technical challenge
-for that baker/episode; rank = 1 is winner of the technical challenge. If
-\code{NA}, baker did not appear in episode.}
+for that baker/episode. A value of \code{1} means the baker was the winner of
+the technical challenge. If \code{NA}, the baker did not appear in the
+episode.}
 \item{showstopper}{a character string containing the bake for the
-showstopper challenge for that baker/episode. If \code{NA}, baker did not
+showstopper challenge for that baker/episode. If \code{NA}, the baker did not
 appear in episode.}
 }
 }
@@ -34,10 +35,8 @@ See
 challenge_results
 }
 \description{
-Details about the three challenges (signature, technical, and showstopper)
-for each baker/episode across all GBBO series, and who was eliminated, who
-won star baker, or if finale, who won and who was runner up. This joined
-tibble is made by joining the \link{challenges} and \link{results} \emph{Simple Tibbles} by
-\code{series}, \code{episode}, and \code{baker}.
+Details about the three challenges (\code{"signature"}, \code{"technical"}, and
+\code{"showstopper"}) for each baker/episode across all GBBO series. Who was
+eliminated? Who won star baker? In the finale, who won and who was runner up?
 }
 \keyword{datasets}
