@@ -8,21 +8,21 @@
 A data frame with 886 rows representing individual bakers per episode
 and 7 variables:
 \describe{
-\item{series}{an integer denoting the UK series number (\code{1}-\code{8}).}
-\item{episode}{an integer denoting episode number within a series.}
-\item{baker}{a character string with a given name or nickname.}
-\item{result}{a character string denoting if the baker was \code{IN}, \code{OUT},
+\item{series}{An integer denoting the UK series number (\code{1}-\code{8}).}
+\item{episode}{An integer denoting episode number within a series.}
+\item{baker}{A character string with a given name or nickname.}
+\item{result}{A character string denoting if the baker was \code{IN}, \code{OUT},
 \verb{STAR BAKER}, or \code{SICK} for a given episode. For finale episodes, values
 are either \code{WINNER} or \code{Runner-up}. If \code{NA}, the baker did not appear in
 episode.}
-\item{signature}{a character string containing the bake for the signature
+\item{signature}{A character string containing the bake for the signature
 challenge for that baker/episode. If \code{NA}, the baker did not appear in
 episode.}
-\item{technical}{an integer denoting the rank on the technical challenge
+\item{technical}{An integer denoting the rank on the technical challenge
 for that baker/episode. A value of \code{1} means the baker was the winner of
 the technical challenge. If \code{NA}, the baker did not appear in the
 episode.}
-\item{showstopper}{a character string containing the bake for the
+\item{showstopper}{A character string containing the bake for the
 showstopper challenge for that baker/episode. If \code{NA}, the baker did not
 appear in episode.}
 }

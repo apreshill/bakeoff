@@ -84,11 +84,15 @@ bakeoff_color_data <- c(
       tobacco         = "#9a7c37"
 )
 
-#' Extract named bakeoff colors as hex codes
+#' Extract named **bakeoff** colors as hex codes
 #'
-#' @param ... Character names of bakeoff colors.
-#' If none specified, returns all
-#' If any specified, can be listed by names in quotes (no combine required)
+#' Get a vector of hexadecimal color codes, or, extract a subset of colors as a
+#' using defined color names (available using `names(bakeoff_colors())`).
+#'
+#' @param ... Character names of **bakeoff** colors. If none are specified,
+#'   returns all. If any are specified, they can be listed by names in quotes
+#'   (no need to combine with `c()`).
+#'
 #' @return A named character vector of hex colors.
 #'
 #' @examples
@@ -98,7 +102,7 @@ bakeoff_color_data <- c(
 #' names(bakeoff_colors())
 #'
 #' if (require('scales')) {
-#' show_col(bakeoff_colors(), label = FALSE)
+#'   show_col(bakeoff_colors(), label = FALSE)
 #' }
 #' @export
 bakeoff_colors <- function(...) {

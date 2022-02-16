@@ -16,26 +16,28 @@ bakeoff_palettes <- list(
                           "garancemarigold", "desertflower",
                           "baltic", "cardinal")
 )
-#' Print names of all bakeoff color palettes
+#' Print names of all **bakeoff** color palettes
 #'
 #' @examples
 #' bakeoff_palette_names()
 #' @export
 bakeoff_palette_names <- function() names(bakeoff_palettes)
+
+
+#' A **bakeoff** palette generator
 #'
-#'
-#' A bakeoff palette generator
-#'
-#' @param n Number of colors desired. All palettes have 10 colors,
-#' matching the total number of series and maximum number of episodes per series.
-#' If omitted, uses all colors.
-#'
-#' @param name Name of desired palette.
+#' @param palette Name of desired palette. Can be either `"showstopper"` (the
+#'   default), `"signature"`, and `"finale"` (accessible through
+#'   `bakeoff_palette_names()`).
+#' @param n Number of colors desired. All palettes have 10 colors, matching the
+#'   total number of series and maximum number of episodes per series. If
+#'   omitted, **bakeoff** uses all colors.
 #' @param direction Either `1` or `-1`. If `-1`, the palette will be reversed.
-#' @param type Either "continuous" or "discrete". Use continuous if you want
+#' @param type Either `"continuous"` or `"discrete"`. Use continuous if you want
 #'   to automatically interpolate between colors.
+#'
 #' @return A vector of colors.
-#' @keywords colors
+#'
 #' @examples
 #' bakeoff_palette("showstopper")
 #'
@@ -59,8 +61,12 @@ bakeoff_palette_names <- function() names(bakeoff_palettes)
 #' if (require('scales')) {
 #' show_col(pal)
 #' }
+#'
 #' @export
-bakeoff_palette <- function(palette = "showstopper", n, direction = 1, type = c("discrete", "continuous")) {
+bakeoff_palette <- function(palette = "showstopper",
+                            n,
+                            direction = 1,
+                            type = c("discrete", "continuous")) {
 
   if (abs(direction) != 1) {
     stop("direction must be 1 or -1")
@@ -100,6 +106,7 @@ bakeoff_palette <- function(palette = "showstopper", n, direction = 1, type = c(
 #' @param palette Character name of palette in bakeoff_palettes
 #' @param direction Either `1` or `-1`. If `-1`, the palette will be reversed.
 #'
+#' @noRd
 bakeoff_generate_pal <- function(palette, direction) {
 
   function(n) {

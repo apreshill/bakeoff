@@ -21,22 +21,20 @@ scale_fill_bakeoff(
 )
 }
 \arguments{
-\item{palette}{Character name of palette in bakeoff_palette}
+\item{palette}{Character name of palette in \code{\link{bakeoff_palettes}}.}
 
 \item{discrete}{Boolean indicating whether color aesthetic is discrete or not}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1}, the palette will be reversed.}
 
-\item{...}{Additional arguments passed to discrete_scale() or
-scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE}
+\item{...}{Additional arguments passed to \code{\link[ggplot2:discrete_scale]{ggplot2::discrete_scale()}} or
+\code{\link[ggplot2:scale_gradient]{ggplot2::scale_color_gradientn()}}, used respectively when discrete is
+\code{TRUE} or \code{FALSE}.}
 }
 \description{
 Color scale constructor for bakeoff colors
-
-Fill scale constructor for bakeoff colors
 }
 \examples{
-
 if (require('ggplot2')) {
 
   ggplot(ratings, aes(x = episode, y = viewers_7day, group = series, color = series)) +
@@ -45,12 +43,5 @@ if (require('ggplot2')) {
     scale_color_bakeoff("finale", guide = FALSE)
 }
 
-if (require('ggplot2')) {
-
-  ggplot(ratings, aes(x = episode_count, y = viewers_7day, fill = series)) +
-    geom_col() +
-    theme_minimal() +
-    scale_fill_bakeoff("finale", guide = FALSE)
-}
 }
 \concept{colour scales}

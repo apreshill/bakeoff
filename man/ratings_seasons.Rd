@@ -23,7 +23,8 @@ across all channels}
 available for all series, and only for series that aired on the BBC)}
 \item{us_season}{an integer denoting US season (1-5)}
 \item{us_airdate}{a date denoting original airdate of episode in the US,
-according to \href{https://www.pbs.org/food/shows/great-british-baking-show/}{pbs.org}}
+according to
+\href{https://www.pbs.org/food/shows/great-british-baking-show/}{pbs.org}}
 }
 }
 \source{

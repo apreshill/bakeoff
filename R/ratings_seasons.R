@@ -22,7 +22,8 @@
 #'   available for all series, and only for series that aired on the BBC)}
 #'   \item{us_season}{an integer denoting US season (1-5)}
 #'   \item{us_airdate}{a date denoting original airdate of episode in the US,
-#'   according to [pbs.org](https://www.pbs.org/food/shows/great-british-baking-show/)}
+#'   according to
+#'   [pbs.org](https://www.pbs.org/food/shows/great-british-baking-show/)}
 #'   }
 #' @source See
 #'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Ratings}

@@ -7,21 +7,21 @@
 #' @format A data frame with 886 rows representing individual bakers per episode
 #'   and 7 variables:
 #' \describe{
-#'   \item{series}{an integer denoting the UK series number (`1`-`8`).}
-#'   \item{episode}{an integer denoting episode number within a series.}
-#'   \item{baker}{a character string with a given name or nickname.}
-#'   \item{result}{a character string denoting if the baker was `IN`, `OUT`,
+#'   \item{series}{An integer denoting the UK series number (`1`-`8`).}
+#'   \item{episode}{An integer denoting episode number within a series.}
+#'   \item{baker}{A character string with a given name or nickname.}
+#'   \item{result}{A character string denoting if the baker was `IN`, `OUT`,
 #'   `STAR BAKER`, or `SICK` for a given episode. For finale episodes, values
 #'   are either `WINNER` or `Runner-up`. If `NA`, the baker did not appear in
 #'   episode.}
-#'   \item{signature}{a character string containing the bake for the signature
+#'   \item{signature}{A character string containing the bake for the signature
 #'   challenge for that baker/episode. If `NA`, the baker did not appear in
 #'   episode.}
-#'   \item{technical}{an integer denoting the rank on the technical challenge
+#'   \item{technical}{An integer denoting the rank on the technical challenge
 #'   for that baker/episode. A value of `1` means the baker was the winner of
 #'   the technical challenge. If `NA`, the baker did not appear in the
 #'   episode.}
-#'   \item{showstopper}{a character string containing the bake for the
+#'   \item{showstopper}{A character string containing the bake for the
 #'   showstopper challenge for that baker/episode. If `NA`, the baker did not
 #'   appear in episode.}
 #' }
