@@ -7,7 +7,7 @@ authors:
     href: https://chester.rbind.io
 
 template:
-  bootstrap: 4
+  bootstrap: 5
   bslib:
     font_scale: 1.0
     base_font:
