@@ -16,5 +16,5 @@
 #' }
 #' @source See
 #'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Results_summary},
-#'   for example, for series 1 results summary.
+#'    for example, for series 1 results summary.
 "results"
