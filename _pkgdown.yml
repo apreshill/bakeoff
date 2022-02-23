@@ -45,6 +45,7 @@ reference:
       - episode_results
       - challenge_results
       - ratings_seasons
+      - spice_test_wide
   - title: "Simple tibbles"
     desc: >
       Tibbles with data from [Wikipedia](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
@@ -52,6 +53,7 @@ reference:
       All variable types are cast properly, all tibbles are in tidy format, and all variable names are in `snake_case`.
     contents:
       - bakers
+      - bakes
       - episodes
       - ratings
       - results
@@ -65,6 +67,5 @@ reference:
       - bakeoff_palette
       - scale_bakeoff
       - bakeoff_color_data
-      - bakeoff_generate_pal
       - bakeoff_palette_names
       - bakeoff_palettes
