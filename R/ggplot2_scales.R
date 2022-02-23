@@ -1,7 +1,8 @@
-#' Color scale constructor for bakeoff colors
+#' Color scale constructor for **bakeoff** colors
 #'
 #' @param palette Character name of palette in [`bakeoff_palettes`].
-#' @param discrete Boolean indicating whether color aesthetic is discrete or not
+#' @param discrete Boolean indicating whether color aesthetic is discrete or
+#'   not.
 #' @param direction Either `1` or `-1`. If `-1`, the palette will be reversed.
 #' @param ... Additional arguments passed to [ggplot2::discrete_scale()] or
 #'   [ggplot2::scale_color_gradientn()], used respectively when discrete is
