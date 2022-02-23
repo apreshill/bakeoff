@@ -8,3 +8,4 @@
 netlify.toml
 pkgdown
 ^\.github$
+baker_results.csv

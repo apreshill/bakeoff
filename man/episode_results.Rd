@@ -3,29 +3,40 @@
 \docType{data}
 \name{episode_results}
 \alias{episode_results}
-\title{Each episodes' statistics}
+\title{Episode results}
 \format{
-A data frame with 94 rows representing individual episodes per series and 10 variables:
+A data frame with 94 rows representing individual episodes per series
+and 10 variables:
 \describe{
-\item{series}{an integer denoting UK series (1-10)}
-\item{episode}{an integer denoting episode number within a series}
-\item{bakers_appeared}{an integer denoting the number of bakers who appeared in a given episode}
-\item{bakers_out}{an integer denoting the number of bakers were either eliminated, left at will, or left due to illness in that episode}
-\item{bakers_remaining}{an integer denoting the number of bakers who remained at the end of a given episode}
-\item{star_bakers}{an integer denoting the number of bakers crowned Star Baker in a given episode}
-\item{technical_winners}{an integer denoting the number of bakers who placed first in the technical challenge}
-\item{sb_name}{a character string with the names of the bakers who won Star Baker in a given episode, separated by commas}
-\item{winner_name}{a character string with the name of the series winner- only present for final episodes within each series}
-\item{eliminated}{a character string with the name of the bakers who left a given episode, separated by commas}
+\item{series}{An integer denoting UK series (\code{1}-\code{10}).}
+\item{episode}{An integer denoting episode number within a series.}
+\item{bakers_appeared}{an integer denoting the number of bakers who
+appeared in a given episode.}
+\item{bakers_out}{An integer denoting the number of bakers were either
+eliminated, left at will, or left due to illness in that episode.}
+\item{bakers_remaining}{An integer denoting the number of bakers who
+remained at the end of a given episode.}
+\item{star_bakers}{An integer denoting the number of bakers crowned Star
+Baker in a given episode.}
+\item{technical_winners}{An integer denoting the number of bakers who
+placed first in the technical challenge.}
+\item{sb_name}{A character string with the names of the bakers who won
+Star Baker in a given episode, separated by commas.}
+\item{winner_name}{A character string with the name of the series winner.
+Only present for final episodes within each series.}
+\item{eliminated}{A character string with the name of the bakers who left
+a given episode, separated by commas.}
 }
 }
 \source{
-See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
+See
+\url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
 }
 \usage{
 episode_results
 }
 \description{
-This tibble is made by collapsing the \code{\link{challenge_results}} tibbles by \code{series} and \code{episode}.
+Each episodes' statistics. This tibble is made by collapsing the
+\code{\link{challenge_results}} tibbles by \code{series} and \code{episode}.
 }
 \keyword{datasets}
