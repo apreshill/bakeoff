@@ -6,7 +6,7 @@
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
     
 
-    <nav class="navbar fixed-top navbar-dark navbar-expand-lg bg-#f4e4e7"><div class="container">
+    <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light"><div class="container">
     
     <a class="navbar-brand me-2" href="../index.html">bakeoff</a>
 
@@ -17,7 +17,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div id="navbar" class="collapse navbar-collapse ms-2">
+    <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto"></ul><form class="form-inline my-2 my-lg-0" role="search">
         <input type="search" class="form-control me-sm-2" aria-label="Toggle navigation" name="search-input" data-search-index="../search.json" id="search-input" placeholder="Search for" autocomplete="off"></form>
 
@@ -58,22 +58,27 @@
           
           <code><a href="baker_results.html">baker_results</a></code> 
         </dt>
-        <dd>Each baker's statistics</dd>
+        <dd>Baker results</dd>
       </dl><dl><dt>
           
           <code><a href="episode_results.html">episode_results</a></code> 
         </dt>
-        <dd>Each episodes' statistics</dd>
+        <dd>Episode results</dd>
       </dl><dl><dt>
           
           <code><a href="challenge_results.html">challenge_results</a></code> 
         </dt>
-        <dd>Each baker's signature, technical, and showstopper challenges, plus their fate, by episode</dd>
+        <dd>Challenge results</dd>
       </dl><dl><dt>
           
           <code><a href="ratings_seasons.html">ratings_seasons</a></code> 
         </dt>
-        <dd>Each episode's ratings plus original airdates in the UK (by series) and US (by season)</dd>
+        <dd>Ratings</dd>
+      </dl><dl><dt>
+          
+          <code><a href="spice_test_wide.html">spice_test_wide</a></code> 
+        </dt>
+        <dd>Spice Test</dd>
       </dl></div><div class="section level2">
       <h2 id="simple-tibbles">Simple tibbles<a class="anchor" aria-label="anchor" href="#simple-tibbles"></a></h2>
       
@@ -89,12 +94,17 @@
           
           <code><a href="bakers.html">bakers</a></code> 
         </dt>
-        <dd>Each baker's name, age, occupation, and hometown</dd>
+        <dd>Bakers</dd>
+      </dl><dl><dt>
+          
+          <code><a href="bakes.html">bakes</a></code> 
+        </dt>
+        <dd>Bakes</dd>
       </dl><dl><dt>
           
           <code><a href="episodes.html">episodes</a></code> 
         </dt>
-        <dd>Each baker's signature, technical, and showstopper challenges, by episode</dd>
+        <dd>Episodes</dd>
       </dl><dl><dt>
           
           <code><a href="ratings.html">ratings</a></code> 
@@ -104,17 +114,17 @@
           
           <code><a href="results.html">results</a></code> 
         </dt>
-        <dd>Each baker's fate, by episode</dd>
+        <dd>Results</dd>
       </dl><dl><dt>
           
           <code><a href="series.html">series</a></code> 
         </dt>
-        <dd>Overview of each series aired in the UK</dd>
+        <dd>Series</dd>
       </dl><dl><dt>
           
           <code><a href="seasons.html">seasons</a></code> 
         </dt>
-        <dd>Seasons and airdates for the US version called 'The Great British Baking Show'</dd>
+        <dd>Seasons</dd>
       </dl></div><div class="section level2">
       <h2 id="scales">Scales<a class="anchor" aria-label="anchor" href="#scales"></a></h2>
       
@@ -130,17 +140,17 @@
           
           <code><a href="bakeoff_colors.html">bakeoff_colors()</a></code> 
         </dt>
-        <dd>Extract named bakeoff colors as hex codes</dd>
+        <dd>Extract named <strong>bakeoff</strong> colors as hex codes</dd>
       </dl><dl><dt>
           
           <code><a href="bakeoff_palette.html">bakeoff_palette()</a></code> 
         </dt>
-        <dd>A bakeoff palette generator</dd>
+        <dd>A <strong>bakeoff</strong> palette generator</dd>
       </dl><dl><dt>
           
           <code><a href="scale_bakeoff.html">scale_color_bakeoff()</a></code> <code><a href="scale_bakeoff.html">scale_fill_bakeoff()</a></code> 
         </dt>
-        <dd>Color scale constructor for bakeoff colors</dd>
+        <dd>Color scale constructor for <strong>bakeoff</strong> colors</dd>
       </dl><dl><dt>
           
           <code><a href="bakeoff_color_data.html">bakeoff_color_data</a></code> 
@@ -148,15 +158,9 @@
         <dd>Define hex codes for named bakeoff colors</dd>
       </dl><dl><dt>
           
-          <code><a href="bakeoff_generate_pal.html">bakeoff_generate_pal()</a></code> 
-        </dt>
-        <dd>Return function that creates a bakeoff color palette
-Mainly useful for creating ggplot2 scales</dd>
-      </dl><dl><dt>
-          
           <code><a href="bakeoff_palette_names.html">bakeoff_palette_names()</a></code> 
         </dt>
-        <dd>Print names of all bakeoff color palettes</dd>
+        <dd>Print names of all <strong>bakeoff</strong> color palettes</dd>
       </dl><dl><dt>
           
           <code><a href="bakeoff_palettes.html">bakeoff_palettes</a></code> 
@@ -168,11 +172,11 @@ Mainly useful for creating ggplot2 scales</dd>
 
 
     <footer><div class="pkgdown-footer-left">
-  <p></p><p>Developed by <a href="https://alison.rbind.io" class="external-link">Alison Hill</a>, <a href="https://chester.rbind.io" class="external-link">Chester Ismay</a>.</p>
+  <p></p><p>Developed by <a href="https://alison.rbind.io" class="external-link">Alison Hill</a>, <a href="https://chester.rbind.io" class="external-link">Chester Ismay</a>, Richard Iannone.</p>
 </div>
 
 <div class="pkgdown-footer-right">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.1.9000.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.0.2.9000.</p>
 </div>
 
     </footer></div>

@@ -25,9 +25,6 @@
     <loc>https://bakeoff.netlify.app/reference/bakeoff_colors.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakeoff_generate_pal.html</loc>
-  </url>
-  <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_palette.html</loc>
   </url>
   <url>
@@ -41,6 +38,9 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/bakers.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/bakes.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/challenge_results.html</loc>
@@ -71,5 +71,8 @@
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/series.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/spice_test_wide.html</loc>
   </url>
 </urlset>
