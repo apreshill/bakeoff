@@ -27,4 +27,5 @@ names(bakeoff_colors())
 if (require('scales')) {
   show_col(bakeoff_colors(), label = FALSE)
 }
+
 }

@@ -5,26 +5,33 @@
 \alias{ratings}
 \title{Each episode's ratings}
 \format{
-A data frame with 94 rows representing individual episodes and 10 variables:
+A data frame with 94 rows representing individual episodes and 10
+variables:
 \describe{
-\item{series}{a factor denoting UK series (1-10)}
-\item{episode}{a factor denoting episode number within a series}
-\item{uk_airdate}{a date denoting original airdate of episode in the UK}
-\item{viewers_7day}{number of viewers in millions within a 7-day window from airdate}
-\item{viewers_28day}{number of viewers in millions within a 28-day window from airdate}
-\item{network_rank}{an integer denoting the episode's weekly ranking within network (note that the networks changed for series 8 and later)}
-\item{channels_rank}{an integer denoting the episode's weekly ranking across all channels}
-\item{bbc_iplayer_requests}{number of BBC iPlayer requests (note: not available for all series, and only for series that aired on the BBC)}
-\item{episode_count}{continuous episode count}
+\item{series}{a factor denoting UK series (\code{1}-\code{10}).}
+\item{episode}{a factor denoting episode number within a series.}
+\item{uk_airdate}{a date denoting original airdate of episode in the UK.}
+\item{viewers_7day}{number of viewers in millions within a 7-day window
+from airdate.}
+\item{viewers_28day}{number of viewers in millions within a 28-day window
+from airdate.}
+\item{network_rank}{an integer denoting the episode's weekly ranking within
+network (note that the networks changed for series 8 and later).}
+\item{channels_rank}{an integer denoting the episode's weekly ranking
+across all channels.}
+\item{bbc_iplayer_requests}{number of BBC iPlayer requests (note: not
+available for all series, and only for series that aired on the BBC).}
+\item{episode_count}{continuous episode count.}
 }
 }
 \source{
-All official episode viewer number are from BARB, as entered on Wikipedia \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
+All official episode viewer number are from BARB, as entered on
+Wikipedia \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off}
 }
 \usage{
 ratings
 }
 \description{
-Ratings for all episodes across all 10 GBBO series
+Ratings for all episodes across all 10 GBBO series.
 }
 \keyword{datasets}

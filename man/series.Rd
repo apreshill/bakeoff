@@ -7,26 +7,36 @@
 \format{
 A data frame with 10 rows representing individual series and 11 variables:
 \describe{
-\item{series}{an factor denoting UK series (1-10)}
-\item{episodes}{an integer denoting total number of episodes within series}
-\item{premiere}{a date denoting original airdate of series premiere episode in the UK}
-\item{finale}{a date denoting original airdate of series finale episode in the UK}
-\item{winner}{a character string denoting name of series winner}
-\item{avg_uk_viewers}{average UK viewers in millions; also see \code{ratings}}
-\item{day_of_week}{a character string denoting weekday that series' episodes aired in UK}
-\item{timeslot}{time of day that series' episodes aired in UK (24-hour clock)}
-\item{channel}{a character string denoting channel that series aired on: one of \verb{BBC One}, \verb{BBC Two}, or \verb{Channel 4}}
-\item{runner_up_1}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
-\item{runner_up_2}{a character string denoting the name of one of the bakers who was a series runner-up; number is not meaningful}
+\item{series}{A factor denoting UK series (\code{1}-\code{10}).}
+\item{episodes}{An integer denoting total number of episodes within
+series.}
+\item{premiere}{A date denoting original airdate of series premiere episode
+in the UK.}
+\item{finale}{A date denoting original airdate of series finale episode in
+the UK.}
+\item{winner}{A character string denoting name of series winner.}
+\item{avg_uk_viewers}{Average UK viewers in millions. Also see
+\code{\link{ratings}}.}
+\item{day_of_week}{A character string denoting weekday that series'
+episodes aired in UK.}
+\item{timeslot}{time of day that series' episodes aired in UK (24-hour
+clock).}
+\item{channel}{A character string denoting channel that series aired on:
+one of \verb{BBC One}, \verb{BBC Two}, or \verb{Channel 4}.}
+\item{runner_up_1}{A character string denoting the name of one of the
+bakers who was a series runner-up. The number is not meaningful.}
+\item{runner_up_2}{A character string denoting the name of one of the
+bakers who was a series runner-up. The number is not meaningful.}
 }
 }
 \source{
-See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
+See
+\url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
 }
 \usage{
 series
 }
 \description{
-Metadata for all 10 GBBO series that aired in the UK
+Metadata for all 10 GBBO series that aired in the UK.
 }
 \keyword{datasets}

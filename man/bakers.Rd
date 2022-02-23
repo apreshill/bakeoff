@@ -10,7 +10,7 @@ variables:
 \describe{
 \item{series}{A factor denoting UK series (\code{1}-\code{10}).}
 \item{baker_full}{A character string giving full name.}
-\item{baker}{a character string with a given name or nickname.}
+\item{baker}{A character string with a given name or nickname.}
 \item{age}{An integer denoting age in years at first episode appeared.}
 \item{occupation}{A character string giving occupation.}
 \item{hometown}{A character string giving hometown.}

@@ -4,7 +4,7 @@
 \alias{scale_bakeoff}
 \alias{scale_color_bakeoff}
 \alias{scale_fill_bakeoff}
-\title{Color scale constructor for bakeoff colors}
+\title{Color scale constructor for \strong{bakeoff} colors}
 \usage{
 scale_color_bakeoff(
   palette = "showstopper",
@@ -23,7 +23,8 @@ scale_fill_bakeoff(
 \arguments{
 \item{palette}{Character name of palette in \code{\link{bakeoff_palettes}}.}
 
-\item{discrete}{Boolean indicating whether color aesthetic is discrete or not}
+\item{discrete}{Boolean indicating whether color aesthetic is discrete or
+not.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1}, the palette will be reversed.}
 
@@ -32,7 +33,7 @@ scale_fill_bakeoff(
 \code{TRUE} or \code{FALSE}.}
 }
 \description{
-Color scale constructor for bakeoff colors
+Color scale constructor for \strong{bakeoff} colors
 }
 \examples{
 if (require('ggplot2')) {
