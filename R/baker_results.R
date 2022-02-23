@@ -28,9 +28,9 @@
 #'   by a given baker across all episodes appeared (higher is better).}
 #'   \item{technical_median}{An integer denoting the median technical rank
 #'   earned by a given baker across all episodes appeared (higher is better).}
-#'   \item{series_winner}{An integer; `0` if not the series winner, `1` if
-#'   series winner}
-#'   \item{series_runner_up}{An integer; `0` if not a runner-up, `1` if a
+#'   \item{series_winner}{An integer. Is `0` if not the series winner, `1` if
+#'   series winner.}
+#'   \item{series_runner_up}{An integer. Is `0` if not a runner-up, `1` if a
 #'   runner-up.}
 #'   \item{total_episodes_appeared}{An integer denoting the total number of
 #'   episodes in which a given baker appeared.}
