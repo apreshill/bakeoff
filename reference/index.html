@@ -44,45 +44,9 @@
     </div>
 
     <div class="section level2">
-      <h2 id="joined-tibbles">Joined tibbles<a class="anchor" aria-label="anchor" href="#joined-tibbles"></a></h2>
+      <h2 id="datasets">Datasets<a class="anchor" aria-label="anchor" href="#datasets"></a></h2>
       
-      <p class="section-desc"></p><p>Tame and tidy data resulting from joining simple tibbles (below), based on shared units of observation.</p>
-
-      
-    </div><div id="" class="section level2">
-      
-      
-      
-
-      <dl><dt>
-          
-          <code><a href="baker_results.html">baker_results</a></code> 
-        </dt>
-        <dd>Baker results</dd>
-      </dl><dl><dt>
-          
-          <code><a href="episode_results.html">episode_results</a></code> 
-        </dt>
-        <dd>Episode results</dd>
-      </dl><dl><dt>
-          
-          <code><a href="challenge_results.html">challenge_results</a></code> 
-        </dt>
-        <dd>Challenge results</dd>
-      </dl><dl><dt>
-          
-          <code><a href="ratings_seasons.html">ratings_seasons</a></code> 
-        </dt>
-        <dd>Ratings</dd>
-      </dl><dl><dt>
-          
-          <code><a href="spice_test_wide.html">spice_test_wide</a></code> 
-        </dt>
-        <dd>Spice Test</dd>
-      </dl></div><div class="section level2">
-      <h2 id="simple-tibbles">Simple tibbles<a class="anchor" aria-label="anchor" href="#simple-tibbles"></a></h2>
-      
-      <p class="section-desc"></p><p>Tibbles with data from <a href="https://en.wikipedia.org/wiki/The_Great_British_Bake_Off" class="external-link">Wikipedia</a>, followed by minimal taming using the <a href="https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines" class="external-link"><code>fivethirtyeight</code> R data package guidelines</a>. All variable types are cast properly, all tibbles are in tidy format, and all variable names are in <code>snake_case</code>.</p>
+      <p class="section-desc"></p><p>Datasets scraped from <a href="https://en.wikipedia.org/wiki/The_Great_British_Bake_Off" class="external-link">Wikipedia tables</a>. These datasets are most useful for making tables or plots. <br><br> All variables are cast to the proper variable type, all tibbles are in tidy format, and all variable names are in <code>snake_case</code>.</p>
 
       
     </div><div id="" class="section level2">
@@ -97,9 +61,9 @@
         <dd>Bakers</dd>
       </dl><dl><dt>
           
-          <code><a href="bakes.html">bakes</a></code> 
+          <code><a href="challenges.html">challenges</a></code> 
         </dt>
-        <dd>Bakes</dd>
+        <dd>Challenges</dd>
       </dl><dl><dt>
           
           <code><a href="episodes.html">episodes</a></code> 
@@ -109,26 +73,78 @@
           
           <code><a href="ratings.html">ratings</a></code> 
         </dt>
-        <dd>Each episode's ratings</dd>
+        <dd>Ratings</dd>
       </dl><dl><dt>
           
-          <code><a href="results.html">results</a></code> 
+          <code><a href="spice_test_wide.html">spice_test_wide</a></code> 
         </dt>
-        <dd>Results</dd>
+        <dd>Spice Test</dd>
+      </dl></div><div class="section level2">
+      <h2 id="raw-datasets">Raw datasets<a class="anchor" aria-label="anchor" href="#raw-datasets"></a></h2>
+      
+      <p class="section-desc"></p><p>Raw datasets scraped from <a href="https://en.wikipedia.org/wiki/The_Great_British_Bake_Off" class="external-link">Wikipedia tables</a>, followed by minimal taming using the <a href="https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines" class="external-link"><code>fivethirtyeight</code> R data package guidelines</a>. <br><br> These datasets are most useful for practicing joins, grouped summaries, and working with missing values. All variables are cast to the proper variable type, all tibbles are in tidy format, and all variable names are in <code>snake_case</code>.</p>
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="bakers_raw.html">bakers_raw</a></code> 
+        </dt>
+        <dd>Bakers (raw)</dd>
       </dl><dl><dt>
           
-          <code><a href="series.html">series</a></code> 
+          <code><a href="bakes_raw.html">bakes_raw</a></code> 
         </dt>
-        <dd>Series</dd>
+        <dd>Bakes (raw)</dd>
       </dl><dl><dt>
           
-          <code><a href="seasons.html">seasons</a></code> 
+          <code><a href="episodes_raw.html">episodes_raw</a></code> 
         </dt>
-        <dd>Seasons</dd>
+        <dd>Each episodes' challenges (raw)</dd>
+      </dl><dl><dt>
+          
+          <code><a href="ratings_raw.html">ratings_raw</a></code> 
+        </dt>
+        <dd>Each episode's ratings (raw)</dd>
+      </dl><dl><dt>
+          
+          <code><a href="results_raw.html">results_raw</a></code> 
+        </dt>
+        <dd>Each baker's results by episode (raw)</dd>
+      </dl><dl><dt>
+          
+          <code><a href="series_raw.html">series_raw</a></code> 
+        </dt>
+        <dd>Data about each series aired in the UK (raw)</dd>
+      </dl><dl><dt>
+          
+          <code><a href="seasons_raw.html">seasons_raw</a></code> 
+        </dt>
+        <dd>Data about each season aired in the US (raw)</dd>
       </dl></div><div class="section level2">
       <h2 id="scales">Scales<a class="anchor" aria-label="anchor" href="#scales"></a></h2>
       
-      <p class="section-desc"></p><p>Color and fill scales</p>
+      <p class="section-desc"></p><p>Color and fill scales for <strong>ggplot2</strong></p>
+
+      
+    </div><div id="" class="section level2">
+      
+      
+      
+
+      <dl><dt>
+          
+          <code><a href="scale_bakeoff.html">scale_color_bakeoff()</a></code> <code><a href="scale_bakeoff.html">scale_fill_bakeoff()</a></code> 
+        </dt>
+        <dd>Color scale constructor for <strong>bakeoff</strong> colors</dd>
+      </dl></div><div class="section level2">
+      <h2 id="colors-and-palettes">Colors and palettes<a class="anchor" aria-label="anchor" href="#colors-and-palettes"></a></h2>
+      
+      <p class="section-desc"></p><p>Helper functions for colors and palettes useful outside <strong>ggplot2</strong></p>
 
       
     </div><div id="" class="section level2">
@@ -148,24 +164,9 @@
         <dd>A <strong>bakeoff</strong> palette generator</dd>
       </dl><dl><dt>
           
-          <code><a href="scale_bakeoff.html">scale_color_bakeoff()</a></code> <code><a href="scale_bakeoff.html">scale_fill_bakeoff()</a></code> 
-        </dt>
-        <dd>Color scale constructor for <strong>bakeoff</strong> colors</dd>
-      </dl><dl><dt>
-          
-          <code><a href="bakeoff_color_data.html">bakeoff_color_data</a></code> 
-        </dt>
-        <dd>Define hex codes for named bakeoff colors</dd>
-      </dl><dl><dt>
-          
           <code><a href="bakeoff_palette_names.html">bakeoff_palette_names()</a></code> 
         </dt>
         <dd>Print names of all <strong>bakeoff</strong> color palettes</dd>
-      </dl><dl><dt>
-          
-          <code><a href="bakeoff_palettes.html">bakeoff_palettes</a></code> 
-        </dt>
-        <dd>Define bakeoff color palettes from named colors</dd>
       </dl></div>
   </main><aside class="col-md-3"><nav id="toc"><h2>On this page</h2>
     </nav></aside></div>

@@ -19,9 +19,6 @@
     <loc>https://bakeoff.netlify.app/news/index.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakeoff_color_data.html</loc>
-  </url>
-  <url>
     <loc>https://bakeoff.netlify.app/reference/bakeoff_colors.html</loc>
   </url>
   <url>
@@ -31,25 +28,22 @@
     <loc>https://bakeoff.netlify.app/reference/bakeoff_palette_names.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakeoff_palettes.html</loc>
-  </url>
-  <url>
-    <loc>https://bakeoff.netlify.app/reference/baker_results.html</loc>
-  </url>
-  <url>
     <loc>https://bakeoff.netlify.app/reference/bakers.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/bakes.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakers_raw.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/challenge_results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/bakes_raw.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/episode_results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/challenges.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/episodes.html</loc>
+  </url>
+  <url>
+    <loc>https://bakeoff.netlify.app/reference/episodes_raw.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/index.html</loc>
@@ -58,19 +52,19 @@
     <loc>https://bakeoff.netlify.app/reference/ratings.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/ratings_seasons.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/ratings_raw.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/results.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/results_raw.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/scale_bakeoff.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/seasons.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/seasons_raw.html</loc>
   </url>
   <url>
-    <loc>https://bakeoff.netlify.app/reference/series.html</loc>
+    <loc>https://bakeoff.netlify.app/reference/series_raw.html</loc>
   </url>
   <url>
     <loc>https://bakeoff.netlify.app/reference/spice_test_wide.html</loc>
