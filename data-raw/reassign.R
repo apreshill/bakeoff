@@ -1,5 +1,6 @@
 #
 # Renaming of datasets
+# These rda files can now be found in data-raw/built_data
 #
 
 bakers_raw <- bakers
