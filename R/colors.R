@@ -1,4 +1,5 @@
 #' Define hex codes for named bakeoff colors
+#' @noRd
 bakeoff_color_data <- c(
   # peaches & corals,
   rose            = "#fdaba3",
@@ -102,7 +103,7 @@ bakeoff_color_data <- c(
 #' names(bakeoff_colors())
 #'
 #' if (require('scales')) {
-#'   show_col(bakeoff_colors(), label = FALSE)
+#'   scales::show_col(bakeoff_colors(), label = FALSE)
 #' }
 #'
 #' @export

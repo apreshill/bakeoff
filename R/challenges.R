@@ -1,4 +1,4 @@
-#' Challenge results
+#' Challenges
 #'
 #' Details about the three challenges (`"signature"`, `"technical"`, and
 #' `"showstopper"`) for each baker/episode across all GBBO series. Who was
@@ -27,4 +27,8 @@
 #' }
 #' @source See
 #'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
-"challenge_results"
+#' @examples
+#' if (require('tibble')) {
+#'   challenges
+#'  }
+"challenges"

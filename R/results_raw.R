@@ -1,4 +1,4 @@
-#' Results
+#' Each baker's results by episode (raw)
 #'
 #' Results of each episode per baker across all 10 GBBO series.
 #'
@@ -17,4 +17,8 @@
 #' @source See
 #'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off_(series_1)#Results_summary},
 #'    for example, for series 1 results summary.
-"results"
+#' @examples
+#' if (require('tibble')) {
+#'   results_raw
+#'  }
+"results_raw"

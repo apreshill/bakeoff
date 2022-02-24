@@ -1,4 +1,4 @@
-#' Seasons
+#' Data about each season aired in the US (raw)
 #'
 #' Seasons and airdates for all episodes aired in the US as 'The Great British
 #' Baking Show'.
@@ -16,4 +16,8 @@
 #'
 #' @source US airdates manually recorded from
 #'   \url{https://www.pbs.org/food/shows/great-british-baking-show/}
-"seasons"
+#' @examples
+#' if (require('tibble')) {
+#'   seasons_raw
+#'  }
+"seasons_raw"
