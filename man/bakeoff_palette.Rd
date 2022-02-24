@@ -2,7 +2,7 @@
 % Please edit documentation in R/palettes.R
 \name{bakeoff_palette}
 \alias{bakeoff_palette}
-\title{A bakeoff palette generator}
+\title{A \strong{bakeoff} palette generator}
 \usage{
 bakeoff_palette(
   palette = "showstopper",
@@ -12,37 +12,41 @@ bakeoff_palette(
 )
 }
 \arguments{
-\item{n}{Number of colors desired. All palettes have 10 colors,
-matching the total number of series and maximum number of episodes per series.
-If omitted, uses all colors.}
+\item{palette}{Name of desired palette. Can be either \code{"showstopper"} (the
+default), \code{"signature"}, and \code{"finale"} (accessible through
+\code{bakeoff_palette_names()}).}
+
+\item{n}{Number of colors desired. All palettes have 10 colors, matching the
+total number of series and maximum number of episodes per series. If
+omitted, \strong{bakeoff} uses all colors.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1}, the palette will be reversed.}
 
-\item{type}{Either "continuous" or "discrete". Use continuous if you want
+\item{type}{Either \code{"continuous"} or \code{"discrete"}. Use continuous if you want
 to automatically interpolate between colors.}
-
-\item{name}{Name of desired palette.}
 }
 \value{
 A vector of colors.
 }
 \description{
-A bakeoff palette generator
+A \strong{bakeoff} palette generator
 }
 \examples{
 bakeoff_palette("showstopper")
 
 if (require('scales')) {
   show_col(bakeoff_palette("finale"))
-  }
+ }
 
 if (require('ggplot2')) {
 line_plot <- ggplot(ratings, aes(x = episode, y = viewers_7day,
-color = series, group = series)) + facet_wrap(~series) + geom_line(lwd = 2)
-line_plot + scale_color_manual(values = bakeoff_palette(), guide = FALSE)
+color = as.factor(series), group = series)) + facet_wrap(~series) + geom_line(lwd = 2)
+line_plot + scale_color_manual(values = bakeoff_palette(), guide = "none")
 
-ggplot(episodes, aes(episode, fill = series)) + geom_bar() + facet_wrap(~series) +
-scale_fill_manual(values = bakeoff_palette("signature"), guide = FALSE)
+ggplot(episodes, aes(episode, bakers_appeared, fill = as.factor(series))) +
+geom_col() + facet_wrap(~series) +
+scale_fill_manual(values = bakeoff_palette("signature"), guide = "none") +
+scale_x_continuous(breaks = scales::pretty_breaks())
 }
 
 # If you need more colors than normally found in a palette, you
@@ -52,5 +56,5 @@ pal <- bakeoff_palette(palette = "finale", n = 20, type = "continuous")
 if (require('scales')) {
 show_col(pal)
 }
+
 }
-\keyword{colors}

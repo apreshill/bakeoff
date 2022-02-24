@@ -2,20 +2,21 @@
 % Please edit documentation in R/colors.R
 \name{bakeoff_colors}
 \alias{bakeoff_colors}
-\title{Extract named bakeoff colors as hex codes}
+\title{Extract named \strong{bakeoff} colors as hex codes}
 \usage{
 bakeoff_colors(...)
 }
 \arguments{
-\item{...}{Character names of bakeoff colors.
-If none specified, returns all
-If any specified, can be listed by names in quotes (no combine required)}
+\item{...}{Character names of \strong{bakeoff} colors. If none are specified,
+returns all. If any are specified, they can be listed by names in quotes
+(no need to combine with \code{c()}).}
 }
 \value{
 A named character vector of hex colors.
 }
 \description{
-Extract named bakeoff colors as hex codes
+Get a vector of hexadecimal color codes, or, extract a subset of colors as a
+using defined color names (available using \code{names(bakeoff_colors())}).
 }
 \examples{
 bakeoff_colors()
@@ -24,6 +25,7 @@ bakeoff_colors("baltic", "yellow")
 names(bakeoff_colors())
 
 if (require('scales')) {
-show_col(bakeoff_colors(), label = FALSE)
+  scales::show_col(bakeoff_colors(), label = FALSE)
 }
+
 }

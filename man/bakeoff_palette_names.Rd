@@ -2,13 +2,14 @@
 % Please edit documentation in R/palettes.R
 \name{bakeoff_palette_names}
 \alias{bakeoff_palette_names}
-\title{Print names of all bakeoff color palettes}
+\title{Print names of all \strong{bakeoff} color palettes}
 \usage{
 bakeoff_palette_names()
 }
 \description{
-Print names of all bakeoff color palettes
+Print names of all \strong{bakeoff} color palettes
 }
 \examples{
 bakeoff_palette_names()
+
 }

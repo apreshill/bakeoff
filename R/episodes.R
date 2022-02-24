@@ -1,15 +1,34 @@
 #' Episodes
 #'
-#' Details about the three challenges (signature, technical, and showstopper) for each baker/episode across all 10 GBBO series
+#' Each episodes' statistics. This dataset is made by collapsing
+#' \code{\link{challenges}} by `series` and `episode`.
 #'
-#' @format A data frame with 704 rows representing individual bakers per episode and 6 variables:
+#' @format A data frame with 94 rows representing individual episodes per series
+#'   and 10 variables:
 #' \describe{
-#'   \item{series}{a factor denoting UK series (1-10)}
-#'   \item{episode}{a factor denoting episode number within a series}
-#'   \item{baker}{a character string giving given or nickname}
-#'   \item{signature}{a character string containing the bake for the signature challenge for that baker/episode}
-#'   \item{technical}{an integer denoting the rank on the technical challenge for that baker/episode; rank = 1 is winner of the technical challenge}
-#'   \item{showstopper}{a character string containing the bake for the showstopper challenge for that baker/episode}
+#'   \item{series}{An integer denoting UK series (`1`-`10`).}
+#'   \item{episode}{An integer denoting episode number within a series.}
+#'   \item{bakers_appeared}{an integer denoting the number of bakers who
+#'   appeared in a given episode.}
+#'   \item{bakers_out}{An integer denoting the number of bakers were either
+#'   eliminated, left at will, or left due to illness in that episode.}
+#'   \item{bakers_remaining}{An integer denoting the number of bakers who
+#'   remained at the end of a given episode.}
+#'   \item{star_bakers}{An integer denoting the number of bakers crowned Star
+#'   Baker in a given episode.}
+#'   \item{technical_winners}{An integer denoting the number of bakers who
+#'   placed first in the technical challenge.}
+#'   \item{sb_name}{A character string with the names of the bakers who won
+#'   Star Baker in a given episode, separated by commas.}
+#'   \item{winner_name}{A character string with the name of the series winner.
+#'   Only present for final episodes within each series.}
+#'   \item{eliminated}{A character string with the name of the bakers who left
+#'   a given episode, separated by commas.}
 #' }
-#' @source See \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
+#' @source See
+#'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Format}
+#' @examples
+#' if (require('tibble')) {
+#'   episodes
+#'  }
 "episodes"

@@ -4,7 +4,7 @@
 \alias{scale_bakeoff}
 \alias{scale_color_bakeoff}
 \alias{scale_fill_bakeoff}
-\title{Color scale constructor for bakeoff colors}
+\title{Color scale constructor for \strong{bakeoff} colors}
 \usage{
 scale_color_bakeoff(
   palette = "showstopper",
@@ -21,36 +21,28 @@ scale_fill_bakeoff(
 )
 }
 \arguments{
-\item{palette}{Character name of palette in bakeoff_palette}
+\item{palette}{Character name of palette in \code{\link{bakeoff_palettes}}.}
 
-\item{discrete}{Boolean indicating whether color aesthetic is discrete or not}
+\item{discrete}{Boolean indicating whether color aesthetic is discrete or
+not.}
 
 \item{direction}{Either \code{1} or \code{-1}. If \code{-1}, the palette will be reversed.}
 
-\item{...}{Additional arguments passed to discrete_scale() or
-scale_fill_gradientn(), used respectively when discrete is TRUE or FALSE}
+\item{...}{Additional arguments passed to \code{\link[ggplot2:discrete_scale]{ggplot2::discrete_scale()}} or
+\code{\link[ggplot2:scale_gradient]{ggplot2::scale_color_gradientn()}}, used respectively when discrete is
+\code{TRUE} or \code{FALSE}.}
 }
 \description{
-Color scale constructor for bakeoff colors
-
-Fill scale constructor for bakeoff colors
+Color scale constructor for \strong{bakeoff} colors
 }
 \examples{
-
 if (require('ggplot2')) {
 
-  ggplot(ratings, aes(x = episode, y = viewers_7day, group = series, color = series)) +
+  ggplot(ratings, aes(x = episode, y = viewers_7day, group = series, color = as.factor(series))) +
     geom_line(lwd = 3) +
     theme_minimal() +
-    scale_color_bakeoff("finale", guide = FALSE)
+    scale_color_bakeoff("finale", guide = "none")
 }
 
-if (require('ggplot2')) {
-
-  ggplot(ratings, aes(x = episode_count, y = viewers_7day, fill = series)) +
-    geom_col() +
-    theme_minimal() +
-    scale_fill_bakeoff("finale", guide = FALSE)
-}
 }
 \concept{colour scales}

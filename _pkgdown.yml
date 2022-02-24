@@ -38,34 +38,47 @@ navbar:
       href: news/index.html
 
 reference:
-  - title: "Joined tibbles"
+  - title: "Datasets"
     desc: >
-      Tame and tidy data resulting from joining simple tibbles (below), based on shared units of observation.
-    contents:
-      - baker_results
-      - episode_results
-      - challenge_results
-      - ratings_seasons
-  - title: "Simple tibbles"
-    desc: >
-      Tibbles with data from [Wikipedia](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
-      followed by minimal taming using the [`fivethirtyeight` R data package guidelines](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines).
-      All variable types are cast properly, all tibbles are in tidy format, and all variable names are in `snake_case`.
+      Datasets scraped from [Wikipedia tables](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off).
+      These datasets are most useful for making tables or plots.
+      <br><br>
+      All variables are cast to the proper variable type,
+      all tibbles are in tidy format,
+      and all variable names are in `snake_case`.
     contents:
       - bakers
+      - challenges
       - episodes
       - ratings
-      - results
-      - series
-      - seasons
+      - spice_test_wide
+  - title: "Raw datasets"
+    desc: >
+      Raw datasets scraped from [Wikipedia tables](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
+      followed by minimal taming using the [`fivethirtyeight` R data package guidelines](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines).
+      <br><br>
+      These datasets are most useful for practicing joins, grouped summaries, and
+      working with missing values.
+      All variables are cast to the proper variable type,
+      all tibbles are in tidy format,
+      and all variable names are in `snake_case`.
+    contents:
+      - bakers_raw
+      - bakes_raw
+      - episodes_raw
+      - ratings_raw
+      - results_raw
+      - series_raw
+      - seasons_raw
   - title: "Scales"
     desc: >
-      Color and fill scales
+      Color and fill scales for **ggplot2**
+    contents:
+      - scale_bakeoff
+  - title: "Colors and palettes"
+    desc: >
+      Helper functions for colors and palettes useful outside **ggplot2**
     contents:
       - bakeoff_colors
       - bakeoff_palette
-      - scale_bakeoff
-      - bakeoff_color_data
-      - bakeoff_generate_pal
       - bakeoff_palette_names
-      - bakeoff_palettes
