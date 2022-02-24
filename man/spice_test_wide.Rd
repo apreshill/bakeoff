@@ -21,4 +21,9 @@ spice_test_wide
 \description{
 Results of a knowledge test from Junior Bake Off (Series 2, Episode 14).
 }
+\examples{
+if (require('tibble')) {
+  spice_test_wide
+ }
+}
 \keyword{datasets}

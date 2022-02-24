@@ -5,19 +5,27 @@
 \alias{episodes}
 \title{Episodes}
 \format{
-A data frame with 704 rows representing individual bakers per episode
-and 6 variables:
+A data frame with 94 rows representing individual episodes per series
+and 10 variables:
 \describe{
-\item{series}{A factor denoting UK series (\code{1}-\code{10}).}
-\item{episode}{A factor denoting episode number within a series.}
-\item{baker}{A character string giving given or nickname.}
-\item{signature}{A character string containing the bake for the signature
-challenge for that baker/episode.}
-\item{technical}{An integer denoting the rank on the technical challenge
-for that baker/episode. A rank of \code{1} is winner of the technical
-challenge.}
-\item{showstopper}{A character string containing the bake for the
-showstopper challenge for that baker/episode.}
+\item{series}{An integer denoting UK series (\code{1}-\code{10}).}
+\item{episode}{An integer denoting episode number within a series.}
+\item{bakers_appeared}{an integer denoting the number of bakers who
+appeared in a given episode.}
+\item{bakers_out}{An integer denoting the number of bakers were either
+eliminated, left at will, or left due to illness in that episode.}
+\item{bakers_remaining}{An integer denoting the number of bakers who
+remained at the end of a given episode.}
+\item{star_bakers}{An integer denoting the number of bakers crowned Star
+Baker in a given episode.}
+\item{technical_winners}{An integer denoting the number of bakers who
+placed first in the technical challenge.}
+\item{sb_name}{A character string with the names of the bakers who won
+Star Baker in a given episode, separated by commas.}
+\item{winner_name}{A character string with the name of the series winner.
+Only present for final episodes within each series.}
+\item{eliminated}{A character string with the name of the bakers who left
+a given episode, separated by commas.}
 }
 }
 \source{
@@ -28,7 +36,12 @@ See
 episodes
 }
 \description{
-Details about the three challenges (signature, technical, and showstopper)
-for each baker/episode across all 10 GBBO series.
+Each episodes' statistics. This dataset is made by collapsing
+\code{\link{challenges}} by \code{series} and \code{episode}.
+}
+\examples{
+if (require('tibble')) {
+  episodes
+ }
 }
 \keyword{datasets}
