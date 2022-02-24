@@ -54,7 +54,7 @@ bakeoff_palette_names <- function() names(bakeoff_palettes)
 #' line_plot + scale_color_manual(values = bakeoff_palette(), guide = "none")
 #'
 #' ggplot(episodes, aes(episode, bakers_appeared, fill = as.factor(series))) +
-#' geom_bar() + facet_wrap(~series) +
+#' geom_col() + facet_wrap(~series) +
 #' scale_fill_manual(values = bakeoff_palette("signature"), guide = "none") +
 #' scale_x_continuous(breaks = scales::pretty_breaks())
 #' }
