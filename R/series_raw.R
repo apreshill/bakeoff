@@ -1,6 +1,7 @@
-#' Series
+#' Data about each series aired in the UK (raw)
 #'
-#' Metadata for all 10 GBBO series that aired in the UK.
+#' Seasons and airdates for all episodes aired in the UK as 'The Great British
+#' Bake Off'.
 #'
 #' @format A data frame with 10 rows representing individual series and 11 variables:
 #' \describe{
@@ -27,5 +28,8 @@
 #' }
 #' @source See
 #'   \url{https://en.wikipedia.org/wiki/The_Great_British_Bake_Off#Series_overview}
-#'
-"series"
+#' @examples
+#' if (require('tibble')) {
+#'   series_raw
+#'  }
+"series_raw"

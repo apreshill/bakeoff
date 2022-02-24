@@ -11,4 +11,8 @@
 #'   \item{correct_1,correct_2,correct_3}{An integer whether the guess was
 #'   correct (`1`) or wrong (`0`).}
 #' }
+#' @examples
+#' if (require('tibble')) {
+#'   spice_test_wide
+#'  }
 "spice_test_wide"

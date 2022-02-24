@@ -1,6 +1,7 @@
-#' Bakes
+#' Bakes (raw)
 #'
-#' Signatures and showstoppers across all 10 GBBO series.
+#' Bakes for both the signature and showstopper challenges for each baker
+#' across all 10 GBBO series.
 #'
 #' @format A data frame with 548 rows representing individual signatures and
 #' showstoppers for each baker and 6 variables:
@@ -17,4 +18,8 @@
 #'   \item{showstopper}{A character string containing the bake for the
 #'   showstopper challenge for that baker/episode.}
 #' }
-"bakes"
+#' @examples
+#' if (require('tibble')) {
+#'   bakes_raw
+#'  }
+"bakes_raw"

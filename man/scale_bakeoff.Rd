@@ -38,10 +38,10 @@ Color scale constructor for \strong{bakeoff} colors
 \examples{
 if (require('ggplot2')) {
 
-  ggplot(ratings, aes(x = episode, y = viewers_7day, group = series, color = series)) +
+  ggplot(ratings, aes(x = episode, y = viewers_7day, group = series, color = as.factor(series))) +
     geom_line(lwd = 3) +
     theme_minimal() +
-    scale_color_bakeoff("finale", guide = FALSE)
+    scale_color_bakeoff("finale", guide = "none")
 }
 
 }
