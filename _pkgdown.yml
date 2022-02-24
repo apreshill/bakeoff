@@ -39,7 +39,12 @@ navbar:
 reference:
   - title: "Datasets"
     desc: >
-      Tame and tidy datasets
+      Datasets scraped from [Wikipedia tables](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off).
+      These datasets are most useful for making tables or plots.
+      <br><br>
+      All variables are cast to the proper variable type,
+      all tibbles are in tidy format,
+      and all variable names are in `snake_case`.
     contents:
       - bakers
       - challenges
@@ -48,9 +53,14 @@ reference:
       - spice_test_wide
   - title: "Raw datasets"
     desc: >
-      Tibbles with data from [Wikipedia](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
+      Raw datasets scraped from [Wikipedia tables](https://en.wikipedia.org/wiki/The_Great_British_Bake_Off),
       followed by minimal taming using the [`fivethirtyeight` R data package guidelines](https://fivethirtyeight-r.netlify.com/articles/fivethirtyeight.html#guidelines).
-      All variables are cast to the proper variable type, all tibbles are in tidy format, and all variable names are in `snake_case`.
+      <br><br>
+      These datasets are most useful for practicing joins, grouped summaries, and
+      working with missing values.
+      All variables are cast to the proper variable type,
+      all tibbles are in tidy format,
+      and all variable names are in `snake_case`.
     contents:
       - bakers_raw
       - bakes_raw
@@ -61,9 +71,13 @@ reference:
       - seasons_raw
   - title: "Scales"
     desc: >
-      Color and fill scales
+      Color and fill scales for **ggplot2**
+    contents:
+      - scale_bakeoff
+  - title: "Colors and palettes"
+    desc: >
+      Helper functions for colors and palettes useful outside **ggplot2**
     contents:
       - bakeoff_colors
       - bakeoff_palette
-      - scale_bakeoff
       - bakeoff_palette_names
