@@ -10,3 +10,4 @@ pkgdown
 ^\.github$
 baker_results.csv
 ^cran-comments\.md$
+lastMiKTeXException
