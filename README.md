@@ -8,17 +8,16 @@ visualizations using data from “The Great British Bake Off”.
 
 ## Installation
 
-<!--You can install the released version of bakeoff from [CRAN](https://CRAN.R-project.org) with:
+<div class="pkgdown-devel">
 
-``` r
-install.packages("bakeoff")
-```
--->
+You can install the development version of bakeoff from GitHub with:
+`remotes::install_github("apreshill/bakeoff")`
 
-You can install the development version from
-[GitHub](https://github.com/) with:
+</div>
 
-``` r
-# install.packages("remotes")
-remotes::install_github("apreshill/bakeoff")
-```
+<div class="pkgdown-release">
+
+You can install the CRAN version of pkgdown from GitHub with:
+`install.packages("bakeoff")`
+
+</div>

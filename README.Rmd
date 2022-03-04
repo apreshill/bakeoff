@@ -20,15 +20,14 @@ The goal of bakeoff is to enable data wrangling, analysis, and visualizations us
 
 ## Installation
 
-<!--You can install the released version of bakeoff from [CRAN](https://CRAN.R-project.org) with:
+::: {.pkgdown-devel}
+You can install the development version of bakeoff from GitHub with:
+`remotes::install_github("apreshill/bakeoff")`
+:::
 
-``` r
-install.packages("bakeoff")
-```
--->
-You can install the development version from [GitHub](https://github.com/) with:
+::: {.pkgdown-release}
+You can install the CRAN version of pkgdown from GitHub with:
+`install.packages("bakeoff")`
+:::
 
-``` r
-# install.packages("remotes")
-remotes::install_github("apreshill/bakeoff")
-```
+
