@@ -47,10 +47,17 @@ h1, h2, h3 {
   padding-top: 1em;
 }
 
+/* active behavior for navbar */
+.navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .active > .nav-link {
-	/*background: var(--pearl);
-	color: var(--matisse);*/
+	background: var(--pearl);
+	color: var(--matisse);
 	border-radius: 0rem;
+}
+
+/* hover behavior for navbar */
+.navbar-light .navbar-nav .nav-item > .nav-link:hover {
+	background: none;
 }
 
 li.nav-item a.nav-link {
@@ -68,9 +75,22 @@ li.nav-item a.nav-link {
 
 /* sidebar ------------------------------------------------ */
 
-#pkgdown-sidebar {
-  margin-top: 7em;
+#toc > .nav a.nav-link:hover,
+#toc > .nav a.nav-link:focus,
+#toc > .nav a.nav-link:active {
+  background-color: var(--dawn);
+  border-radius: 0rem;
 }
+
+
+#toc > .nav a.nav-link:active {
+  color: var(--matisse);
+}
+
+.nav-link {
+   transition: none;
+}
+
 
 #pkgdown-sidebar h2:first-child {
 	margin-top: 1rem;
