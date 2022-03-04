@@ -14,7 +14,7 @@ template:
     code_font:
       google: "DM Mono"
     bg: "#fff"
-    fg: "#595959"
+    fg: "#333333"                        # night rider
     primary: "#187BA2"                   # matisse blue
     secondary: "#faf2f3"                 # pearl pink
     headings-color: "#187BA2"            # matisse blue
@@ -22,12 +22,12 @@ template:
     link-hover-color: "#126180"          # sapphire
     # navbar
     navbar-bg: "#f4e4e7"                         # dawn pink
-    navbar-light-brand-hover-color: "#187BA2"    # matisse blue / does not work?
+    navbar-light-brand-hover-color: "#187BA2"    # matisse blue
     navbar-light-hover-color: "#126180"          # sapphire
     info: "#595959"                              # scorpion
 
 navbar:
-  type: dark
+  type: light
   bg: "#f4e4e7"  # apparently this plus navbar-bg needs to be set to same color?
   structure:
     left:  [home]
