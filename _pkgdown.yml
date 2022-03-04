@@ -9,13 +9,12 @@ authors:
 template:
   bootstrap: 5
   bslib:
-    font_scale: 1.0
     base_font:
       google: "Sen"
     code_font:
       google: "DM Mono"
-    bg: "white"
-    fg: "#595959"
+    bg: "#fff"
+    fg: "#333333"                        # night rider
     primary: "#187BA2"                   # matisse blue
     secondary: "#faf2f3"                 # pearl pink
     headings-color: "#187BA2"            # matisse blue
@@ -28,6 +27,8 @@ template:
     info: "#595959"                              # scorpion
 
 navbar:
+  type: light
+  bg: "#f4e4e7"  # apparently this plus navbar-bg needs to be set to same color?
   structure:
     left:  [home]
     right: [reference, news, github]
