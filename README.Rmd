@@ -22,12 +22,16 @@ The goal of bakeoff is to enable data wrangling, analysis, and visualizations us
 
 ::: {.pkgdown-devel}
 You can install the development version of bakeoff from GitHub with:
-`remotes::install_github("apreshill/bakeoff")`
+```{r eval=FALSE}
+remotes::install_github("apreshill/bakeoff")
+```
 :::
 
 ::: {.pkgdown-release}
 You can install the CRAN version of pkgdown from GitHub with:
-`install.packages("bakeoff")`
+```{r eval=FALSE}
+install.packages("bakeoff")
+```
 :::
 
 

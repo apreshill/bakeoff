@@ -11,13 +11,19 @@ visualizations using data from “The Great British Bake Off”.
 <div class="pkgdown-devel">
 
 You can install the development version of bakeoff from GitHub with:
-`remotes::install_github("apreshill/bakeoff")`
+
+``` r
+remotes::install_github("apreshill/bakeoff")
+```
 
 </div>
 
 <div class="pkgdown-release">
 
 You can install the CRAN version of pkgdown from GitHub with:
-`install.packages("bakeoff")`
+
+``` r
+install.packages("bakeoff")
+```
 
 </div>

@@ -18,13 +18,13 @@ template:
     primary: "#187BA2"                   # matisse blue
     secondary: "#faf2f3"                 # pearl pink
     headings-color: "#187BA2"            # matisse blue
-    link-color: "#767676"                # boulder
+    link-color: "#595959"                # scorpion
     link-hover-color: "#126180"          # sapphire
     # navbar
     navbar-bg: "#f4e4e7"                         # dawn pink
+    navbar-light-color: "#595959"                # scorpion
     navbar-light-brand-hover-color: "#187BA2"    # matisse blue
     navbar-light-hover-color: "#126180"          # sapphire
-    info: "#595959"                              # scorpion
 
 navbar:
   type: light

@@ -76,15 +76,15 @@ li.nav-item a.nav-link {
 /* sidebar ------------------------------------------------ */
 
 #toc > .nav a.nav-link:hover,
-#toc > .nav a.nav-link:focus,
-#toc > .nav a.nav-link:active {
+#toc > .nav a.nav-link:focus {
   background-color: var(--dawn);
   border-radius: 0rem;
 }
 
-
-#toc > .nav a.nav-link:active {
+#toc > .nav a.nav-link.active {
   color: var(--matisse);
+  background-color: var(--dawn);
+  border-radius: 0rem;
 }
 
 .nav-link {
