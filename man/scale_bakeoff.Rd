@@ -21,7 +21,7 @@ scale_fill_bakeoff(
 )
 }
 \arguments{
-\item{palette}{Character name of palette in \code{\link{bakeoff_palettes}}.}
+\item{palette}{Character name of palette in \code{\link{bakeoff_palette_names}}.}
 
 \item{discrete}{Boolean indicating whether color aesthetic is discrete or
 not.}

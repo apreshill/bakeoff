@@ -1,6 +1,6 @@
 #' Color scale constructor for **bakeoff** colors
 #'
-#' @param palette Character name of palette in [`bakeoff_palettes`].
+#' @param palette Character name of palette in \code{\link{bakeoff_palette_names}}.
 #' @param discrete Boolean indicating whether color aesthetic is discrete or
 #'   not.
 #' @param direction Either `1` or `-1`. If `-1`, the palette will be reversed.
