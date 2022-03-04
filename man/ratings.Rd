@@ -43,5 +43,6 @@ and \code{\link{seasons_raw}} datasets by both \code{series} and \code{episode}.
 if (require('tibble')) {
   ratings
  }
+head(ratings)
 }
 \keyword{datasets}

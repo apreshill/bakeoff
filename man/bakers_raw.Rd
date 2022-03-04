@@ -33,5 +33,6 @@ Information about each baker who has appeared on the show.
 if (require('tibble')) {
   bakers_raw
  }
+head(bakers_raw)
 }
 \keyword{datasets}

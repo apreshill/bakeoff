@@ -25,5 +25,6 @@ Results of a knowledge test from Junior Bake Off (Series 2, Episode 14).
 if (require('tibble')) {
   spice_test_wide
  }
+head(spice_test_wide)
 }
 \keyword{datasets}

@@ -22,4 +22,5 @@
 #' if (require('tibble')) {
 #'   bakers_raw
 #'  }
+#' head(bakers_raw)
 "bakers_raw"

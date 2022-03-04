@@ -43,5 +43,6 @@ eliminated? Who won star baker? In the finale, who won and who was runner up?
 if (require('tibble')) {
   challenges
  }
+head(challenges)
 }
 \keyword{datasets}

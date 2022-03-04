@@ -26,4 +26,5 @@
 #' if (require('tibble')) {
 #'   ratings_raw
 #'  }
+#' head(ratings_raw)
 "ratings_raw"

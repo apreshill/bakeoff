@@ -43,5 +43,6 @@ Each episodes' statistics. This dataset is made by collapsing
 if (require('tibble')) {
   episodes
  }
+head(episodes)
 }
 \keyword{datasets}

@@ -20,4 +20,5 @@
 #' if (require('tibble')) {
 #'   seasons_raw
 #'  }
+#' head(seasons_raw)
 "seasons_raw"

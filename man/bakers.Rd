@@ -70,5 +70,6 @@ appeared on.
 if (require('tibble')) {
   bakers
  }
+head(bakers)
 }
 \keyword{datasets}

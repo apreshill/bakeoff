@@ -31,5 +31,6 @@ Baking Show'.
 if (require('tibble')) {
   seasons_raw
  }
+head(seasons_raw)
 }
 \keyword{datasets}

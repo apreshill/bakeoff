@@ -32,4 +32,5 @@
 #' if (require('tibble')) {
 #'   series_raw
 #'  }
+#' head(series_raw)
 "series_raw"

@@ -31,4 +31,5 @@
 #' if (require('tibble')) {
 #'   episodes
 #'  }
+#' head(episodes)
 "episodes"

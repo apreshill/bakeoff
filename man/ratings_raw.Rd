@@ -38,5 +38,6 @@ Ratings for all episodes across all 10 GBBO series.
 if (require('tibble')) {
   ratings_raw
  }
+head(ratings_raw)
 }
 \keyword{datasets}

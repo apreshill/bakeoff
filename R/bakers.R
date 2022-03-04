@@ -58,6 +58,7 @@
 #' if (require('tibble')) {
 #'   bakers
 #'  }
+#' head(bakers)
 "bakers"
 
 

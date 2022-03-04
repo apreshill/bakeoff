@@ -44,5 +44,6 @@ Bake Off'.
 if (require('tibble')) {
   series_raw
  }
+head(series_raw)
 }
 \keyword{datasets}

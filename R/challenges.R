@@ -31,4 +31,5 @@
 #' if (require('tibble')) {
 #'   challenges
 #'  }
+#' head(challenges)
 "challenges"

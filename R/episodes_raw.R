@@ -24,4 +24,5 @@
 #' if (require('tibble')) {
 #'   episodes_raw
 #'  }
+#' head(episodes_raw)
 "episodes_raw"

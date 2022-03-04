@@ -32,5 +32,6 @@ across all 10 GBBO series.
 if (require('tibble')) {
   bakes_raw
  }
+head(bakes_raw)
 }
 \keyword{datasets}

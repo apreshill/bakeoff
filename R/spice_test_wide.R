@@ -15,4 +15,5 @@
 #' if (require('tibble')) {
 #'   spice_test_wide
 #'  }
+#' head(spice_test_wide)
 "spice_test_wide"

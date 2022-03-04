@@ -35,5 +35,6 @@ for each baker/episode across all 10 GBBO series.
 if (require('tibble')) {
   episodes_raw
  }
+head(episodes_raw)
 }
 \keyword{datasets}

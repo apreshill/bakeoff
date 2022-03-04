@@ -31,4 +31,5 @@
 #' if (require('tibble')) {
 #'   ratings
 #'  }
+#' head(ratings)
 "ratings"
