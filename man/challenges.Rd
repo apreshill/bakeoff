@@ -5,10 +5,10 @@
 \alias{challenges}
 \title{Challenges}
 \format{
-A data frame with 886 rows representing individual bakers per episode
+A data frame with 1,136 rows representing individual bakers per episode
 and 7 variables:
 \describe{
-\item{series}{An integer denoting the UK series number (\code{1}-\code{8}).}
+\item{series}{An integer denoting the UK series number (\code{1}-\code{10}).}
 \item{episode}{An integer denoting episode number within a series.}
 \item{baker}{A character string with a given name or nickname.}
 \item{result}{A character string denoting if the baker was \code{IN}, \code{OUT},

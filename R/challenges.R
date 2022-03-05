@@ -4,10 +4,10 @@
 #' `"showstopper"`) for each baker/episode across all GBBO series. Who was
 #' eliminated? Who won star baker? In the finale, who won and who was runner up?
 #'
-#' @format A data frame with 886 rows representing individual bakers per episode
+#' @format A data frame with 1,136 rows representing individual bakers per episode
 #'   and 7 variables:
 #' \describe{
-#'   \item{series}{An integer denoting the UK series number (`1`-`8`).}
+#'   \item{series}{An integer denoting the UK series number (`1`-`10`).}
 #'   \item{episode}{An integer denoting episode number within a series.}
 #'   \item{baker}{A character string with a given name or nickname.}
 #'   \item{result}{A character string denoting if the baker was `IN`, `OUT`,
