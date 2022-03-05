@@ -3,6 +3,18 @@
 # These rda files can now be found in data-raw/built_data
 #
 
+# library(fs)
+# library(tidyverse)
+#
+# data_dir <- "data-raw/built_data"
+# fs::dir_ls(data_dir)
+#
+# rds_files <- fs::dir_ls(data_dir, regexp = "\\.rda$") %>%
+#   here::here()
+#
+# rds_files %>%
+#   walk(readRDS)
+
 bakers_raw <- bakers
 bakers <- baker_results
 bakes_raw <- bakes
