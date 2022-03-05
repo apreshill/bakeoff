@@ -3,7 +3,7 @@
 #' Information about each baker and their performance during the series they
 #' appeared on.
 #'
-#' @format A data frame with 95 rows representing individual bakers and 24
+#' @format A data frame with 120 rows representing individual bakers and 24
 #'   variables:
 #' \describe{
 #'   \item{series}{An integer denoting UK series (`1`-`10`).}

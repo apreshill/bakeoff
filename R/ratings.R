@@ -1,13 +1,14 @@
 #' Ratings
 #'
-#' Each episode's ratings plus original airdates in the UK (by series) and US
+#' This dataset has one row per episode and includes ratings plus
+#' original airdates in the UK (by series) and US
 #' (by season). This dataset is made by joining the \code{\link{ratings_raw}}
 #' and \code{\link{seasons_raw}} datasets by both `series` and `episode`.
 #'
-#' @format A data frame with 74 rows representing individual episodes and 10
+#' @format A data frame with 94 rows representing individual episodes and 11
 #'   variables:
 #' \describe{
-#'   \item{series}{An integer denoting UK series (`1`-`8`).}
+#'   \item{series}{An integer denoting UK series (`1`-`10`).}
 #'   \item{episode}{An integer denoting episode number within a series.}
 #'   \item{uk_airdate}{A date denoting original airdate of episode in the UK.}
 #'   \item{viewers_7day}{The number of viewers in millions within a 7-day window

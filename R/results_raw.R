@@ -1,6 +1,7 @@
 #' Each baker's results by episode (raw)
 #'
-#' Results of each episode per baker across all 10 GBBO series.
+#' This data has one row per baker for every episode,
+#' including episodes they did not appear in.
 #'
 #' @format A data frame with 1,136 rows representing individual bakers per
 #'   episode and 4 variables:

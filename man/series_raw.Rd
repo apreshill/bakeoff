@@ -37,8 +37,9 @@ See
 series_raw
 }
 \description{
-Seasons and airdates for all episodes aired in the UK as 'The Great British
-Bake Off'.
+This dataset has one row per series aired in the UK as 'The Great British
+Bake Off'. When did a series premiere in the UK? When was the finale episode?
+How many viewers on average  did a series have?
 }
 \examples{
 if (require('tibble')) {

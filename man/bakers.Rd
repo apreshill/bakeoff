@@ -5,7 +5,7 @@
 \alias{bakers}
 \title{Bakers}
 \format{
-A data frame with 95 rows representing individual bakers and 24
+A data frame with 120 rows representing individual bakers and 24
 variables:
 \describe{
 \item{series}{An integer denoting UK series (\code{1}-\code{10}).}

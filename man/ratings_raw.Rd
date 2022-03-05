@@ -5,7 +5,7 @@
 \alias{ratings_raw}
 \title{Each episode's ratings (raw)}
 \format{
-A data frame with 94 rows representing individual episodes and 10
+A data frame with 94 rows representing individual episodes and 9
 variables:
 \describe{
 \item{series}{a factor denoting UK series (\code{1}-\code{10}).}

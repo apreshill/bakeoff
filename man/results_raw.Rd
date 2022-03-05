@@ -27,7 +27,8 @@ for example, for series 1 results summary.
 results_raw
 }
 \description{
-Results of each episode per baker across all 10 GBBO series.
+This data has one row per baker for every episode,
+including episodes they did not appear in.
 }
 \examples{
 if (require('tibble')) {

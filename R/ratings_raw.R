@@ -2,7 +2,7 @@
 #'
 #' Ratings for all episodes across all 10 GBBO series.
 #'
-#' @format A data frame with 94 rows representing individual episodes and 10
+#' @format A data frame with 94 rows representing individual episodes and 9
 #'   variables:
 #' \describe{
 #'   \item{series}{a factor denoting UK series (`1`-`10`).}

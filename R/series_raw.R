@@ -1,7 +1,8 @@
 #' Data about each series aired in the UK (raw)
 #'
-#' Seasons and airdates for all episodes aired in the UK as 'The Great British
-#' Bake Off'.
+#' This dataset has one row per series aired in the UK as 'The Great British
+#' Bake Off'. When did a series premiere in the UK? When was the finale episode?
+#' How many viewers on average  did a series have?
 #'
 #' @format A data frame with 10 rows representing individual series and 11 variables:
 #' \describe{

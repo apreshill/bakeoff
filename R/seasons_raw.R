@@ -1,6 +1,6 @@
 #' Data about each season aired in the US (raw)
 #'
-#' Seasons and airdates for all episodes aired in the US as 'The Great British
+#' This data has one row per season aired in the US as 'The Great British
 #' Baking Show'.
 #'
 #' @format A data frame with 8 rows representing individual series and 11
