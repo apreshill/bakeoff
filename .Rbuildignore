@@ -11,3 +11,4 @@ pkgdown
 baker_results.csv
 ^cran-comments\.md$
 lastMiKTeXException
+^CRAN-SUBMISSION$
