@@ -5,7 +5,7 @@ Description: Data about the bakers, challenges, and ratings for "The Great Briti
 Authors@R:
     c(person(given = "Alison", 
              family = "Hill", 
-             email = "apresstats@gmail.com", 
+             email = "apreshill@gmail.com", 
              role = c("aut", "cre", "cph"),
              comment = c(ORCID = "https://orcid.org/0000-0002-8082-1890")),
       person(given = "Chester",
@@ -34,6 +34,6 @@ Suggests:
     tibble,
     scales
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.1.9000
 Depends: 
     R (>= 2.10)

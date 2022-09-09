@@ -10,6 +10,7 @@
 #' \describe{
 #'   \item{series}{An integer denoting UK series (`1`-`10`).}
 #'   \item{episode}{An integer denoting episode number within a series.}
+#'   \item{episode_count}{An integer denoting continuous episode number across series (`1`-`94`)}
 #'   \item{uk_airdate}{A date denoting original airdate of episode in the UK.}
 #'   \item{viewers_7day}{The number of viewers in millions within a 7-day window
 #'   from airdate.}
