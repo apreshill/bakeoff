@@ -32,6 +32,9 @@ not.}
 \code{\link[ggplot2:scale_gradient]{ggplot2::scale_color_gradientn()}}, used respectively when discrete is
 \code{TRUE} or \code{FALSE}.}
 }
+\value{
+A function for constructing a color or a fill scale used for ggplot2 graphics.
+}
 \description{
 Color scale constructor for \strong{bakeoff} colors
 }

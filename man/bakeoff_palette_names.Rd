@@ -6,6 +6,9 @@
 \usage{
 bakeoff_palette_names()
 }
+\value{
+A character vector of color palette names.
+}
 \description{
 Print names of all \strong{bakeoff} color palettes
 }
