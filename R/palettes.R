@@ -23,6 +23,8 @@ bakeoff_palettes <- list(
 #' @examples
 #' bakeoff_palette_names()
 #'
+#' @return A character vector of color palette names.
+#'
 #' @export
 bakeoff_palette_names <- function() names(bakeoff_palettes)
 
