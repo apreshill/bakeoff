@@ -8,6 +8,8 @@
 #'   [ggplot2::scale_color_gradientn()], used respectively when discrete is
 #'   `TRUE` or `FALSE`.
 #'
+#' @return A function for constructing a color or a fill scale used for ggplot2 graphics.
+#'
 #' @examples
 #' if (require('ggplot2')) {
 #'
