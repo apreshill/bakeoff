@@ -1,5 +1,5 @@
 Package: bakeoff
-Version: 0.2.0
+Version: 0.2.0.9000
 Title: Data from "The Great British Bake Off"
 Description: Data about the bakers, challenges, and ratings 
     for "The Great British Bake Off", 
